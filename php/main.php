@@ -8,6 +8,6 @@
 	$json = json_decode(file_get_contents($data), true);
 
 	echo $data;
-	var_dump($data);
+	var_dump($json);
 
 ?>

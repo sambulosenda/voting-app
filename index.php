@@ -26,6 +26,13 @@
 		<h1>Election Survey</h1>
 		<input type="submit" class="button" name="insert" value="insert" />
 		<input type="submit" class="button" name="select" value="select" />
+
+		<form action="welcome.php" method="post">
+		Name: <input type="text" name="name"><br>
+		E-mail: <input type="text" name="email"><br>
+		<input type="submit">
+		</form>
+
 		<h2>Would You Rather...</h2>
 		<h3><i>Elect the president of your dreams this November</i></h3>
 		<div class="row">

@@ -5,9 +5,9 @@
 
 	$data = file_get_contents("./data/votes.json");
 
-	$json = json_decode(file_get_contents($data), true);
+	$json = json_decode(file_get_contents("./data/votes.json"), true);
 
 	echo $data;
-	var_dump($json);
+	echo $json;
 
 ?>

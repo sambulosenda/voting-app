@@ -24,6 +24,8 @@
 	<div class="container">
 		<?php include('./php/main.php'); ?>
 		<h1>Election Survey</h1>
+		<input type="submit" class="button" name="insert" value="insert" />
+		<input type="submit" class="button" name="select" value="select" />
 		<h2>Would You Rather...</h2>
 		<h3><i>Elect the president of your dreams this November</i></h3>
 		<div class="row">
@@ -87,9 +89,6 @@
 			</div>
 		</div>
 	</div>
-
-	<input type="submit" class="button" name="insert" value="insert" />
-	<input type="submit" class="button" name="select" value="select" />
 
 	<!-- jQuery 3.1.1 -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

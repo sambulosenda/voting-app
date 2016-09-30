@@ -1,17 +1,17 @@
 {
-	"presidentone": {
+	"presone": {
 		"votes": 2
 	},
-	"presidenttwo": {
+	"prestwo": {
 		"votes": 3
 	},
-	"presidentthree": {
+	"presthree": {
 		"votes": 5
 	},
-	"presidentfour": {
+	"presfour": {
 		"votes": 8
 	},
-	"presidentfive": {
+	"presfive": {
 		"votes": 1
 	}
 }

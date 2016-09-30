@@ -11,7 +11,7 @@
 		public function insert() {
 			$data['presone']['votes'] = 15;
 			$newJsonString = json_encode($data);
-			file_put_contents('./data/votes.json', $newJsonString);
+			file_put_contents('votesd.json', $newJsonString);
 			header('Location: ../welcome.php');
 	    	exit;
 		}

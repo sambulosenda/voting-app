@@ -1,0 +1,17 @@
+{
+	"presidentone": {
+		"votes": 2
+	},
+	"presidenttwo": {
+		"votes": 3
+	},
+	"presidentthree": {
+		"votes": 5
+	},
+	"presidentfour": {
+		"votes": 8
+	},
+	"presidentfive": {
+		"votes": 1
+	}
+}

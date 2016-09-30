@@ -5,8 +5,8 @@
 
 	$path = "./data/votes.json";
 
-	$data = file_get_contents("./data/votes.json");
+	$json = file_get_contents("./data/votes.json");
 
-	$json = json_decode(file_get_contents("./data/votes.json"), true);
+	$data = json_decode(file_get_contents("./data/votes.json"), true);
 
 ?>

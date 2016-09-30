@@ -1,8 +1,7 @@
 <html>
 <body>
 
-Welcome <?php echo $_POST["name"]; ?><br>
-Your email address is: <?php echo $_POST["email"]; ?>
+<h1>Hello Insert</h1>
 
 </body>
 </html>

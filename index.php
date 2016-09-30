@@ -22,11 +22,14 @@
 <header><img src="http://placehold.it/1980x500" class="img-responsive" /></header>
 
 	<div class="container">
-		<?php include('./php/main.php'); ?>
+		<!-- <?php include('./php/main.php'); ?> -->
 		<h1>Election Survey</h1>
-		<form action="ee.php">
-		    <input type="submit" name="insert" value="insert" onclick="insert()" />
-		    <input type="submit" name="select" value="select" onclick="select()" />
+		<form action="vote.php">
+		    <input type="submit" />
+		</form>
+
+		<form action="welcome.php">
+		    <input type="submit" />
 		</form>
 
 		<h2>Would You Rather...</h2>

@@ -7,6 +7,6 @@
 
 	$json = file_get_contents("./data/votes.json");
 
-	$data = json_decode(file_get_contents("./data/votes.json"), true);
+	$data = json_decode(file_get_contents($path), true);
 
 ?>

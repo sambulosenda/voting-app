@@ -11,23 +11,20 @@ $.getJSON( "data/votes.json" ).done( function(votes) {
 	console.log(pres1);
  });
 
+$('.button').click(function(){
+    var clickBtnValue = $(this).val();
+    var ajaxurl = '../php/echo.php',
+    data =  {'action': clickBtnValue};
+    $.post(ajaxurl, data, function (response) {
+        // Response div goes here.
+        alert("action performed successfully");
+    });
+});
 
-function explode(){
-	console.log(pres1);
-	console.log(pres2);
-	console.log(pres3);
-}
-setTimeout(explode, 2000);
 
-
-// var obj = {
-//     name: 'Dhayalan',
-//     score: 100
-// };
-
-// localStorage.setItem('gameStorage', JSON.stringify(obj));
-
-// var objj = JSON.parse(localStorage.getItem('gameStorage'));
-
-// console.log(objj);
-
+// function explode(){
+// 	console.log(pres1);
+// 	console.log(pres2);
+// 	console.log(pres3);
+// }
+// setTimeout(explode, 2000);

@@ -88,6 +88,9 @@
 		</div>
 	</div>
 
+	<input type="submit" class="button" name="insert" value="insert" />
+	<input type="submit" class="button" name="select" value="select" />
+
 	<!-- jQuery 3.1.1 -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 

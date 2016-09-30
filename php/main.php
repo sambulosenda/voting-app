@@ -3,13 +3,17 @@
 
 	$file = file_get_contents("../data/votes.json");
 
+	$data = file_get_contents("./data/votes.json");
+
 	$json = json_decode(file_get_contents($file), true);
 
-echo "var dump"; 
+	echo "var dump"; 
 	var_dump($file);
 
-echo "echo json"; 
-
+	echo "echo json"; 
 	echo $json;
+
+	echo "var dump"; 
+	var_dump($data);
 
 ?>

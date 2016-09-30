@@ -20,14 +20,14 @@ function explode(){
 setTimeout(explode, 2000);
 
 
-var obj = {
-    name: 'Dhayalan',
-    score: 100
-};
+// var obj = {
+//     name: 'Dhayalan',
+//     score: 100
+// };
 
-localStorage.setItem('gameStorage', JSON.stringify(obj));
+// localStorage.setItem('gameStorage', JSON.stringify(obj));
 
-var objj = JSON.parse(localStorage.getItem('gameStorage'));
+// var objj = JSON.parse(localStorage.getItem('gameStorage'));
 
-console.log(objj);
+// console.log(objj);
 

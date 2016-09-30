@@ -24,7 +24,7 @@
 	<div class="container">
 		<?php include('./php/main.php'); ?>
 		<h1>Election Survey</h1>
-		<form action="php/echo.php">
+		<form action="">
 		    <input type="submit" name="insert" value="insert" onclick="insert()" />
 		    <input type="submit" name="select" value="select" onclick="select()" />
 		</form>

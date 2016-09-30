@@ -16,7 +16,7 @@
 		$contentsDecoded = json_decode($contents, true);
 		 
 		//Modify the counter variable.
-		$contentsDecoded['counter']++;
+		$contentsDecoded['presone']['votes']++;
 		 
 		//Encode the array back into a JSON string.
 		$json = json_encode($contentsDecoded);

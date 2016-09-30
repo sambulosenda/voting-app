@@ -22,6 +22,7 @@
 <header><img src="http://placehold.it/1980x500" class="img-responsive" /></header>
 
 	<div class="container">
+		<?php include('./php/main.php'); ?>
 		<h1>Election Survey</h1>
 		<h2>Would You Rather...</h2>
 		<h3><i>Elect the president of your dreams this November</i></h3>

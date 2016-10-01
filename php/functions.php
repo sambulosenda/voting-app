@@ -6,8 +6,8 @@
 		$data = json_decode($json, true);
 
 		public function insert() {
-			global $data['presone']['votes']++;
-			
+			global $data;
+			$data['presone']['votes']++;
 			$newjson = json_encode($data);
 			file_put_contents('../data/votes.json', $newjson);
 			header('Location: ../welcome.php');

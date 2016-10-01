@@ -5,9 +5,9 @@ var pres2;
 var pres3;
 
 $.getJSON( "./data/votes.json" ).done( function(votes) {
-	pres1 = votes.presidentone.votes;
-	pres2 = votes.presidenttwo.votes;
-	pres3 = votes.presidentthree.votes;
+	pres1 = votes.presone.votes;
+	pres2 = votes.prestwo.votes;
+	pres3 = votes.presthree.votes;
 	console.log(pres1);
  });
 

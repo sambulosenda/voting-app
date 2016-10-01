@@ -1,9 +1,9 @@
 <?php 
 
-	class  Main {
+	$json = file_get_contents("../data/votes.json");
+	$data = json_decode($json, true);
 
-		$json = file_get_contents("../data/votes.json");
-		$data = json_decode($json, true);
+	class  Main {
 
 		public function insert() {
 			global $data;

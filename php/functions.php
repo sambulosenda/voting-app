@@ -2,10 +2,12 @@
 
 	class  Main {
 
+		$json = file_get_contents("../data/votes.json");
+		$data = json_decode($json, true);
+
 		public function insert() {
-			$json = file_get_contents("../data/votes.json");
-			$data = json_decode($json, true);
-			$data['presone']['votes']++;
+			global $data['presone']['votes']++;
+			
 			$newjson = json_encode($data);
 			file_put_contents('../data/votes.json', $newjson);
 			header('Location: ../welcome.php');

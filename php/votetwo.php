@@ -6,10 +6,8 @@
 
 	if(isset($_POST['president']) {
 		@$value = $_POST['president'];
-
-		$v = <<<'EOT' $value EOT;
 		
-		$main->vote($v);
+		$main->vote($value);
 	}
 
 	// $value = 'prestwo';

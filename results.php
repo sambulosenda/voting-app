@@ -33,6 +33,8 @@
 	<h2><?php echo $data['presseven']['votes'] ?></h2>
 	<h2><?php echo $data['preseight']['votes'] ?></h2>
 	<h2><?php echo $data['presnine']['votes'] ?></h2>
+	<h1>Percent 1</h1>
+	<h2><?php echo $totone ?></h2>
 </div>
 
 <!-- jQuery 3.1.1 -->

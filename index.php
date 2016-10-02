@@ -63,7 +63,7 @@
 				<h2 class="president-movie">Idiocracy</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="presfour" type="submit" name="submit" value="presone" class="btn btn-primary">Vote for Four</button>
+				    <button id="presfour" type="submit" name="submit" value="presfour" class="btn btn-primary">Vote for Four</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">

@@ -21,15 +21,15 @@ function jsonData() {
 		pres7 = votes.presseven.votes;
 		pres8 = votes.preseight.votes;
 		pres9 = votes.presnine.votes;
-	 });
 
-	console.log(pres1);
-	console.log(pres2);
-	console.log(pres3);
-	console.log(pres4);
-	console.log(pres5);
-	console.log(pres6);
-	console.log(pres7);
-	console.log(pres8);
-	console.log(pres9);
+		console.log(pres1);
+		console.log(pres2);
+		console.log(pres3);
+		console.log(pres4);
+		console.log(pres5);
+		console.log(pres6);
+		console.log(pres7);
+		console.log(pres8);
+		console.log(pres9);
+	 });
 }

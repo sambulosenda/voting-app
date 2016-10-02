@@ -7,7 +7,7 @@
 	if(isset($_POST['president']) {
 		@$value = $_POST['president'];
 
-		$v = (string)$value;
+		$v = '' . $value . '';
 		
 		$main->vote($v);
 	}

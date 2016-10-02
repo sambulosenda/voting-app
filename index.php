@@ -24,8 +24,8 @@
 	<div class="container">
 		<!-- <?php include('./php/main.php'); ?> -->
 		<h1>Election Survey</h1>
-		<form action="./php/voteone.php">
-		    <input type="submit" />
+		<form action="./php/votetwo.php" method="POST">
+		    <button id="presone" type="submit" name="submit" value="presone" class="btn btn-primary">Vote for Two</button>
 		</form>
 
 		<form action="./php/votetwo.php" method="POST">

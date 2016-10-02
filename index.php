@@ -34,7 +34,7 @@
 				<h2 class="president-movie">Olympus Has Fallen and London Has Fallen</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="presone" type="submit" name="submit" value="pres1" class="btn btn-primary">Vote for One</button>
+				    <button id="p1" type="submit" name="submit" value="p1" class="btn btn-primary">Vote for One</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">
@@ -42,7 +42,7 @@
 				<h2 class="president-movie">Deep Impact</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-		    		<button id="prestwo" type="submit" name="submit" value="prestwo" class="btn btn-primary">Vote for Two</button>
+		    		<button id="p2" type="submit" name="submit" value="p2" class="btn btn-primary">Vote for Two</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">
@@ -50,7 +50,7 @@
 				<h2 class="president-movie">The American President</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-		    		<button id="presthree" type="submit" name="submit" value="presthree" class="btn btn-primary">Vote for Three</button>
+		    		<button id="p3" type="submit" name="submit" value="p3" class="btn btn-primary">Vote for Three</button>
 				</form>
 			</div>
 
@@ -63,7 +63,7 @@
 				<h2 class="president-movie">Idiocracy</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="presfour" type="submit" name="submit" value="presfour" class="btn btn-primary">Vote for Four</button>
+				    <button id="p4" type="submit" name="submit" value="p4" class="btn btn-primary">Vote for Four</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">
@@ -71,7 +71,7 @@
 				<h2 class="president-movie">Independence Day</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="presfive" type="submit" name="submit" value="presfive" class="btn btn-primary">Vote for Five</button>
+				    <button id="p5" type="submit" name="submit" value="p5" class="btn btn-primary">Vote for Five</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">
@@ -79,7 +79,7 @@
 				<h2 class="president-movie">Bullworth</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="pressix" type="submit" name="submit" value="pressix" class="btn btn-primary">Vote for Six</button>
+				    <button id="p6" type="submit" name="submit" value="p6" class="btn btn-primary">Vote for Six</button>
 				</form>
 			</div>
 
@@ -92,7 +92,7 @@
 				<h2 class="president-movie">Mars Attacks</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="presseven" type="submit" name="submit" value="presseven" class="btn btn-primary">Vote for Seven</button>
+				    <button id="p7" type="submit" name="submit" value="p7" class="btn btn-primary">Vote for Seven</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">
@@ -100,7 +100,7 @@
 				<h2 class="president-movie">Independence Day: Resurgence</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="preseight" type="submit" name="submit" value="preseight" class="btn btn-primary">Vote for Eight</button>
+				    <button id="p8" type="submit" name="submit" value="p8" class="btn btn-primary">Vote for Eight</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">
@@ -108,7 +108,7 @@
 				<h2 class="president-movie">Movie</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="presnine" type="submit" name="submit" value="presnine" class="btn btn-primary">Vote for Nine</button>
+				    <button id="p9" type="submit" name="submit" value="p9" class="btn btn-primary">Vote for Nine</button>
 				</form>
 			</div>
 		

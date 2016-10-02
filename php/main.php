@@ -5,9 +5,9 @@
 
 	class  Main {
 
-		public function vote($pres) {
+		public function vote($p) {
 			global $data;
-			$data[$pres]['votes']++;
+			$data[$p]['votes']++;
 			$newjson = json_encode($data);
 			file_put_contents('../data/votes.json', $newjson);
 			header('Location: ../results.php');

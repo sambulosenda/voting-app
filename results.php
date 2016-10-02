@@ -34,6 +34,7 @@
 	<h2><?php echo $data['preseight']['votes'] ?></h2>
 	<h2><?php echo $data['presnine']['votes'] ?></h2>
 	<h1>Percent 1</h1>
+	<h2><?php echo $sum ?></h2>
 	<h2><?php echo $totone ?></h2>
 </div>
 

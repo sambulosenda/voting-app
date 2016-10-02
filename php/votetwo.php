@@ -10,7 +10,7 @@
 	// 	$main->vote($value);
 	// }
 
-	$value = 'prestwo';
+	$value = $_POST['submit'];
 
 	$main->vote($value);
 

@@ -4,16 +4,18 @@
 
 	$main = new Main;
 
-	// if(isset($_POST['president']) {
-	// 	@$value = $_POST['president'];
-		
-	// 	$main->vote($value);
-	// }
+	if(isset($_POST['president']) {
+		@$value = $_POST['president'];
 
-	$value = $_POST['president'];
+		if(empty($value)) {
+			echo "hello";
+		} else {
+  			$main->vote($value);
+		}
+	}
 
 	// $value = 'prestwo';
 
-	$main->vote($value);
+	// $main->vote($value);
 
 ?>

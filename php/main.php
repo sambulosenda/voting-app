@@ -12,6 +12,7 @@
 			file_put_contents('../data/votes.json', $newjson);
 			header('Location: ../welcome.php');
 	    	exit;
+	    	
 		}
 	}
 	

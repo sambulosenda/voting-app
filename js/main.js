@@ -8,6 +8,8 @@ var	pres1,
 	pres8,
 	pres9;
 
+jsonDataP();
+
 function jsonData() {
 	$.getJSON( "./data/votes.json" ).done( function(votes) {
 		pres1 = votes.presone.votes;

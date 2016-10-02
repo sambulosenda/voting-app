@@ -9,7 +9,7 @@
 
 		echo $value;
 		var_dump($value);
-		die();
+		die("i died");
 		
 		$main->vote($value);
 	}

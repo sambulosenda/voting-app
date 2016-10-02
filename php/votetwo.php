@@ -5,7 +5,7 @@
 	$main = new Main;
 
 	if(isset($_POST['president']) {
-		@$value = $_POST['president'];
+		$value = $_POST['president'];
 		
 		$main->vote($value);
 	}

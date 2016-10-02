@@ -4,8 +4,10 @@
 
 	$main = new Main;
 
-	if(isset($_POST['prestwo']) {
-		@$value = $_POST['prestwo'];
+	if(isset($_POST['submit']) {
+		// @$value = $_POST['prestwo'];
+
+		$value = 'prestwo';
 		
 		$main->vote($value);
 	}

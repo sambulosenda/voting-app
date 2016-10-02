@@ -4,6 +4,6 @@
 
 	$main = new Main;
 
-	$main->voteone();
+	$main->votetwo();
 
 ?>

@@ -24,7 +24,7 @@
 <body>
 <div class="container">
 	<h1>Election Results</h1>
-	<h2><?php echo $data['presone']['votes'] ?></h2>
+	<h2><?php echo $data['pres1']['votes'] ?></h2>
 	<h2><?php echo $data['prestwo']['votes'] ?></h2>
 	<h2><?php echo $data['presthree']['votes'] ?></h2>
 	<h2><?php echo $data['presfour']['votes'] ?></h2>

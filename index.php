@@ -34,7 +34,7 @@
 				<h2 class="president-movie">Olympus Has Fallen and London Has Fallen</h2>
 				<img src="./img/male.svg" />
 				<form action="./php/vote.php" method="POST">
-				    <button id="presone" type="submit" name="submit" value="presone" class="btn btn-primary">Vote for One</button>
+				    <button id="presone" type="submit" name="submit" value="pres1" class="btn btn-primary">Vote for One</button>
 				</form>
 			</div>
 			<div class="col-md-4 align-center">

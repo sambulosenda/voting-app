@@ -8,7 +8,7 @@
 	$sum = 0;
 
 	for ($i = 1; $i <= 9; $i++) {
-   		 $sum =+ $data['p' . $i]['votes'];
+   		 $sum =+ $data['p' . $i . '']['votes'];
 	} 
 
 	$totone = round (($data['p1']['votes']/$sum)*100);

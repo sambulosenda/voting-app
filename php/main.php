@@ -1,7 +1,6 @@
 <?php 
 
-	$json = file_get_contents("../data/votes.json");
-	$data = json_decode($json, true);
+	include './data.php';
 
 	class  Main {
 
@@ -10,9 +9,9 @@
 			$data[$pres]['votes']++;
 			$newjson = json_encode($data);
 			file_put_contents('../data/votes.json', $newjson);
-			header('Location: ../welcome.php');
+			header('Location: ../results.php');
 	    	exit;
-	    	
+
 		}
 	}
 	

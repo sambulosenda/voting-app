@@ -4,20 +4,14 @@
 
 	$main = new Main;
 
-	if(isset($_POST['submit']) {
-		// @$value = $_POST['prestwo'];
+	// if(isset($_POST['prestwo']) {
+	// 	@$value = $_POST['prestwo'];
 
-		$value = 'prestwo';
-		
-		$main->vote($value);
-	}
+	// 	$main->vote($value);
+	// }
 
-	// $value = 'prestwo';
+	$value = 'prestwo';
 
-	// $main->vote($value);
-
-// if (isset($_POST['action'])) {
-//     echo '<br />The ' . $_POST['submit'] . ' submit button was pressed<br />';
-// }
+	$main->vote($value);
 
 ?>

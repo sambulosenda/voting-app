@@ -28,7 +28,7 @@
 		    <input type="submit" />
 		</form>
 
-		<form action="welcome.php">
+		<form action="./php/votetwo.php">
 		    <input type="submit" />
 		</form>
 

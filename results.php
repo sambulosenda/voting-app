@@ -24,15 +24,15 @@
 <body>
 <div class="container">
 	<h1>Election Results</h1>
-	<h2><?php echo $data['pres1']['votes'] ?></h2>
-	<h2><?php echo $data['prestwo']['votes'] ?></h2>
-	<h2><?php echo $data['presthree']['votes'] ?></h2>
-	<h2><?php echo $data['presfour']['votes'] ?></h2>
-	<h2><?php echo $data['presfive']['votes'] ?></h2>
-	<h2><?php echo $data['pressix']['votes'] ?></h2>
-	<h2><?php echo $data['presseven']['votes'] ?></h2>
-	<h2><?php echo $data['preseight']['votes'] ?></h2>
-	<h2><?php echo $data['presnine']['votes'] ?></h2>
+	<h2><?php echo $data['p1']['votes'] ?></h2>
+	<h2><?php echo $data['p2']['votes'] ?></h2>
+	<h2><?php echo $data['p3']['votes'] ?></h2>
+	<h2><?php echo $data['p4']['votes'] ?></h2>
+	<h2><?php echo $data['p5']['votes'] ?></h2>
+	<h2><?php echo $data['p6']['votes'] ?></h2>
+	<h2><?php echo $data['p7']['votes'] ?></h2>
+	<h2><?php echo $data['p8']['votes'] ?></h2>
+	<h2><?php echo $data['p9']['votes'] ?></h2>
 	<h1>Percent 1</h1>
 	<h2><?php echo $sum ?></h2>
 	<h2><?php echo $totone ?></h2>

@@ -10,7 +10,9 @@
 	// 	$main->vote($value);
 	// }
 
-	$value = 'prestwo';
+	$value = $_POST['president'];
+
+	// $value = 'prestwo';
 
 	$main->vote($value);
 

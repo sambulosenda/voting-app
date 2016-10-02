@@ -28,8 +28,8 @@
 		    <input type="submit" />
 		</form>
 
-		<form action="./php/votetwo.php">
-		    <button type="submit" name="president" value="prestwo" class="btn btn-primary">Vote for Two</button>
+		<form action="./php/votetwo.php" method="POST">
+		    <button id="prestwo" type="submit" name="submit" value="prestwo" class="btn btn-primary">Vote for Two</button>
 		</form>
 
 		<h2>Would You Rather...</h2>

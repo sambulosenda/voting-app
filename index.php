@@ -24,76 +24,86 @@
 	<div class="container">
 		<!-- <?php include('./php/main.php'); ?> -->
 		<h1>Election Survey</h1>
-		<form action="./php/votetwo.php" method="POST">
-		    <button id="presone" type="submit" name="submit" value="presone" class="btn btn-primary">Vote for Two</button>
-		</form>
-
-		<form action="./php/votetwo.php" method="POST">
-		    <button id="prestwo" type="submit" name="submit" value="prestwo" class="btn btn-primary">Vote for Two</button>
-		</form>
-
 		<h2>Would You Rather...</h2>
 		<h3><i>Elect the president of your dreams this November</i></h3>
+
 		<div class="row">
+
 			<div class="col-md-4 text-center">
 				<h2 class="president-name">Benjamin Asher (Aaron Eckhart)</h2>
 				<h2 class="president-movie">Olympus Has Fallen and London Has Fallen</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+				    <button id="presone" type="submit" name="submit" value="presone" class="btn btn-primary">Vote for One</button>
+				</form>
 			</div>
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">Tom Beck (Morgan Freeman)</h2>
 				<h2 class="president-movie">Deep Impact</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+		    		<button id="prestwo" type="submit" name="submit" value="prestwo" class="btn btn-primary">Vote for Two</button>
+				</form>
 			</div>
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">Andrew Shepherd (Michael Douglas)</h2>
 				<h2 class="president-movie">The American President</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+		    		<button id="presthree" type="submit" name="submit" value="presthree" class="btn btn-primary">Vote for Three</button>
+				</form>
 			</div>
-		</div>
-		<div class="row">
+
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">President Camacho (Terry Crews)</h2>
 				<h2 class="president-movie">Idiocracy</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+				    <button id="presfour" type="submit" name="submit" value="presone" class="btn btn-primary">Vote for Four</button>
+				</form>
 			</div>
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">Thomas Whitmore (Bill Pullman)</h2>
 				<h2 class="president-movie">Independence Day</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+				    <button id="presfive" type="submit" name="submit" value="presfive" class="btn btn-primary">Vote for Five</button>
+				</form>
 			</div>
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">Jay Bullworth (Warren Beatty)</h2>
 				<h2 class="president-movie">Bullworth</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+				    <button id="pressix" type="submit" name="submit" value="pressix" class="btn btn-primary">Vote for Six</button>
+				</form>
 			</div>
-		</div>
-		<div class="row">
+
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">James Dale (Jack Nicholson)</h2>
 				<h2 class="president-movie">Mars Attacks</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+				    <button id="presseven" type="submit" name="submit" value="presseven" class="btn btn-primary">Vote for Seven</button>
+				</form>
 			</div>
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">President Lanford (Sela Ward)</h2>
 				<h2 class="president-movie">Independence Day: Resurgence</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+				    <button id="preseight" type="submit" name="submit" value="preseight" class="btn btn-primary">Vote for Eight</button>
+				</form>
 			</div>
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">9th President</h2>
 				<h2 class="president-movie">Movie</h2>
 				<img src="./img/male.svg" />
-				<button type="button" class="btn btn-primary">Primary</button>
+				<form action="./php/vote.php" method="POST">
+				    <button id="presnine" type="submit" name="submit" value="presnine" class="btn btn-primary">Vote for Nine</button>
+				</form>
 			</div>
-		</div>
+
 	</div>
 
 	<!-- jQuery 3.1.1 -->

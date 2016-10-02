@@ -1,13 +1,19 @@
 <?php 
-	// echo "Hello world!"; 
 
-	// $file = file_get_contents("../data/votes.json");
+	$json = file_get_contents("../data/votes.json");
+	$data = json_decode($json, true);
 
-	// $data = file_get_contents("./data/votes.json");
+	class  Main {
 
-	// $json = json_decode(file_get_contents("./data/votes.json"), true);
-
-	// echo $data;
-	// echo $json;
-
+		public function vote($pres) {
+			global $data;
+			$data[$pres]['votes']++;
+			$newjson = json_encode($data);
+			file_put_contents('../data/votes.json', $newjson);
+			header('Location: ../welcome.php');
+	    	exit;
+		}
+	}
+	
 ?>
+

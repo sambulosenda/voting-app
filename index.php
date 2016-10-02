@@ -29,7 +29,7 @@
 		</form>
 
 		<form action="./php/votetwo.php">
-		    <button type="submit" class="btn btn-primary">Primary</button>
+		    <button type="submit" name="submit" value="prestwo" class="btn btn-primary">Vote for Two</button>
 		</form>
 
 		<h2>Would You Rather...</h2>

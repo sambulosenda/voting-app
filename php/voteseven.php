@@ -1,6 +1,6 @@
 <?php 
 
-	include './main.php';
+	include './functions.php';
 
 	$main = new Main;
 

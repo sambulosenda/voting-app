@@ -1,9 +1,13 @@
 <?php 
 
-	include './functions.php';
+	include './main.php';
 
 	$main = new Main;
 
-	$main->votetwo();
+	if(isset($_POST['submit']) {
+		@$value = $_POST['submit'];
+		
+		$main->vote($value);
+	}
 
 ?>

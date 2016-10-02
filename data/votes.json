@@ -1,17 +1,29 @@
 {
 	"presone": {
-		"votes": 2
+		"votes": 1
 	},
 	"prestwo": {
-		"votes": 3
+		"votes": 1
 	},
 	"presthree": {
-		"votes": 5
+		"votes": 1
 	},
 	"presfour": {
-		"votes": 8
+		"votes": 1
 	},
 	"presfive": {
+		"votes": 1
+	},
+	"pressix": {
+		"votes": 1
+	},
+	"presseven": {
+		"votes": 1
+	},
+	"preseight": {
+		"votes": 1
+	},
+	"presnine": {
 		"votes": 1
 	}
 }

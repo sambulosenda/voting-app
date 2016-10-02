@@ -54,6 +54,10 @@
 				</form>
 			</div>
 
+		</div>
+
+		<div class="row">
+
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">President Camacho (Terry Crews)</h2>
 				<h2 class="president-movie">Idiocracy</h2>
@@ -79,6 +83,10 @@
 				</form>
 			</div>
 
+		</div>
+
+		<div class="row">
+
 			<div class="col-md-4 align-center">
 				<h2 class="president-name">James Dale (Jack Nicholson)</h2>
 				<h2 class="president-movie">Mars Attacks</h2>
@@ -103,8 +111,8 @@
 				    <button id="presnine" type="submit" name="submit" value="presnine" class="btn btn-primary">Vote for Nine</button>
 				</form>
 			</div>
-
-	</div>
+		
+		</div>
 
 	<!-- jQuery 3.1.1 -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>

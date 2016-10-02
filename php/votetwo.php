@@ -6,6 +6,10 @@
 
 	if(isset($_POST['president']) {
 		@$value = $_POST['president'];
+
+		echo $value;
+		var_dump($value);
+		die();
 		
 		$main->vote($value);
 	}

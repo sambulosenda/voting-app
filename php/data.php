@@ -10,7 +10,7 @@
 	// }
 
 	foreach ($data['p'] as $v){
-    	echo $v;
+    	$sum += $v;
 	} 
 
 	foreach ($data as $v){

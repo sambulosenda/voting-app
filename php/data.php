@@ -9,7 +9,7 @@
  //   		 $sum += $data['p' . $i]['votes'];
 	// }
 
-	foreach ($data['p'] as $v){
+	foreach ($data->p as $v){
     	$sum += $v;
 	} 
 

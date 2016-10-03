@@ -25,26 +25,57 @@
 	<div class="container">
 		<h1>Election Results</h1>
 	</div>
-
-	<div class="container">
+	<div id="results" class="container">
 		<div class="row">
 			<div class="col-md-12 text-center">
-				<h2><?php echo $total1 ?></h2>
+				<h2><span class="counter"><?php echo $total1 ?></span>%</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-2 text-center">
+			</div>
+			<div class="col-md-4 text-center">
+				<h2><span class="counter"><?php echo $total2 ?></span>%</h2>
+			</div>
+			<div class="col-md-4 text-center">
+				<h2><span class="counter"><?php echo $total3 ?></span>%</h2>
+			</div>
+			<div class="col-md-2 text-center">
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-md-3 text-center">
-				<h2><?php echo $total2 ?></h2>
+				<h2><span class="counter"><?php echo $total4 ?></span>%</h2>
+			</div>
+			<div class="col-md-6 text-center">
 			</div>
 			<div class="col-md-3 text-center">
-			</div>
-			<div class="col-md-3 text-center">
-			</div>
-			<div class="col-md-3 text-center">
-				<h2><?php echo $total3 ?></h2>
+				<h2><span class="counter"><?php echo $total5 ?></span>%</h2>
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-md-2 text-center">
+			</div>
+			<div class="col-md-4 text-center">
+				<h2><span class="counter"><?php echo $total6 ?></span>%</h2>
+			</div>
+			<div class="col-md-4 text-center">
+				<h2><span class="counter"><?php echo $total7 ?></span>%</h2>
+			</div>
+			<div class="col-md-2 text-center">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 text-center">
+			</div>
+			<div class="col-md-3 text-center">
+				<h2><span class="counter"><?php echo $total8 ?></span>%</h2>
+			</div>
+			<div class="col-md-3 text-center">
+				<h2><span class="counter"><?php echo $total9 ?></span>%</h2>
+			</div>
+			<div class="col-md-3 text-center">
+			</div>
 		</div>
 
 	</div>
@@ -62,8 +93,8 @@
 
 </div>
 
-<!-- jQuery 3.1.1 -->
-<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+<!-- jQuery 2.2.4 -->
+<script src="http://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
@@ -71,6 +102,15 @@
 <!-- Add This Social Sidebar -->
 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57edc3cdf2bfbbf7"></script>
 
-<script type="text/javascript" src="./js/main.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+<script src="./js/jquery.counterup.min.js"></script>
+
+<script>
+$('.counter').counterUp({
+    time: 1000
+});
+</script>
+
+<!-- <script type="text/javascript" src="./js/main.js"></script> -->
 </body>
 </html>

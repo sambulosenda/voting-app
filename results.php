@@ -23,7 +23,7 @@
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
 <body>
-	<div style="position: absolute; background-color: #b23636; width: 100%; height: 100%;" class="animated zoomOut"></div>
+<!-- 	<div style="position: absolute; background-color: #b23636; width: 100%; height: 100%;" class="animated zoomOut"></div> -->
 
 	<div class="container">
 		<h1>Election Results</h1>

@@ -10,7 +10,11 @@
 	// }
 
 	foreach ($data['p'] as $v){
-    	$sum += $v['votes'];
+    	echo $v;
+	} 
+
+	foreach ($data as $v){
+    	echo $v;
 	} 
 
 	$totone = round (($data['p1']['votes']/$sum)*100);

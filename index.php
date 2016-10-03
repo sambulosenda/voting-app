@@ -33,9 +33,7 @@
 		<div class="row">
 
 			<div class="col-sm-4 text-center">
-				<div class="joe">
-					<h3 class="president-name">Benjamin Asher<br /><span>Olympus Has Fallen</span></h3>
-				</div>
+				<h1 class="president-name">Benjamin Asher<br /><span>Olympus Has Fallen</span></h1>
 				<img class="width80" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -57,9 +55,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center">
-				<div class="joe">
-					<h3 class="president-name">Tom Beck<br /><span>Deep Impact</span></h3>
-				</div>
+				<h1 class="president-name">Tom Beck<br /><span>Deep Impact</span></h1>
 				<img class="width80" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -81,9 +77,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center">
-				<div class="joe">
-					<h3 class="president-name">Andrew Shepherd<br /><span>The American President</span></h3>
-				</div>
+				<h1 class="president-name">Andrew Shepherd<br /><span>The American President</span></h1>
 				<img class="width80" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -107,30 +101,73 @@
 
 		</div>
 
+
 		<div class="row">
 
-			<div class="col-md-4 text-center">
-				<h2 class="president-name">President Camacho (Terry Crews)</h2>
-				<h2 class="president-movie">Idiocracy</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<h1 class="president-name">President Camacho<br /><span>Idiocracy</span></h1>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p4" type="submit" name="submit" value="p4" class="btn btn-primary">Vote for Four</button>
+				    <button id="p4" type="submit" name="submit" value="p4" class="button">I Vote Camacho for President</button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center">
-				<h2 class="president-name">Thomas Whitmore (Bill Pullman)</h2>
-				<h2 class="president-movie">Independence Day</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<h1 class="president-name">Thomas Whitmore<br /><span>Independence Day</span></h1>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p5" type="submit" name="submit" value="p5" class="btn btn-primary">Vote for Five</button>
+		    		<button id="p5" type="submit" name="submit" value="p5" class="button">I Vote Whitmore for President</button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center">
-				<h2 class="president-name">Jay Bullworth (Warren Beatty)</h2>
-				<h2 class="president-movie">Bullworth</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<h1 class="president-name">Jay Bullworth<br /><span>Bullworth</span></h1>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p6" type="submit" name="submit" value="p6" class="btn btn-primary">Vote for Six</button>
+		    		<button id="p6" type="submit" name="submit" value="p6" class="button">I Vote Bullworth for President</button>
 				</form>
 			</div>
 
@@ -138,32 +175,75 @@
 
 		<div class="row">
 
-			<div class="col-md-4 text-center">
-				<h2 class="president-name">James Dale (Jack Nicholson)</h2>
-				<h2 class="president-movie">Mars Attacks</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<h1 class="president-name">James Dale<br /><span>Mars Attacks</span></h1>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p7" type="submit" name="submit" value="p7" class="btn btn-primary">Vote for Seven</button>
+				    <button id="p7" type="submit" name="submit" value="p7" class="button">I Vote Dale for President</button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center">
-				<h2 class="president-name">President Lanford (Sela Ward)</h2>
-				<h2 class="president-movie">Independence Day: Resurgence</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<h1 class="president-name">President Lanford<br /><span>Independence Day: Resurgence</span></h1>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p8" type="submit" name="submit" value="p8" class="btn btn-primary">Vote for Eight</button>
+		    		<button id="p8" type="submit" name="submit" value="p8" class="button">I Vote Lanford for President</button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center">
-				<h2 class="president-name">9th President</h2>
-				<h2 class="president-movie">Movie</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<h1 class="president-name">9th President<br /><span>Movie</span></h1>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p9" type="submit" name="submit" value="p9" class="btn btn-primary">Vote for Nine</button>
+		    		<button id="p9" type="submit" name="submit" value="p9" class="button">I Vote ABC for President</button>
 				</form>
 			</div>
-		
+
 		</div>
+
 
 	<!-- jQuery 3.1.1 -->
 	<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
@@ -174,8 +254,9 @@
 	<!-- Add This Social Sidebar -->
 	<script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57edc3cdf2bfbbf7"></script>
 
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
 	<script type="text/javascript" src="./js/main.js"></script>
-
 
 </body>
 

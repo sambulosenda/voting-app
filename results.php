@@ -36,6 +36,12 @@
 	<h1>Percent 1</h1>
 	<h2><?php echo $sum ?></h2>
 	<h2><?php echo $totone ?></h2>
+	<h1>FOR LOOP</h1>
+
+	<?php 
+		for ($i = 1; $i <= 9; $i++) {
+	   		 ?><h2><?php echo $data['p' . $i]['votes']; ?></h2>
+	<?php } ?>
 </div>
 
 <!-- jQuery 3.1.1 -->

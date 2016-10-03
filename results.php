@@ -22,18 +22,43 @@
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
 <body>
-<div class="container">
-	<h1>Election Results</h1>
+	<div class="container">
+		<h1>Election Results</h1>
+	</div>
 
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<h2><?php echo $total1 ?></h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-3 text-center">
+				<h2><?php echo $total2 ?></h2>
+			</div>
+			<div class="col-md-3 text-center">
+			</div>
+			<div class="col-md-3 text-center">
+			</div>
+			<div class="col-md-3 text-center">
+				<h2><?php echo $total3 ?></h2>
+			</div>
+		</div>
+		<div class="row">
+		</div>
+
+	</div>
+
+
+
+	<h2>Sum</h2>
+	<h2><?php echo $sum ?></h2>
+
+	<h2>All Votes</h1>
 	<?php 
 		for ($i = 1; $i <= 9; $i++) {
 	   		 ?><h2><?php echo $data['p' . $i]['votes']; ?></h2>
 	<?php } ?>
-
-	<h1>Percent 1</h1>
-	<h2><?php echo $sum ?></h2>
-	<h2><?php echo $total1 ?></h2>
-	<h1>For Loop</h1>
 
 </div>
 

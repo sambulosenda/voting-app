@@ -1,9 +1,9 @@
 <?php 
 
-	include './main.php';
+	// include './main.php';
 
-	$main = new Main;
+	// $main = new Main;
 
-	$main->voteone();
+	// $main->voteone();
 
 ?>

@@ -1,3 +1,7 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	background: #f2f2f2;
 }
@@ -83,12 +87,20 @@ h1 {
 	margin-bottom: 0;
 }
 
+.results-title {
+	position: absolute;
+	color: #fff;
+	top: 50px;
+	left: 70px;
+	font-size: 50px;
+}
+
 .margin-top10 {
 	margin-top: 10px;
 }
 
-.margin-bot40 {
-	margin-bottom: 40px;
+.margin-bot60 {
+	margin-bottom: 60px;
 }
 
 .blue {
@@ -115,6 +127,178 @@ h1 {
 .pros-cons {
 	border-left: 2px solid black;
 }
+
+.arrow-red {
+	width: 0; 
+	height: 0; 
+	border-style: solid; 
+	border-width: 0 20px 30px 20px; 
+	border-color: transparent transparent #b23636 transparent;
+}
+
+.arrow-blue {
+	width: 0; 
+	height: 0; 
+	border-style: solid; 
+	border-width: 0 20px 30px 20px; 
+	border-color: transparent transparent #254c85 transparent;
+}
+
+.arrow1-div {
+	position: absolute; 
+	left: 120px; 
+	top: -240px;
+	z-index: -1;
+}
+
+.arrow1-stem {
+	margin-left: 17px; 
+	width: 5px; 
+	height: 230px; 
+	background-color: #b23636;
+}
+
+.arrow2-div {
+	position: absolute;
+	left: 10px;
+	top: -70px;
+	-ms-transform: rotate(-40deg);
+	-webkit-transform: rotate(-40deg);
+	transform: rotate(-40deg);
+	z-index: -1;
+}
+
+.arrow2-stem {
+	margin-left: 17px;
+	width: 5px;
+	height: 80px;
+	background-color: #254c85;
+}
+
+.arrow3-div {
+	position: absolute;
+	left: 210px;
+	top: -70px;
+	-ms-transform: rotate(40deg);
+	-webkit-transform: rotate(40deg);
+	transform: rotate(40deg);
+	z-index: -1;
+}
+
+.arrow3-stem {
+	margin-left: 17px;
+	width: 5px;
+	height: 80px;
+	background-color: #254c85;
+}
+
+.arrow4-div {
+	position: absolute;
+	left: -40px;
+	top: 40px;
+	z-index: -1;
+	-ms-transform: rotate(-90deg);
+	-webkit-transform: rotate(-90deg);
+	transform: rotate(-90deg);
+	z-index: -1;
+}
+
+.arrow4-stem {
+	margin-left: 17px;
+	width: 5px;
+	height: 100px;
+	background-color: #b23636;
+}
+
+.arrow5-div {
+	position: absolute;
+	left: 270px;
+	top: 40px;
+	z-index: -1;
+	-ms-transform: rotate(90deg);
+	-webkit-transform: rotate(90deg);
+	transform: rotate(90deg);
+	z-index: -1;
+}
+
+.arrow5-stem {
+	margin-left: 17px;
+	width: 5px;
+	height: 100px;
+	background-color: #b23636;
+}
+
+.arrow6-div {
+	position: absolute;
+	left: 0px;
+	top: 180px;
+	z-index: -1;
+	-ms-transform: rotate(-140deg);
+	-webkit-transform: rotate(-140deg);
+	transform: rotate(-140deg);
+	z-index: -1;
+}
+
+.arrow6-stem {
+	margin-left: 17px;
+	width: 5px;
+	height: 100px;
+	background-color: #254c85;
+}
+
+.arrow7-div {
+	position: absolute;
+	left: 240px;
+	top: 180px;
+	z-index: -1;
+	-ms-transform: rotate(140deg);
+	-webkit-transform: rotate(140deg);
+	transform: rotate(140deg);
+	z-index: -1;
+}
+
+.arrow7-stem {
+	margin-left: 17px;
+	width: 5px;
+	height: 100px;
+	background-color: #254c85;
+}
+
+.arrow8-div {
+	position: absolute;
+	left: 40px;
+	top: 220px;
+	z-index: -1;
+	-ms-transform: rotate(200deg);
+	-webkit-transform: rotate(200deg);
+	transform: rotate(200deg);
+	z-index: -1;
+}
+
+.arrow8-stem {
+	margin-left: 17px; 
+	width: 5px; 
+	height: 220px; 
+	background-color: #b23636;
+}
+
+.arrow9-div {
+	position: absolute; 
+	left: 200px; 
+	top: 220px;
+	-ms-transform: rotate(160deg);
+	-webkit-transform: rotate(160deg);
+	transform: rotate(160deg);
+	z-index: -1;
+}
+
+.arrow9-stem {
+	margin-left: 17px; 
+	width: 5px; 
+	height: 220px; 
+	background-color: #b23636;
+}
+
 
 @-webkit-keyframes sheen {
   0% {

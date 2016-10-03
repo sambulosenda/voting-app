@@ -19,15 +19,18 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
 <body>
+	<div style="position: absolute; background-color: #b23636; width: 100%; height: 100%;" class="animated zoomOut"></div>
+
 	<div class="container">
 		<h1>Election Results</h1>
 	</div>
 	<div id="results" class="container">
 
-		<div class="row margin-bot40">
+		<div class="row margin-bot60">
 			<div class="col-md-4">
 			</div>
 			<div class="col-md-4">
@@ -44,7 +47,7 @@
 			</div>
 		</div>
 
-		<div class="row margin-bot40">
+		<div class="row margin-bot60">
 			<div class="col-md-2">
 			</div>
 			<div class="col-md-4">
@@ -71,7 +74,7 @@
 			</div>
 		</div>
 
-		<div class="row margin-bot40">
+		<div class="row margin-bot60">
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
@@ -82,7 +85,45 @@
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total4 ?></span>%</h2>
 				</div>
 			</div>
-			<div class="col-md-4 text-center">
+			<div class="col-md-4">
+				<div class="arrow1-div">
+					<div class="arrow-red"></div>
+					<div class="arrow1-stem"></div>
+				</div>
+				<div class="arrow2-div">
+					<div class="arrow-blue"></div>
+					<div class="arrow2-stem"></div>
+				</div>
+				<div class="arrow3-div">
+					<div class="arrow-blue"></div>
+					<div class="arrow3-stem"></div>
+				</div>
+				<div class="arrow4-div">
+					<div class="arrow-red"></div>
+					<div class="arrow4-stem"></div>
+				</div>
+				<div class="arrow5-div">
+					<div class="arrow-red"></div>
+					<div class="arrow5-stem"></div>
+				</div>
+				<div class="arrow6-div">
+					<div class="arrow-blue"></div>
+					<div class="arrow6-stem"></div>
+				</div>
+				<div class="arrow7-div">
+					<div class="arrow-blue"></div>
+					<div class="arrow7-stem"></div>
+				</div>
+				<div class="arrow8-div">
+					<div class="arrow-red"></div>
+					<div class="arrow8-stem"></div>
+				</div>
+				<div class="arrow9-div">
+					<div class="arrow-red"></div>
+					<div class="arrow9-stem"></div>
+				</div>
+				<h1 class="results-title">Election<br />Results</h1>
+				<img class="width70" src="./img/circle.svg" />
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
@@ -96,8 +137,8 @@
 			</div>
 		</div>
 
-		<div class="row margin-bot40">
-			<div class="col-md-1 text-center">
+		<div class="row margin-bot60">
+			<div class="col-md-1">
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
@@ -109,7 +150,7 @@
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total6 ?></span>%</h2>
 				</div>
 			</div>
-			<div class="col-md-2 text-center">
+			<div class="col-md-2">
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
@@ -123,8 +164,8 @@
 			</div>
 		</div>
 
-		<div class="row margin-bot40">
-			<div class="col-md-2 text-center">
+		<div class="row margin-bot60">
+			<div class="col-md-2">
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
@@ -146,7 +187,7 @@
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
 				</div>
 			</div>
-			<div class="col-md-2 text-center">
+			<div class="col-md-2">
 			</div>
 		</div>
 

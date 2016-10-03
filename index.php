@@ -12,7 +12,10 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
 	<!-- Optional theme -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<!-- 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+	<!-- font awesome -->
+	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<link href="./styles/main.css" rel="stylesheet">
@@ -29,28 +32,76 @@
 
 		<div class="row">
 
-			<div class="col-md-4 text-center">
-				<h2 class="president-name">Benjamin Asher (Aaron Eckhart)</h2>
-				<h2 class="president-movie">Olympus Has Fallen and London Has Fallen</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<div class="joe">
+					<h3 class="president-name">Benjamin Asher<br /><span>Olympus Has Fallen</span></h3>
+				</div>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p1" type="submit" name="submit" value="p1" class="btn btn-primary">Vote for One</button>
+				    <button id="p1" type="submit" name="submit" value="p1" class="button">I Vote Asher for President</button>
 				</form>
 			</div>
-			<div class="col-md-4 align-center">
-				<h2 class="president-name">Tom Beck (Morgan Freeman)</h2>
-				<h2 class="president-movie">Deep Impact</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<div class="joe">
+					<h3 class="president-name">Tom Beck<br /><span>Deep Impact</span></h3>
+				</div>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p2" type="submit" name="submit" value="p2" class="btn btn-primary">Vote for Two</button>
+		    		<button id="p2" type="submit" name="submit" value="p2" class="button">I Vote Beck for President</button>
 				</form>
 			</div>
-			<div class="col-md-4 align-center">
-				<h2 class="president-name">Andrew Shepherd (Michael Douglas)</h2>
-				<h2 class="president-movie">The American President</h2>
-				<img src="./img/male.svg" />
+			<div class="col-sm-4 text-center">
+				<div class="joe">
+					<h3 class="president-name">Andrew Shepherd<br /><span>The American President</span></h3>
+				</div>
+				<img class="width80" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p3" type="submit" name="submit" value="p3" class="btn btn-primary">Vote for Three</button>
+		    		<button id="p3" type="submit" name="submit" value="p3" class="button">I Vote Shepherd for President</button>
 				</form>
 			</div>
 
@@ -58,7 +109,7 @@
 
 		<div class="row">
 
-			<div class="col-md-4 align-center">
+			<div class="col-md-4 text-center">
 				<h2 class="president-name">President Camacho (Terry Crews)</h2>
 				<h2 class="president-movie">Idiocracy</h2>
 				<img src="./img/male.svg" />
@@ -66,7 +117,7 @@
 				    <button id="p4" type="submit" name="submit" value="p4" class="btn btn-primary">Vote for Four</button>
 				</form>
 			</div>
-			<div class="col-md-4 align-center">
+			<div class="col-md-4 text-center">
 				<h2 class="president-name">Thomas Whitmore (Bill Pullman)</h2>
 				<h2 class="president-movie">Independence Day</h2>
 				<img src="./img/male.svg" />
@@ -74,7 +125,7 @@
 				    <button id="p5" type="submit" name="submit" value="p5" class="btn btn-primary">Vote for Five</button>
 				</form>
 			</div>
-			<div class="col-md-4 align-center">
+			<div class="col-md-4 text-center">
 				<h2 class="president-name">Jay Bullworth (Warren Beatty)</h2>
 				<h2 class="president-movie">Bullworth</h2>
 				<img src="./img/male.svg" />
@@ -87,7 +138,7 @@
 
 		<div class="row">
 
-			<div class="col-md-4 align-center">
+			<div class="col-md-4 text-center">
 				<h2 class="president-name">James Dale (Jack Nicholson)</h2>
 				<h2 class="president-movie">Mars Attacks</h2>
 				<img src="./img/male.svg" />
@@ -95,7 +146,7 @@
 				    <button id="p7" type="submit" name="submit" value="p7" class="btn btn-primary">Vote for Seven</button>
 				</form>
 			</div>
-			<div class="col-md-4 align-center">
+			<div class="col-md-4 text-center">
 				<h2 class="president-name">President Lanford (Sela Ward)</h2>
 				<h2 class="president-movie">Independence Day: Resurgence</h2>
 				<img src="./img/male.svg" />
@@ -103,7 +154,7 @@
 				    <button id="p8" type="submit" name="submit" value="p8" class="btn btn-primary">Vote for Eight</button>
 				</form>
 			</div>
-			<div class="col-md-4 align-center">
+			<div class="col-md-4 text-center">
 				<h2 class="president-name">9th President</h2>
 				<h2 class="president-movie">Movie</h2>
 				<img src="./img/male.svg" />

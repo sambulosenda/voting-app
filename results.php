@@ -24,24 +24,17 @@
 <body>
 <div class="container">
 	<h1>Election Results</h1>
-	<h2><?php echo $data['p1']['votes'] ?></h2>
-	<h2><?php echo $data['p2']['votes'] ?></h2>
-	<h2><?php echo $data['p3']['votes'] ?></h2>
-	<h2><?php echo $data['p4']['votes'] ?></h2>
-	<h2><?php echo $data['p5']['votes'] ?></h2>
-	<h2><?php echo $data['p6']['votes'] ?></h2>
-	<h2><?php echo $data['p7']['votes'] ?></h2>
-	<h2><?php echo $data['p8']['votes'] ?></h2>
-	<h2><?php echo $data['p9']['votes'] ?></h2>
-	<h1>Percent 1</h1>
-	<h2><?php echo $sum ?></h2>
-	<h2><?php echo $totone ?></h2>
-	<h1>FOR LOOP</h1>
 
 	<?php 
 		for ($i = 1; $i <= 9; $i++) {
 	   		 ?><h2><?php echo $data['p' . $i]['votes']; ?></h2>
 	<?php } ?>
+
+	<h1>Percent 1</h1>
+	<h2><?php echo $sum ?></h2>
+	<h2><?php echo $total1 ?></h2>
+	<h1>For Loop</h1>
+
 </div>
 
 <!-- jQuery 3.1.1 -->

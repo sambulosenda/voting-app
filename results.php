@@ -1,8 +1,7 @@
+<!DOCTYPE html>
 <?php
    include './php/data.php';
 ?>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Meta-Information -->
@@ -24,6 +23,15 @@
 </head>
 <body>
 <!-- 	<div style="position: absolute; background-color: #b23636; width: 100%; height: 100%;" class="animated zoomOut"></div> -->
+
+<?php
+if(!isset($_COOKIE[$cookie_name])) {
+    echo "Cookie named '" . $cookie_name . "' is not set!";
+} else {
+    echo "Cookie '" . $cookie_name . "' is set!<br>";
+    echo "Value is: " . $_COOKIE[$cookie_name];
+}
+?>
 
 	<div class="container">
 		<h1>Election Results</h1>

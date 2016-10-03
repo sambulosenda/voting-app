@@ -1,7 +1,4 @@
-<?php
-   include './php/data.php';
-?>
-
+<!DOCTYPE html>
 <?php
 
 	$cookie_name = "Dream Election";
@@ -10,8 +7,9 @@
 	setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 	
 ?>
-
-<!DOCTYPE html>
+<?php
+   include './php/data.php';
+?>
 <html lang="en">
 <head>
     <!-- Meta-Information -->

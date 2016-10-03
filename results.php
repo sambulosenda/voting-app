@@ -13,6 +13,8 @@
 	    $cookie_value = $_COOKIE[$cookie_name];
 	    // setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 	}
+
+	include './php/data.php';
 	
 ?>
 

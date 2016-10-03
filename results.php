@@ -41,6 +41,8 @@
 <body>
 <!-- 	<div style="position: absolute; background-color: #b23636; width: 100%; height: 100%;" class="animated zoomOut"></div> -->
 
+<header><img src="http://placehold.it/1980x500" class="img-responsive" /></header>
+
 <?php
 if(!isset($_COOKIE[$cookie_name])) {
     echo "Cookie named '" . $cookie_name . "' is not set!";
@@ -50,8 +52,10 @@ if(!isset($_COOKIE[$cookie_name])) {
 }
 ?>
 
-	<div class="container">
+	<div class="container text-center">
 		<h1>Election Results</h1>
+		<h2>You Picked <?php echo $_COOKIE[$cookie_name] ?></h2>
+		<h2>Here's How Your Vote Stacks Up</h2>
 	</div>
 	<div id="results" class="container">
 
@@ -111,7 +115,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="arrow1-div">
+<!-- 				<div class="arrow1-div">
 					<div class="arrow-red"></div>
 					<div class="arrow1-stem"></div>
 				</div>
@@ -146,7 +150,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 				<div class="arrow9-div">
 					<div class="arrow-red"></div>
 					<div class="arrow9-stem"></div>
-				</div>
+				</div> -->
 				<h1 class="results-title">Election<br />Results</h1>
 				<img class="width70" src="./img/circle.svg" />
 			</div>

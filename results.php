@@ -2,6 +2,15 @@
 <?php
    include './php/data.php';
 ?>
+
+<?php
+
+	$cookie_name = "Dream Election";
+	$cookie_value = "President Harrison";
+
+	setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+	
+?>
 <html lang="en">
 <head>
     <!-- Meta-Information -->

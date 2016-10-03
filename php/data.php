@@ -9,13 +9,18 @@
  //   		 $sum += $data['p' . $i]['votes'];
 	// }
 
-	foreach ($data->presidents as $v){
-    	$sum += $v->votes;
+	foreach ($data as $key => $val){
+    	$sum += $val;
 	} 
 
 	// foreach ($data['p']['votes'] as $v){
  //    	echo $v;
 	// } 
+
+	foreach ($data as $key => $val){
+    	echo $key;
+    	echo $val;
+	} 
 
 	$totone = round (($data['p1']['votes']/$sum)*100);
 

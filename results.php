@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <?php
 
 	$cookie_name = "Dream Election";
@@ -10,6 +9,7 @@
 <?php
    include './php/data.php';
 ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Meta-Information -->

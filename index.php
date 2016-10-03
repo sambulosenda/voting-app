@@ -34,7 +34,7 @@
 
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">Benjamin Asher<br /><span>Olympus Has Fallen</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -56,7 +56,7 @@
 			</div>
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">Tom Beck<br /><span>Deep Impact</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -78,7 +78,7 @@
 			</div>
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">Andrew Shepherd<br /><span>The American President</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -106,7 +106,7 @@
 
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">President Camacho<br /><span>Idiocracy</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -128,7 +128,7 @@
 			</div>
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">Thomas Whitmore<br /><span>Independence Day</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -150,7 +150,7 @@
 			</div>
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">Jay Bullworth<br /><span>Bullworth</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -177,7 +177,7 @@
 
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">James Dale<br /><span>Mars Attacks</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -199,7 +199,7 @@
 			</div>
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">President Lanford<br /><span>Independence Day: Resurgence</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
@@ -221,7 +221,7 @@
 			</div>
 			<div class="col-sm-4 text-center">
 				<h1 class="president-name">9th President<br /><span>Movie</span></h1>
-				<img class="width80" src="./img/male.svg" />
+				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">

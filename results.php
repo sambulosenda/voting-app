@@ -26,61 +26,131 @@
 		<h1>Election Results</h1>
 	</div>
 	<div id="results" class="container">
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<h2><span class="counter"><?php echo $total1 ?></span>%</h2>
+
+		<div class="row margin-bot40">
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">Benjamin Asher</p>
+					<p class="results-mov-name">Olympus Has Fallen</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
+				</div>
+			</div>
+			<div class="col-md-4">
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-2 text-center">
+
+		<div class="row margin-bot40">
+			<div class="col-md-2">
 			</div>
-			<div class="col-md-4 text-center">
-				<h2><span class="counter"><?php echo $total2 ?></span>%</h2>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">Tom Beck</p>
+					<p class="results-mov-name">Deep Impact</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
+				</div>
 			</div>
-			<div class="col-md-4 text-center">
-				<h2><span class="counter"><?php echo $total3 ?></span>%</h2>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">Andrew Shepherd</p>
+					<p class="results-mov-name">The American President</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
+				</div>
 			</div>
-			<div class="col-md-2 text-center">
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-3 text-center">
-				<h2><span class="counter"><?php echo $total4 ?></span>%</h2>
-			</div>
-			<div class="col-md-6 text-center">
-			</div>
-			<div class="col-md-3 text-center">
-				<h2><span class="counter"><?php echo $total5 ?></span>%</h2>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-2 text-center">
-			</div>
-			<div class="col-md-4 text-center">
-				<h2><span class="counter"><?php echo $total6 ?></span>%</h2>
-			</div>
-			<div class="col-md-4 text-center">
-				<h2><span class="counter"><?php echo $total7 ?></span>%</h2>
-			</div>
-			<div class="col-md-2 text-center">
+			<div class="col-md-2">
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-3 text-center">
+
+		<div class="row margin-bot40">
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">President Camacho</p>
+					<p class="results-mov-name">Idiocracy</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total4 ?></span>%</h2>
+				</div>
 			</div>
-			<div class="col-md-3 text-center">
-				<h2><span class="counter"><?php echo $total8 ?></span>%</h2>
+			<div class="col-md-4 text-center">
 			</div>
-			<div class="col-md-3 text-center">
-				<h2><span class="counter"><?php echo $total9 ?></span>%</h2>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">Thomas Whitmore</p>
+					<p class="results-mov-name">Independence Day</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total5 ?></span>%</h2>
+				</div>
 			</div>
-			<div class="col-md-3 text-center">
+		</div>
+
+		<div class="row margin-bot40">
+			<div class="col-md-1 text-center">
+			</div>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">Jay Bullworth</p>
+					<p class="results-mov-name">Bullworth</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total6 ?></span>%</h2>
+				</div>
+			</div>
+			<div class="col-md-2 text-center">
+			</div>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">James Dale</p>
+					<p class="results-mov-name">Mars Attacks</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total7 ?></span>%</h2>
+				</div>
+			</div>
+		</div>
+
+		<div class="row margin-bot40">
+			<div class="col-md-2 text-center">
+			</div>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">President Lanford</p>
+					<p class="results-mov-name">Independence Day: Resurgence</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total8 ?></span>%</h2>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">9th President</p>
+					<p class="results-mov-name">Movie</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
+				</div>
+			</div>
+			<div class="col-md-2 text-center">
 			</div>
 		</div>
 
 	</div>
-
-
 
 	<h2>Sum</h2>
 	<h2><?php echo $sum ?></h2>

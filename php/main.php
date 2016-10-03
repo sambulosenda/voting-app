@@ -12,7 +12,7 @@
 			file_put_contents('../data/votes.json', $newjson);
 			
 			$cookie_name = "election";
-			$cookie_value = "President Vote Button Pressed";
+			$cookie_value = $data[$p]['name'];
 			setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 
 			header('Location: ../results.php');

@@ -1,29 +1,47 @@
 {
 	"p1": {
+		"name": "Benjamin Asher",
+		"movie": "Olympus Has Fallen",
 		"votes": 0
 	},
 	"p2": {
+		"name": "Tom Beck",
+		"movie": "Deep Impact",
 		"votes": 0
 	},
 	"p3": {
+		"name": "Andrew Shepherd",
+		"movie": "The American President",
 		"votes": 0
 	},
 	"p4": {
+		"name": "President Camacho",
+		"movie": "Idiocracy",
 		"votes": 0
 	},
 	"p5": {
+		"name": "Thomas Whitmore",
+		"movie": "Independence Day",
 		"votes": 0
 	},
 	"p6": {
+		"name": "Jay Bullworth",
+		"movie": "Bullworth",
 		"votes": 0
 	},
 	"p7": {
+		"name": "James Dale",
+		"movie": "Mars Attacks",
 		"votes": 0
 	},
 	"p8": {
+		"name": "President Lanford",
+		"movie": "Independence Day: Resurgence",
 		"votes": 0
 	},
 	"p9": {
+		"name": "9th President",
+		"movie": "Movie",
 		"votes": 0
 	}
 }

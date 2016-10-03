@@ -1,29 +1,24 @@
 {
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	},
-	"p": {
-		"votes": 1
-	}
+    "presidents":[{
+            "votes": 1
+        },
+        {
+            "votes": 1
+        },
+        {
+            "votes": 1
+        },
+        {
+            "votes": 1
+        },
+        {
+            "votes": 1
+        },
+        {
+            "votes": 1
+        },
+        {
+            "votes": 1
+        }
+    ]
 }

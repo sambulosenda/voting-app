@@ -9,8 +9,8 @@
  //   		 $sum += $data['p' . $i]['votes'];
 	// }
 
-	foreach ($obj as $p){
-    	$sum += $p->votes;
+	foreach ($data->p as $v){
+    	$sum += $v->votes;
 	} 
 
 	$totone = round (($data['p1']['votes']/$sum)*100);

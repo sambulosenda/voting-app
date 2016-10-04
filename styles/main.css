@@ -4,6 +4,7 @@ html, body {
 
 body {
 	background: #f2f2f2;
+	background-image: url('../img/white-squares.png');
 }
 
 h1 {
@@ -15,11 +16,32 @@ h2 {
 }
 
 #results {
-    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	display: none;
+   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 2s; /* Firefox < 16 */
-    -ms-animation: fadein 2s; /* Internet Explorer */
-     -o-animation: fadein 2s; /* Opera < 12.1 */
-        animation: fadein 2s;
+   -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+   animation: fadein 2s;
+}
+
+#results-sml {
+   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+   -moz-animation: fadein 2s; /* Firefox < 16 */
+   -ms-animation: fadein 2s; /* Internet Explorer */
+   -o-animation: fadein 2s; /* Opera < 12.1 */
+   animation: fadein 2s;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width : 1200px)  {
+
+	#results-sml {
+		display: none;
+	}
+
+	#results {
+		display: inherit;
+	}
 }
 
 @keyframes fadein {

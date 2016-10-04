@@ -7,23 +7,10 @@ var	p1,
 	p7,
 	p8,
 	p9,
-	tarray;
-
-var winner;	
+	tarray,
+	winner;	
 
 var pick = $( "#votedfor" ).text();
-
-// var ashervotes = $( "#bav" ).text();
-// var tbv
-// var asv
-// var pcv
-// var twv
-// var jbv
-// var jdv
-// var plv
-// var jmv
-
-console.log(pick);
 
 jsonData();
 
@@ -61,23 +48,8 @@ function jsonData() {
 		p8 = votes.p8.votes;
 		p9 = votes.p9.votes;
 
-		// console.log(p1);
-		// console.log(p2);
-		// console.log(p3);
-		// console.log(p4);
-		// console.log(p5);
-		// console.log(p6);
-		// console.log(p7);
-		// console.log(p8);
-		// console.log(p9);
-
 		tarray = [p1, p2, p3, p4, p5, p6, p7, p8, p9];
 		winner = indexOfMax(tarray);
-		console.log(winner);
-	
-		// tarray.sort(sortNumber);
-		// console.log(tarray[0]);
-		// console.log(tarray.join(","));
 
 		switch (winner) {
 		    case 0:

@@ -49,8 +49,8 @@
 ?>
 
 	<div class="container text-center">
-		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span></h2>
-		<h2>Here's How Your Vote Stacks Up</h2>
+		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span> For President</h2>
+		<h2 class="margin-bot60">Here's How Your Vote Stacks Up</h2>
 	</div>
 
 	<div id="results-sml" class="container">
@@ -377,15 +377,6 @@
 		</div>
 
 	</div>
-
-	<h2>Sum</h2>
-	<h2><?php echo $sum ?></h2>
-
-	<h2>All Votes</h1>
-	<?php 
-		for ($i = 1; $i <= 9; $i++) {
-	   		 ?><h2><?php echo $data['p' . $i]['votes']; ?></h2>
-	<?php } ?>
 
 </div>
 

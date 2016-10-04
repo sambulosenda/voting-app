@@ -59,7 +59,9 @@
 
 			<div class="row margin-bot60">
 				<div class="col-md-4 padding50">
+					<p id="ashersm" class="bannersm">LEADER</p>
 					<img class="img-responsive" src="./img/male.svg" />
+					<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 					<div class="pull-left">
 						<p class="results-pres-name">Benjamin Asher</p>
 						<p class="results-mov-name">Olympus Has Fallen</p>
@@ -70,7 +72,9 @@
 				</div>
 
 				<div class="col-md-4 padding50">
+					<p id="becksm" class="bannersm">LEADER</p>
 					<img class="img-responsive" src="./img/male.svg" />
+					<p id="becksm-c" class="bannersm-c">YOUR CANDIDATE</p>
 					<div class="pull-left">
 						<p class="results-pres-name">Tom Beck</p>
 						<p class="results-mov-name">Deep Impact</p>
@@ -81,7 +85,9 @@
 				</div>
 
 				<div class="col-md-4 padding50">
+					<p id="sheperdsm" class="bannersm">LEADER</p>
 					<img class="img-responsive" src="./img/male.svg" />
+					<p id="sheperedsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 					<div class="pull-left">
 						<p class="results-pres-name">Andrew Shepherd</p>
 						<p class="results-mov-name">The American President</p>

@@ -82,30 +82,40 @@ function jsonData() {
 		switch (winner) {
 		    case 0:
 		        $( "#asher" ).show();
+		        $( "#ashersm" ).show();
 		        break;
 		    case 1:
 		        $( "#beck" ).show();
+		        $( "#becksm" ).show();
 		        break;
 		    case 2:
 		        $( "#shepherd" ).show();
+		        $( "#shepherdsm" ).show();
 		        break;
 		    case 3:
 		        $( "#camacho" ).show();
+		        $( "#camachosm" ).show();
 		        break;
 		    case 4:
 		        $( "#whitmore" ).show();
+		        $( "#whitmoresm" ).show();
 		        break;
 		    case 5:
 		        $( "#bullworth" ).show();
+		        $( "#bullworthsm" ).show();
 		        break;
 		    case 6:
 		        $( "#dale" ).show();
+		        $( "#dalesm" ).show();
 		        break;
 		    case 7:
 		        $( "#lanford" ).show();
+		        $( "#lanfordsm" ).show();
+
 		        break;
 		    case 8:
 		        $( "#marshall" ).show();
+		        $( "#marshallsm" ).show();
 		        break;
     		default:
       			text = "";
@@ -114,30 +124,39 @@ function jsonData() {
 		switch (pick) {
 		    case "Benjamin Asher":
 		        $( "#asher-c" ).show();
+		        $( "#ashersm-c" ).show();
 		        break;
 		    case "Tom Beck":
 		        $( "#beck-c" ).show();
+		        $( "#becksm-c" ).show();
 		        break;
 		    case "Andrew Shepherd":
 		        $( "#shepherd-c" ).show();
+		        $( "#shepherdsm-c" ).show();
 		        break;
 		    case "President Camacho":
 		        $( "#camacho-c" ).show();
+		        $( "#camachosm-c" ).show();
 		        break;
 		    case "Thomas Whitmore":
 		        $( "#whitmore-c" ).show();
+		        $( "#whitmoresm-c" ).show();
 		        break;
 		    case "Jay Bullworth":
 		        $( "#bullworth-c" ).show();
+		        $( "#bullworthsm-c" ).show();
 		        break;
 		    case "James Dale":
 		        $( "#dale-c" ).show();
+		        $( "#dalesm-c" ).show();
 		        break;
 		    case "President Lanford":
 		        $( "#lanford-c" ).show();
+		        $( "#lanfordsm-c" ).show();
 		        break;
 		    case "James Marshall":
 		        $( "#marshall-c" ).show();
+		        $( "#marshallsm-c" ).show();
 		        break;
     		default:
       			text = "";

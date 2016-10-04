@@ -42,7 +42,8 @@ function jsonData() {
 		console.log(p9);
 
 		tarray = [p1, p2, p3, p4, p6, p6, p7, p8, p9];
-		numArray.sort(sortNumber);
-		alert(numArray.join(","));
+		tarray.sort(sortNumber);
+		console.log(tarray[2]);
+		alert(tarray.join(","));
 	 });
 }

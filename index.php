@@ -1,5 +1,11 @@
 <?php
 
+	$cookie_name = "election";
+
+	if(isset($_COOKIE[$cookie_name])) {
+    	header('Location: ./results.php');
+	}
+
 	include './php/sdata.php';
 
 ?>
@@ -31,32 +37,6 @@
 	</div>
 
 	<div class="container">
-	<?php 
-		for ($i = 1; $i <= 9; $i++) { 
-	?>
-		<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120"><?php echo $data['p' . $i]['name']; ?><br /><span><?php echo $data['p' . $i]['movie']; ?></span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
-				<div class="row">
-					<div class="col-xs-offset-1 col-xs-5 text-left">
-						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-					</div>
-					<div class="col-xs-5 text-left pros-cons">
-						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-					</div>
-				</div>
-				<form action="./php/vote.php" method="POST">
-				    <button id="?><?php echo $data['p' . $i]; ?>" type="submit" name="submit" value="<?php echo $data['p' . $i]; ?>" class="button">I Vote <?php echo $data['p' . $i]['lname']; ?> for President</button>
-				</form>
-			</div>
-	<?php } ?>
 
 		<div class="row">
 

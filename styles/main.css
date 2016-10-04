@@ -85,14 +85,21 @@ h2, h4 {
 }
 
 .president-name span.name{
-	font-family: 'Arvo', serif;
+	font-family: 'Artifika', serif;
 	font-size: 0.5em;
 }
 
 .president-name span.movie{
 	color: #b23636;
-	font-family: 'Arvo', serif;
+	font-family: 'Artifika', serif;
 	font-size: 0.6em;
+}
+
+#votedfor {
+	color: #254c85;
+	font-family: 'Great Vibes', cursive;
+	font-size: 3em;
+	line-height: 0.9em;
 }
 
 .president-movie{
@@ -113,14 +120,16 @@ h2, h4 {
 
 .results-pres-name {
 	color: #254c85;
-	font-size: 18px;
+	font-size: 28px;
 	margin-bottom: 0;
+	font-family: 'Great Vibes', cursive;
 }
 
 .results-mov-name {
 	color: #b23636;
-	font-size: 16px;
+	font-size: 18px;
 	margin-bottom: 0;
+	font-family: 'Artifika', serif;
 }
 
 .results-title {
@@ -153,6 +162,10 @@ h2, h4 {
 
 .width70 {
 	width: 70%;
+}
+
+.width60 {
+	width: 60%;
 }
 
 .width100 {
@@ -675,6 +688,58 @@ h2, h4 {
 	.page-title {
 	    margin-top: -150px;
 	    font-size: 1.8em;
+	}
+
+	.bannersm {
+		background-color: #b23636;
+		box-shadow: #999 10px 5px 12px;
+		border-radius: 2px;
+		display: block;
+		color: #fff;
+		float: left;
+		padding: 0.5em 1em;
+		position: relative;
+		text-transform: uppercase;
+		-webkit-transition: all 0.2s ease-in;
+		transition: all 0.2s ease-in;
+		font-size: 22px;
+		font-family: 'Arvo', serif;
+		position: absolute;
+		margin-left: 0px;
+		margin-top: 0px;
+		font-weight: 700;
+	}
+
+	.bannersm:after {
+	  /*background-color: #FF1919;*/
+	  content: '';
+	  border-right: 2.5em solid #b23636;
+	  border-left: 0px solid transparent;
+	  border-top: 0px solid #b23636;
+	  border-bottom: 2em solid transparent;
+	  height: 0px;
+	  position: absolute;
+	  right: 130px;
+	  top: 0;
+	  width: 0px;
+	}
+
+	.bannersm:before {
+	  /*background-color: #FF1919;*/
+	  content: '';
+	  bottom: 0px;
+	  border-right: 2.5em solid #b23636;
+	  border-left: 0px solid transparent;
+	  border-top: 2em solid transparent;
+	  border-bottom: 0px solid #b23636;
+	  height: 0px;
+	  position: absolute;
+	  right: 130px;
+	  width: 0px;
+	}
+
+	.bannersm {
+		display: none;
 	}
 }
 

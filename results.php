@@ -58,138 +58,129 @@
 
 		<div class="row">
 
-			<div class="row margin-bot60">
-				<div class="col-md-4 padding50">
-					<p id="ashersm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">Benjamin Asher</p>
-						<p class="results-mov-name">Olympus Has Fallen</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
-					</div>
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="ashersm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">Benjamin Asher</p>
+					<p class="results-mov-name">Olympus Has Fallen</p>
 				</div>
-
-				<div class="col-md-4 padding50">
-					<p id="becksm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="becksm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">Tom Beck</p>
-						<p class="results-mov-name">Deep Impact</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
-					</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
 				</div>
+			</div>
 
-				<div class="col-md-4 padding50">
-					<p id="shepherdsm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="shepherdsm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">Andrew Shepherd</p>
-						<p class="results-mov-name">The American President</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
-					</div>
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="becksm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="becksm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">Tom Beck</p>
+					<p class="results-mov-name">Deep Impact</p>
 				</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
+				</div>
+			</div>
 
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="shepherdsm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="shepherdsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">Andrew Shepherd</p>
+					<p class="results-mov-name">The American President</p>
+				</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
+				</div>
 			</div>
 
 		</div>
 
 		<div class="row">
 
-			<div class="row margin-bot60">
-				<div class="col-md-4 padding50">
-					<p id="camachosm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="camachosm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">President Camacho</p>
-						<p class="results-mov-name">Idiocracy</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total4 ?></span>%</h2>
-					</div>
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="camachosm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="camachosm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">President Camacho</p>
+					<p class="results-mov-name">Idiocracy</p>
 				</div>
-
-				<div class="col-md-4 padding50">
-					<p id="whitmoresm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="whitmoresm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">Thomas Whitmore</p>
-						<p class="results-mov-name">Independence Day</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total5 ?></span>%</h2>
-					</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total4 ?></span>%</h2>
 				</div>
+			</div>
 
-				<div class="col-md-4 padding50">
-					<p id="bullworthsm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="bullworthsm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">Jay Bullworth</p>
-						<p class="results-mov-name">Bullworth</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total6 ?></span>%</h2>
-					</div>
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="whitmoresm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="whitmoresm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">Thomas Whitmore</p>
+					<p class="results-mov-name">Independence Day</p>
 				</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total5 ?></span>%</h2>
+				</div>
+			</div>
 
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="bullworthsm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="bullworthsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">Jay Bullworth</p>
+					<p class="results-mov-name">Bullworth</p>
+				</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total6 ?></span>%</h2>
+				</div>
 			</div>
 
 		</div>
 
 		<div class="row">
 
-			<div class="row margin-bot60">
-				<div class="col-md-4 padding50">
-					<p id="dalesm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="dalesm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">James Dale</p>
-						<p class="results-mov-name">Mars Attacks</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total7 ?></span>%</h2>
-					</div>
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="dalesm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="dalesm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">James Dale</p>
+					<p class="results-mov-name">Mars Attacks</p>
 				</div>
-
-				<div class="col-md-4 padding50">
-					<p id="lanfordsm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="lanfordsm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">President Lanford</p>
-						<p class="results-mov-name">Independence Day: Resurgence</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total8 ?></span>%</h2>
-					</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total7 ?></span>%</h2>
 				</div>
+			</div>
 
-				<div class="col-md-4 padding50">
-					<p id="marshallsm" class="bannersm">LEADER</p>
-					<img class="img-responsive" src="./img/male.svg" />
-					<p id="marshallsm-c" class="bannersm-c">YOUR CANDIDATE</p>
-					<div class="pull-left">
-						<p class="results-pres-name">James Marshall</p>
-						<p class="results-mov-name">Air Force One</p>
-					</div>
-					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
-					</div>
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="lanfordsm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="lanfordsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">President Lanford</p>
+					<p class="results-mov-name">Independence Day: Resurgence</p>
 				</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total8 ?></span>%</h2>
+				</div>
+			</div>
 
+			<div class="col-md-4 padding50 margin-bot60">
+				<p id="marshallsm" class="bannersm">LEADER</p>
+				<img class="img-responsive" src="./img/male.svg" />
+				<p id="marshallsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<div class="pull-left width60">
+					<p class="results-pres-name">James Marshall</p>
+					<p class="results-mov-name">Air Force One</p>
+				</div>
+				<div class="pull-right">
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
+				</div>
 			</div>
 
 		</div>

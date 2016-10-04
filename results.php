@@ -126,8 +126,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="beck" class="banner">LEADER</p>
-					<p id="beck-c" class="banner-c">YOUR CANDIDATE</p>
+					<p id="beck" class="bannerl">LEADER</p>
+					<p id="beck-c" class="bannerl-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Tom Beck</p>
 					<p class="results-mov-name">Deep Impact</p>
 					<h2 class="pull-left margin-top10"><span id="tbv" class="counter"><?php echo $total2 ?></span>%</h2>
@@ -155,8 +155,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="camacho" class="banner">LEADER</p>
-					<p id="camacho-c" class="banner-c">YOUR CANDIDATE</p>
+					<p id="camacho" class="bannerl">LEADER</p>
+					<p id="camacho-c" class="bannerl-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">President Camacho</p>
 					<p class="results-mov-name">Idiocracy</p>
 					<h2 class="pull-left margin-top10"><span id="pcv" class="counter"><?php echo $total4 ?></span>%</h2>
@@ -224,8 +224,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="bullworth" class="banner">LEADER</p>
-					<p id="bullworth-c" class="banner-c">YOUR CANDIDATE</p>
+					<p id="bullworth" class="bannerl">LEADER</p>
+					<p id="bullworth-c" class="bannerl-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Jay Bullworth</p>
 					<p class="results-mov-name">Bullworth</p>
 					<h2 class="pull-left margin-top10"><span id="jbv" class="counter"><?php echo $total6 ?></span>%</h2>
@@ -255,8 +255,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="lanford" class="banner">LEADER</p>
-					<p id="lanford-c" class="banner-c">YOUR CANDIDATE</p>
+					<p id="lanford" class="bannerl">LEADER</p>
+					<p id="lanford-c" class="bannerl-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">President Lanford</p>
 					<p class="results-mov-name">Independence Day: Resurgence</p>
 					<h2 class="pull-left margin-top10"><span id="plv" class="counter"><?php echo $total8 ?></span>%</h2>

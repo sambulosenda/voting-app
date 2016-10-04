@@ -188,6 +188,58 @@ h2 {
 	display: none;
 }
 
+.bannerl {
+	background-color: #b23636;
+	box-shadow: #999 10px 5px 12px;
+	border-radius: 2px;
+	display: block;
+	color: #fff;
+	float: left;
+	padding: 0.5em 1em;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	font-size: 22px;
+	font-family: 'Arvo', serif;
+	position: absolute;
+	margin-left: -260px;
+	margin-top: 0px;
+	font-weight: 700;
+}
+
+.bannerl:after {
+  /*background-color: #FF1919;*/
+  content: '';
+  border-right: 2.5em solid #b23636;
+  border-left: 0px solid transparent;
+  border-top: 0px solid #b23636;
+  border-bottom: 2em solid transparent;
+  height: 0px;
+  position: absolute;
+  right: 135px;
+  top: 0;
+  width: 0px;
+}
+
+.bannerl:before {
+  /*background-color: #FF1919;*/
+  content: '';
+  bottom: 0px;
+  border-right: 2.5em solid #b23636;
+  border-left: 0px solid transparent;
+  border-top: 2em solid transparent;
+  border-bottom: 0px solid #b23636;
+  height: 0px;
+  position: absolute;
+  right: 135px;
+  width: 0px;
+}
+
+.bannerl {
+	display: none;
+}
+
 
 .banner-c {
 	background-color: #254c85;
@@ -239,6 +291,59 @@ h2 {
 }
 
 .banner-c {
+	display: none;
+}
+
+.bannerl-c {
+	background-color: #254c85;
+	box-shadow: #999 10px 5px 12px;
+	border-radius: 2px;
+	display: block;
+	color: #fff;
+	float: left;
+	padding: 0.5em 1em;
+	position: relative;
+	text-transform: uppercase;
+	-webkit-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+	font-size: 16px;
+	font-family: 'Arvo', serif;
+	position: absolute;
+	margin-left: -320px;
+	margin-top: 70px;
+	width: 50%;
+	font-weight: 700;
+}
+
+.bannerl-c:after {
+  /*background-color: #FF1919;*/
+  content: '';
+  border-right: 2.5em solid #254c85;
+  border-left: 0px solid transparent;
+  border-top: 0px solid #254c85;
+  border-bottom: 2em solid transparent;
+  height: 0px;
+  position: absolute;
+  right: 190px;
+  top: 0;
+  width: 0px;
+}
+
+.bannerl-c:before {
+  /*background-color: #FF1919;*/
+  content: '';
+  bottom: 0px;
+  border-right: 2.5em solid #254c85;
+  border-left: 0px solid transparent;
+  border-top: 2em solid transparent;
+  border-bottom: 0px solid #254c85;
+  height: 0px;
+  position: absolute;
+  right: 190px;
+  width: 0px;
+}
+
+.bannerl-c {
 	display: none;
 }
 

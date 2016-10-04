@@ -30,6 +30,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
 	<link href="./styles/main.css" rel="stylesheet">

@@ -1,10 +1,10 @@
 <?php
 
-	// $cookie_name = "election";
+	$cookie_name = "election";
 
-	// if(isset($_COOKIE[$cookie_name])) {
- //    	header('Location: ./results.php');
-	// }
+	if(isset($_COOKIE[$cookie_name])) {
+    	header('Location: ./results.php');
+	}
 
 	include './php/sdata.php';
 
@@ -27,6 +27,7 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
 
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
@@ -43,7 +44,7 @@
 		<div class="row">
 
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">Benjamin Asher<br /><span>Olympus Has Fallen</span></h1>
+				<h1 class="president-name minheight160">Benjamin Asher<br /><span class="name">(Aaron Eckhart)</span><br /><span class="movie">Olympus Has Fallen</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -65,7 +66,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">Tom Beck<br /><span>Deep Impact</span></h1>
+				<h1 class="president-name minheight160">Tom Beck<br /><span class="name">(Morgan Freeman)</span><br /><span class="movie">Deep Impact</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -87,7 +88,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">Andrew Shepherd<br /><span>The American President</span></h1>
+				<h1 class="president-name minheight160">Andrew Shepherd<br /><span class="name">(Michael Douglas)</span><br /><span class="movie">The American President</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -115,7 +116,7 @@
 		<div class="row">
 
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">President Camacho<br /><span>Idiocracy</span></h1>
+				<h1 class="president-name minheight160">President Camacho<br /><span class="name">(Terry Crews)</span><br /><span class="movie">Idiocracy</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -137,7 +138,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">Thomas Whitmore<br /><span>Independence Day</span></h1>
+				<h1 class="president-name minheight160">Thomas Whitmore<br /><span class="name">(Bill Pullman)</span><br /><span class="movie">Independence Day</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -159,7 +160,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">Jay Bullworth<br /><span>Bullworth</span></h1>
+				<h1 class="president-name minheight160">Jay Bullworth<br /><span class="name">(Warren Beatty)</span><br /><span class="movie">Bullworth</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -186,7 +187,7 @@
 		<div class="row">
 
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">James Dale<br /><span>Mars Attacks</span></h1>
+				<h1 class="president-name minheight160">James Dale<br /><span class="name">(Jack Nicholson)</span><br /><span class="movie">Mars Attacks</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -208,7 +209,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">President Lanford<br /><span>Independence Day: Resurgence</span></h1>
+				<h1 class="president-name minheight160">President Lanford<br /><span class="name">(Sela Ward)</span><br /><span class="movie">Independence Day: Resurgence</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -230,7 +231,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">James Marshall<br /><span>Air Force One</span></h1>
+				<h1 class="president-name minheight160">James Marshall<br /><span class="name">(Harrison Ford)</span><br /><span class="movie">Air Force One</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -266,7 +267,6 @@
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
-<!-- 	<script type="text/javascript" src="./js/main.js"></script> -->
 
 </body>
 

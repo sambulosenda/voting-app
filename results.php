@@ -55,44 +55,47 @@
 
 	<div id="results-sml" class="container">
 
-		<?php echo " 
-		<div class="row margin'-'bot60">
-			<div class="col'-'md'-'4">
-				<img class="pres'-'results'-'img pull'-'right" src="'./'img'/'male'.'svg" />
-				<p class="results'-'pres'-'name"><?php echo $total1 ?></p>
-				<p class="results'-'mov'-'name"><?php echo $total1 ?></p>
-			</div>
-		</div> " ?>
+		<div class="row">
 
-<!-- 		<div class="row margin-bot60">
-			<div class="col-md-2">
-			</div>
-			<div class="col-md-4">
-				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+			<div class="row margin-bot60">
+				<div class="col-md-4 padding50">
+					<img class="img-responsive" src="./img/male.svg" />
+					<div class="pull-left">
+						<p class="results-pres-name">Benjamin Asher</p>
+						<p class="results-mov-name">Olympus Has Fallen</p>
+					</div>
+					<div class="pull-right">
+						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
+					</div>
 				</div>
-				<div class="results-box-txt pull-left text-left">
-					<p class="results-pres-name">Tom Beck</p>
-					<p class="results-mov-name">Deep Impact</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
+
+				<div class="col-md-4 padding50">
+					<img class="img-responsive" src="./img/male.svg" />
+					<div class="pull-left">
+						<p class="results-pres-name">Tom Beck</p>
+						<p class="results-mov-name">Deep Impact</p>
+					</div>
+					<div class="pull-right">
+						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
+					</div>
 				</div>
-			</div>
-			<div class="col-md-4">
-				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+
+				<div class="col-md-4 padding50">
+					<img class="img-responsive" src="./img/male.svg" />
+					<div class="pull-left">
+						<p class="results-pres-name">Andrew Shepherd</p>
+						<p class="results-mov-name">The American President</p>
+					</div>
+					<div class="pull-right">
+						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
+					</div>
 				</div>
-				<div class="results-box-txt pull-left text-left">
-					<p class="results-pres-name">Andrew Shepherd</p>
-					<p class="results-mov-name">The American President</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
-				</div>
+				
 			</div>
-			<div class="col-md-2">
-			</div>
-		</div> -->
+
+		</div>
 
 	</div>
-
 
 	<div id="results" class="container">
 

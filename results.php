@@ -49,7 +49,7 @@
 ?>
 
 	<div class="container text-center">
-		<h2>You Picked <?php echo $_COOKIE[$cookie_name] ?></h2>
+		<h2>You Picked <span class="voted"><?php echo $_COOKIE[$cookie_name] ?></span></h2>
 		<h2>Here's How Your Vote Stacks Up</h2>
 	</div>
 
@@ -90,7 +90,7 @@
 						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
 					</div>
 				</div>
-				
+
 			</div>
 
 		</div>

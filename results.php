@@ -56,11 +56,11 @@
 	<div id="results-sml" class="container">
 
 		<?php echo " 
-		<div class="row margin-bot60">
-			<div class="col-md-4">
-				<img class="pres-results-img pull-right" src="./img/male.svg" />
-				<p class="results-pres-name"><?php echo $total1 ?></p>
-				<p class="results-mov-name"><?php echo $total1 ?></p>
+		<div class="row margin'-'bot60">
+			<div class="col'-'md'-'4">
+				<img class="pres'-'results'-'img pull'-'right" src="'./'img'/'male'.'svg" />
+				<p class="results'-'pres'-'name"><?php echo $total1 ?></p>
+				<p class="results'-'mov'-'name"><?php echo $total1 ?></p>
 			</div>
 		</div> " ?>
 

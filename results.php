@@ -29,13 +29,15 @@
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
+
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
 <body>
 <!-- 	<div style="position: absolute; background-color: #b23636; width: 100%; height: 100%;" class="animated zoomOut"></div> -->
 
-<header><img src="http://placehold.it/1980x500" class="img-responsive" /></header>
+<header><img src="http://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Results</h1></header>
 
 <?php
 // if(!isset($_COOKIE[$cookie_name])) {
@@ -47,10 +49,51 @@
 ?>
 
 	<div class="container text-center">
-		<h1>Election Results</h1>
 		<h2>You Picked <?php echo $_COOKIE[$cookie_name] ?></h2>
 		<h2>Here's How Your Vote Stacks Up</h2>
 	</div>
+
+	<div id="results-sml" class="container">
+
+		<?php echo " 
+		<div class="row margin-bot60">
+			<div class="col-md-4">
+				<img class="pres-results-img pull-right" src="./img/male.svg" />
+				<p class="results-pres-name"><?php echo $total1 ?></p>
+				<p class="results-mov-name"><?php echo $total1 ?></p>
+			</div>
+		</div> " ?>
+
+<!-- 		<div class="row margin-bot60">
+			<div class="col-md-2">
+			</div>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">Tom Beck</p>
+					<p class="results-mov-name">Deep Impact</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
+				</div>
+			</div>
+			<div class="col-md-4">
+				<div class="results-box-img pull-left">
+					<img class="pres-results-img pull-right" src="./img/male.svg" />
+				</div>
+				<div class="results-box-txt pull-left text-left">
+					<p class="results-pres-name">Andrew Shepherd</p>
+					<p class="results-mov-name">The American President</p>
+					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
+				</div>
+			</div>
+			<div class="col-md-2">
+			</div>
+		</div> -->
+
+	</div>
+
+
 	<div id="results" class="container">
 
 		<div class="row margin-bot60">

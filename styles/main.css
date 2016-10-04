@@ -10,6 +10,10 @@ h1 {
 	font-family: 'Great Vibes', cursive;
 }
 
+h2 {
+	font-family: 'Arvo', serif;
+}
+
 #results {
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
    -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -307,6 +311,7 @@ h1 {
 	right: 0px;
 	color: #fff;
 	font-weight: 300;
+	// font-size: 3.5em
 }
 
 .page-title span{

@@ -1,8 +1,13 @@
+<?php
+
+	include './php/sdata.php';
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <!-- Meta-Information -->
-    <title>Election Survey</title>
+    <title>Elect the president of your dreams this November</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Elect the president of your dreams this November">
@@ -19,18 +24,44 @@
 </head>
 
 <body>
-<header><img src="http://placehold.it/1980x500" class="img-responsive" /></header>
+<header><img src="http://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Survey</span><br>Would You Rather...<br><span>Elect the president of your dreams this November</span></h1></header>
+
+	<div class="container text-center">
+		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus et justo congue aliquet. In sit amet euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porta diam et orci luctus efficitur. Nunc laoreet pharetra orci, vel consectetur neque gravida sit amet. Vestibulum eget porttitor diam. Cras vitae elit vitae augue placerat molestie.</h4>
+	</div>
 
 	<div class="container">
-		<!-- <?php include('./php/main.php'); ?> -->
-		<h1>Election Survey</h1>
-		<h2>Would You Rather...</h2>
-		<h3><i>Elect the president of your dreams this November</i></h3>
+	<?php 
+		for ($i = 1; $i <= 9; $i++) { 
+	?>
+		<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120"><?php echo $data['p' . $i]['name']; ?><br /><span><?php echo $data['p' . $i]['movie']; ?></span></h1>
+				<img class="width70" src="./img/male.svg" />
+				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="row">
+					<div class="col-xs-offset-1 col-xs-5 text-left">
+						<h3>Pros</h3>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+					<div class="col-xs-5 text-left pros-cons">
+						<h3>Cons</h3>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+					</div>
+				</div>
+				<form action="./php/vote.php" method="POST">
+				    <button id="<?php echo $data['p' . $i]; ?>" type="submit" name="submit" value="<?php echo $data['p' . $i]; ?>" class="button">I Vote <?php echo $data['p' . $i]['lname']; ?> for President</button>
+				</form>
+			</div>
+	<?php } ?>
 
 		<div class="row">
 
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">Benjamin Asher<br /><span>Olympus Has Fallen</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">Benjamin Asher<br /><span>Olympus Has Fallen</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -51,8 +82,8 @@
 				    <button id="p1" type="submit" name="submit" value="p1" class="button">I Vote Asher for President</button>
 				</form>
 			</div>
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">Tom Beck<br /><span>Deep Impact</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">Tom Beck<br /><span>Deep Impact</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -73,8 +104,8 @@
 		    		<button id="p2" type="submit" name="submit" value="p2" class="button">I Vote Beck for President</button>
 				</form>
 			</div>
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">Andrew Shepherd<br /><span>The American President</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">Andrew Shepherd<br /><span>The American President</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -101,8 +132,8 @@
 
 		<div class="row">
 
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">President Camacho<br /><span>Idiocracy</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">President Camacho<br /><span>Idiocracy</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -123,8 +154,8 @@
 				    <button id="p4" type="submit" name="submit" value="p4" class="button">I Vote Camacho for President</button>
 				</form>
 			</div>
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">Thomas Whitmore<br /><span>Independence Day</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">Thomas Whitmore<br /><span>Independence Day</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -145,8 +176,8 @@
 		    		<button id="p5" type="submit" name="submit" value="p5" class="button">I Vote Whitmore for President</button>
 				</form>
 			</div>
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">Jay Bullworth<br /><span>Bullworth</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">Jay Bullworth<br /><span>Bullworth</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -172,8 +203,8 @@
 
 		<div class="row">
 
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">James Dale<br /><span>Mars Attacks</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">James Dale<br /><span>Mars Attacks</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -194,8 +225,8 @@
 				    <button id="p7" type="submit" name="submit" value="p7" class="button">I Vote Dale for President</button>
 				</form>
 			</div>
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">President Lanford<br /><span>Independence Day: Resurgence</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">President Lanford<br /><span>Independence Day: Resurgence</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -216,8 +247,8 @@
 		    		<button id="p8" type="submit" name="submit" value="p8" class="button">I Vote Lanford for President</button>
 				</form>
 			</div>
-			<div class="col-sm-4 text-center">
-				<h1 class="president-name">9th President<br /><span>Movie</span></h1>
+			<div class="col-sm-4 text-center margin-bot60">
+				<h1 class="president-name minheight120">9th President<br /><span>Movie</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">

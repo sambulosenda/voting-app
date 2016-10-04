@@ -44,12 +44,12 @@
 <header><img src="http://placehold.it/1980x500" class="img-responsive" /></header>
 
 <?php
-if(!isset($_COOKIE[$cookie_name])) {
-    echo "Cookie named '" . $cookie_name . "' is not set!";
-} else {
-    echo "Cookie '" . $cookie_name . "' is set!<br>";
-    echo "Value is: " . $_COOKIE[$cookie_name];
-}
+// if(!isset($_COOKIE[$cookie_name])) {
+//     echo "Cookie named '" . $cookie_name . "' is not set!";
+// } else {
+//     echo "Cookie '" . $cookie_name . "' is set!<br>";
+//     echo "Value is: " . $_COOKIE[$cookie_name];
+// }
 ?>
 
 	<div class="container text-center">
@@ -115,7 +115,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 				</div>
 			</div>
 			<div class="col-md-4">
-<!-- 				<div class="arrow1-div">
+				<div class="arrow1-div">
 					<div class="arrow-red"></div>
 					<div class="arrow1-stem"></div>
 				</div>
@@ -150,7 +150,7 @@ if(!isset($_COOKIE[$cookie_name])) {
 				<div class="arrow9-div">
 					<div class="arrow-red"></div>
 					<div class="arrow9-stem"></div>
-				</div> -->
+				</div>
 				<h1 class="results-title">Election<br />Results</h1>
 				<img class="width70" src="./img/circle.svg" />
 			</div>

@@ -16,7 +16,7 @@ console.log(pick);
 jsonData();
 
 function sortNumber(a,b) {
-    return a - b;
+    return b - a;
 }
 
 function jsonData() {

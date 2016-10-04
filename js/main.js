@@ -9,6 +9,10 @@ var	p1,
 	p9,
 	tarray;
 
+var pick = $( "#votedfor" ).text();
+
+console.log(pick);
+
 jsonData();
 
 function sortNumber(a,b) {

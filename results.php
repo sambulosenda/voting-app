@@ -37,7 +37,7 @@
 <body>
 <!-- 	<div style="position: absolute; background-color: #b23636; width: 100%; height: 100%;" class="animated zoomOut"></div> -->
 
-<header><img src="http://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Results</h1></header>
+<header><img src="https://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Results</h1></header>
 
 <?php
 // if(!isset($_COOKIE[$cookie_name])) {
@@ -49,7 +49,7 @@
 ?>
 
 	<div class="container text-center">
-		<h2>You Picked <span class="voted"><?php echo $_COOKIE[$cookie_name] ?></span></h2>
+		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span></h2>
 		<h2>Here's How Your Vote Stacks Up</h2>
 	</div>
 
@@ -284,6 +284,7 @@
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="./js/jquery.counterup.min.js"></script>
+<script src="./js/main.js"></script>
 
 <script>
 $('.counter').counterUp({

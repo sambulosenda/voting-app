@@ -27,12 +27,12 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
-	
+
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
 
 <body>
-<header><img src="http://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Survey</span><br>Would You Rather...<br><span>Elect the president of your dreams this November</span></h1></header>
+<header><img src="https://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Survey</span><br>Would You Rather...<br><span>Elect the president of your dreams this November</span></h1></header>
 
 	<div class="container text-center">
 		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus et justo congue aliquet. In sit amet euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porta diam et orci luctus efficitur. Nunc laoreet pharetra orci, vel consectetur neque gravida sit amet. Vestibulum eget porttitor diam. Cras vitae elit vitae augue placerat molestie.</h4>

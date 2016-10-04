@@ -266,7 +266,7 @@
 
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
-	<script type="text/javascript" src="./js/main.js"></script>
+<!-- 	<script type="text/javascript" src="./js/main.js"></script> -->
 
 </body>
 

@@ -65,7 +65,7 @@
 						<p class="results-mov-name">Olympus Has Fallen</p>
 					</div>
 					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
+						<h2 class="pull-left margin-top10"><span id="bavsm" class="counter"><?php echo $total1 ?></span>%</h2>
 					</div>
 				</div>
 
@@ -76,7 +76,7 @@
 						<p class="results-mov-name">Deep Impact</p>
 					</div>
 					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
+						<h2 class="pull-left margin-top10"><span id="tbvsm" class="counter"><?php echo $total2 ?></span>%</h2>
 					</div>
 				</div>
 
@@ -87,7 +87,7 @@
 						<p class="results-mov-name">The American President</p>
 					</div>
 					<div class="pull-right">
-						<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
+						<h2 class="pull-left margin-top10"><span id="asvsm" class="counter"><?php echo $total3 ?></span>%</h2>
 					</div>
 				</div>
 
@@ -107,9 +107,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="asher" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">Benjamin Asher</p>
 					<p class="results-mov-name">Olympus Has Fallen</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="bav" class="counter"><?php echo $total1 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -124,9 +125,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="beck" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">Tom Beck</p>
 					<p class="results-mov-name">Deep Impact</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="tbv" class="counter"><?php echo $total2 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -134,9 +136,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="shepherd" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">Andrew Shepherd</p>
 					<p class="results-mov-name">The American President</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="asv" class="counter"><?php echo $total3 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-2">
@@ -149,9 +152,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="camacho" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">President Camacho</p>
 					<p class="results-mov-name">Idiocracy</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total4 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="pcv" class="counter"><?php echo $total4 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -199,9 +203,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="whitmore" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">Thomas Whitmore</p>
 					<p class="results-mov-name">Independence Day</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total5 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="twv" class="counter"><?php echo $total5 ?></span>%</h2>
 				</div>
 			</div>
 		</div>
@@ -214,9 +219,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="bullworth" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">Jay Bullworth</p>
 					<p class="results-mov-name">Bullworth</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total6 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="jbv" class="counter"><?php echo $total6 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-2">
@@ -226,9 +232,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="dale" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">James Dale</p>
 					<p class="results-mov-name">Mars Attacks</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total7 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="jdv" class="counter"><?php echo $total7 ?></span>%</h2>
 				</div>
 			</div>
 		</div>
@@ -241,9 +248,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="lanford" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">President Lanford</p>
 					<p class="results-mov-name">Independence Day: Resurgence</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total8 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="plv" class="counter"><?php echo $total8 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -251,9 +259,10 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
+					<p id="marshall" class="winner-banner">WINNER</p>
 					<p class="results-pres-name">James Marshall</p>
 					<p class="results-mov-name">Air Force One</p>
-					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
+					<h2 class="pull-left margin-top10"><span id="jmv" class="counter"><?php echo $total9 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-2">

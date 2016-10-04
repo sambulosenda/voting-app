@@ -71,6 +71,10 @@ h2 {
 	color: #8bc7eb;
 }
 
+.winner-banner {
+	display: none;
+}
+
 .results-box-img {
 	width: 50%
 }

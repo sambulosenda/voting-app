@@ -53,7 +53,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="<?php echo $data['p' . $i]; ?>" type="submit" name="submit" value="<?php echo $data['p' . $i]; ?>" class="button">I Vote <?php echo $data['p' . $i]['lname']; ?> for President</button>
+				    <?php echo '<button id=\"$data[\'p\' . $i]\" type=\"submit\" name=\"submit\" value=\"$data[\'p\' . $i]\" class=\"button\">'?>I Vote <?php echo $data['p' . $i]['lname']; ?> for President</button>
 				</form>
 			</div>
 	<?php } ?>

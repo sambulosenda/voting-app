@@ -83,7 +83,6 @@ function jsonData() {
 		    case 7:
 		        $( "#lanford" ).show();
 		        $( "#lanfordsm" ).show();
-
 		        break;
 		    case 8:
 		        $( "#marshall" ).show();

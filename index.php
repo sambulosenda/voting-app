@@ -230,7 +230,7 @@
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight120">9th President<br /><span>Movie</span></h1>
+				<h1 class="president-name minheight120">James Marshall<br /><span>Air Force One</span></h1>
 				<img class="width70" src="./img/male.svg" />
 				<img class="podium-top" src="./img/top-podium-s.png" />
 				<div class="row">
@@ -248,7 +248,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p9" type="submit" name="submit" value="p9" class="button">I Vote ABC for President</button>
+		    		<button id="p9" type="submit" name="submit" value="p9" class="button">I Vote Marshall for President</button>
 				</form>
 			</div>
 

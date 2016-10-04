@@ -251,8 +251,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p class="results-pres-name">9th President</p>
-					<p class="results-mov-name">Movie</p>
+					<p class="results-pres-name">James Marshall</p>
+					<p class="results-mov-name">Air Force One</p>
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
 				</div>
 			</div>

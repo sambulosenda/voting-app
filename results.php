@@ -40,7 +40,7 @@
 <header><img src="https://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Results</h1></header>
 
 	<div class="container text-center">
-		<h2>You Picked <span id="votedfor"> <?php echo $_COOKIE[$cookie_name] ?> </span> For President</h2>
+		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span> For President</h2>
 		<h2 class="margin-bot60">Here's How Your Vote Stacks Up</h2>
 	</div>
 

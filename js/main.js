@@ -71,7 +71,7 @@ function jsonData() {
 		// console.log(p8);
 		// console.log(p9);
 
-		tarray = [p1, p2, p3, p4, p6, p6, p7, p8, p9];
+		tarray = [p1, p2, p3, p4, p5, p6, p7, p8, p9];
 		winner = indexOfMax(tarray);
 		console.log(winner);
 	
@@ -79,63 +79,65 @@ function jsonData() {
 		// console.log(tarray[0]);
 		// console.log(tarray.join(","));
 
-		// switch (winner) {
-		//     case 0:
-		//         $( "#asher" ).show();
-		//         break;
-		//     case 1:
-		//         $( "#beck" ).show();
-		//         break;
-		//     case 2:
-		//         $( "#shepherd" ).show();
-		//         break;
-		//     case 3:
-		//         $( "#camacho" ).show();
-		//         break;
-		//     case 4:
-		//         $( "#whitmore" ).show();
-		//         break;
-		//     case 5:
-		//         $( "#bullworth" ).show();
-		//         break;
-		//     case 6:
-		//         $( "#dale" ).show();
-		//     case 7:
-		//         $( "#lanford" ).show();
-		//         break;
-		//     case 8:
-		//         $( "#marshall" ).show();
-		//         break;
-  //   		default:
-  //     			text = "";
-		// }
+		switch (winner) {
+		    case 0:
+		        $( "#asher" ).show();
+		        break;
+		    case 1:
+		        $( "#beck" ).show();
+		        break;
+		    case 2:
+		        $( "#shepherd" ).show();
+		        break;
+		    case 3:
+		        $( "#camacho" ).show();
+		        break;
+		    case 4:
+		        $( "#whitmore" ).show();
+		        break;
+		    case 5:
+		        $( "#bullworth" ).show();
+		        break;
+		    case 6:
+		        $( "#dale" ).show();
+		        break;
+		    case 7:
+		        $( "#lanford" ).show();
+		        break;
+		    case 8:
+		        $( "#marshall" ).show();
+		        break;
+    		default:
+      			text = "";
+		}
 
 		switch (pick) {
 		    case "Benjamin Asher":
-		        $( "#asher" ).show();
+		        $( "#asher-c" ).show();
 		        break;
 		    case "Tom Beck":
-		        $( "#beck" ).show();
+		        $( "#beck-c" ).show();
 		        break;
 		    case "Andrew Shepherd":
-		        $( "#shepherd" ).show();
+		        $( "#shepherd-c" ).show();
 		        break;
 		    case "President Camacho":
-		        $( "#camacho" ).show();
+		        $( "#camacho-c" ).show();
 		        break;
 		    case "Thomas Whitmore":
-		        $( "#whitmore" ).show();
+		        $( "#whitmore-c" ).show();
 		        break;
 		    case "Jay Bullworth":
-		        $( "#bullworth" ).show();
+		        $( "#bullworth-c" ).show();
 		        break;
 		    case "James Dale":
-		        $( "#dale" ).show();
+		        $( "#dale-c" ).show();
+		        break;
 		    case "President Lanford":
-		        $( "#lanford" ).show();
+		        $( "#lanford-c" ).show();
 		        break;
 		    case "James Marshall":
-		        $( "#marshall" ).show();
+		        $( "#marshall-c" ).show();
 		        break;
     		default:
       			text = "";

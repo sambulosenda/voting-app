@@ -107,7 +107,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="asher" class="winner-banner">WINNER</p>
+					<p id="asher" class="banner">LEADER</p>
+					<p id="asher-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Benjamin Asher</p>
 					<p class="results-mov-name">Olympus Has Fallen</p>
 					<h2 class="pull-left margin-top10"><span id="bav" class="counter"><?php echo $total1 ?></span>%</h2>
@@ -125,7 +126,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="beck" class="winner-banner">WINNER</p>
+					<p id="beck" class="banner">LEADER</p>
+					<p id="beck-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Tom Beck</p>
 					<p class="results-mov-name">Deep Impact</p>
 					<h2 class="pull-left margin-top10"><span id="tbv" class="counter"><?php echo $total2 ?></span>%</h2>
@@ -136,7 +138,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="shepherd" class="winner-banner">WINNER</p>
+					<p id="shepherd" class="banner">LEADER</p>
+					<p id="shepherd-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Andrew Shepherd</p>
 					<p class="results-mov-name">The American President</p>
 					<h2 class="pull-left margin-top10"><span id="asv" class="counter"><?php echo $total3 ?></span>%</h2>
@@ -152,7 +155,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="camacho" class="winner-banner">WINNER</p>
+					<p id="camacho" class="banner">LEADER</p>
+					<p id="camacho-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">President Camacho</p>
 					<p class="results-mov-name">Idiocracy</p>
 					<h2 class="pull-left margin-top10"><span id="pcv" class="counter"><?php echo $total4 ?></span>%</h2>
@@ -203,7 +207,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="whitmore" class="winner-banner">WINNER</p>
+					<p id="whitmore" class="banner">LEADER</p>
+					<p id="whitmore-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Thomas Whitmore</p>
 					<p class="results-mov-name">Independence Day</p>
 					<h2 class="pull-left margin-top10"><span id="twv" class="counter"><?php echo $total5 ?></span>%</h2>
@@ -219,7 +224,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="bullworth" class="winner-banner">WINNER</p>
+					<p id="bullworth" class="banner">LEADER</p>
+					<p id="bullworth-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Jay Bullworth</p>
 					<p class="results-mov-name">Bullworth</p>
 					<h2 class="pull-left margin-top10"><span id="jbv" class="counter"><?php echo $total6 ?></span>%</h2>
@@ -232,7 +238,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="dale" class="winner-banner">WINNER</p>
+					<p id="dale" class="banner">LEADER</p>
+					<p id="dale-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">James Dale</p>
 					<p class="results-mov-name">Mars Attacks</p>
 					<h2 class="pull-left margin-top10"><span id="jdv" class="counter"><?php echo $total7 ?></span>%</h2>
@@ -248,7 +255,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="lanford" class="winner-banner">WINNER</p>
+					<p id="lanford" class="banner">LEADER</p>
+					<p id="lanford-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">President Lanford</p>
 					<p class="results-mov-name">Independence Day: Resurgence</p>
 					<h2 class="pull-left margin-top10"><span id="plv" class="counter"><?php echo $total8 ?></span>%</h2>
@@ -259,7 +267,8 @@
 					<img class="pres-results-img pull-right" src="./img/male.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="marshall" class="winner-banner">WINNER</p>
+					<p id="marshall" class="banner">LEADER</p>
+					<p id="marshall-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">James Marshall</p>
 					<p class="results-mov-name">Air Force One</p>
 					<h2 class="pull-left margin-top10"><span id="jmv" class="counter"><?php echo $total9 ?></span>%</h2>

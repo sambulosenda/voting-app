@@ -4,7 +4,7 @@
 		"lname": "Asher",
 		"realname": "Aaron Eckhart",
 		"movie": "Olympus Has Fallen",
-		"votes": 600
+		"votes": 0
 	},
 	"p2": {
 		"name": "Tom Beck",
@@ -18,7 +18,7 @@
 		"lname": "Shepherd",
 		"realname": "Michael Douglas",
 		"movie": "The American President",
-		"votes": 22
+		"votes": 0
 	},
 	"p4": {
 		"name": "President Camacho",
@@ -39,7 +39,7 @@
 		"lname": "Bullworth",
 		"realname": "Warren Beatty",
 		"movie": "Bullworth",
-		"votes": 1
+		"votes": 0
 	},
 	"p7": {
 		"name": "James Dale",
@@ -53,7 +53,7 @@
 		"lname": "Lanford",
 		"realname": "Sela Ward",
 		"movie": "Independence Day: Resurgence",
-		"votes": 1
+		"votes": 0
 	},
 	"p9": {
 		"name": "James Marshall",

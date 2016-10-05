@@ -58,19 +58,19 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; A real family man. President Asher represents solid, family values while serving in the highest office.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Has a deadly Secret Service team.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Is willing to sacrifice himself ahead of his people.</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Doesn't always host the best guests.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Can’t seem to avoid danger. </h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Let the White House and Washington Monument be destroyed during his watch.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p1" type="submit" name="submit" value="p1" class="button"><span class="vote-text">Vote</span></button>
+				    <button id="p1" type="submit" name="submit" value="p1" class="button margintopv1"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -85,15 +85,15 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Great forward thinker – hopes for the best, prepares for the worst. </h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; President Beck tells like it is, regardless of the consequences; a true realist. </h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Nation rebuilder – he unites many countries after global tragedy. </h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Not great at managing mass hysteria.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Aegist. Only willing to save the lives of people 50 years old and under from a massive meteor.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; He never indicates his stance on campaign finance reform.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
@@ -112,19 +112,19 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Still great with the ladies, despite the rigors of the job.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Successful as a single dad raising a teenager.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Great on the dance floor – and in a tux.</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Fraternizes with the (political) enemies.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Draws unnecessary attention to himself.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Leaves big decisions to the last minute – personally and politically.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p3" type="submit" name="submit" value="p3" class="button"><span class="vote-text">Vote</span></button>
+		    		<button id="p3" type="submit" name="submit" value="p3" class="button margintopv3"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 
@@ -145,19 +145,19 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Five-Time Ultimate Smack Down Champion.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Waters his plants with electrolytes.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Has a 3-point “Plan To Fix Everything.”</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Fires automatic rifles during his State of the Union address.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Self proclaimed as not being “smart”.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; His 3-point “Plan To Fix Everything” isn’t a real plan.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p4" type="submit" name="submit" value="p4" class="button"><span class="vote-text">Vote</span></button>
+				    <button id="p4" type="submit" name="submit" value="p4" class="button margintopv4"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -172,15 +172,15 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; His speechmaking “will not go quietly into the night.”</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Served as a pilot in the Gulf War… Experience that comes in handy.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Sees the full potential in every American. Even alcoholic crop dusters.</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Not exactly in the know… about anything.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Approval rating below 40% (before the alien invasion).</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Leaves lots of important decisions to other people – like satellite technicians.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
@@ -199,19 +199,19 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Doesn’t believe in political correctness.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Big mouth, bigger heart.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Not afraid to improvise a donation speech (or to rap it).</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Doesn’t believe in political correctness</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Alienties the minority electorate.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Also alienates major campaign contributors, such as lobbyists who shoot him.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p6" type="submit" name="submit" value="p6" class="button"><span class="vote-text">Vote</span></button>
+		    		<button id="p6" type="submit" name="submit" value="p6" class="button margintopv6"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 
@@ -231,15 +231,15 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Willing to die for his country.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Strong attempt at diplomatic resolutions, despite dangerous circumstances.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Believes in peace and humanity – even if the enemy isn’t human.</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Not a good judge of alien character.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Not very timely at warning other nations of impending doom.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Unwilling to utilize violent measures against a violent enemy.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
@@ -258,19 +258,19 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Willing to die for her country.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Not afraid to respond with force.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Knows her true enemy isn’t the other political party.</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Plagued by a violent past that leads to irrational decision making.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Prone to violent outbursts.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Not very successful at negotiating with the enemy.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p8" type="submit" name="submit" value="p8" class="button"><span class="vote-text">Vote</span></button>
+		    		<button id="p8" type="submit" name="submit" value="p8" class="button margintopv8"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -285,19 +285,19 @@
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Really protective of his aircraft.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Knows how to handle a loaded weapon.</h4>
+						<h4><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Cool under pressure – and in high altitude.</h4>
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
-						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Lorem ipsum dolor sit amet</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Has a soft spot for his family – which his enemies know how to exploit.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Negotiates with a fist first approach.</h4>
+						<h4><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Prone to violence.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p9" type="submit" name="submit" value="p9" class="button"><span class="vote-text">Vote</span></button>
+		    		<button id="p9" type="submit" name="submit" value="p9" class="button margintopv9"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 

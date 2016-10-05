@@ -56,7 +56,7 @@
 				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Benjamin Asher</p>
-					<p class="results-mov-name">Olympus Has Fallen</p>
+					<p class="results-mov-name">Olympus Has Fallen and London Has Fallen</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>

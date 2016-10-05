@@ -25,15 +25,18 @@
 	<!-- font awesome -->
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
 
-	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+<!-- 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> -->
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
 
 <body>
-<header><img src="https://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Survey</span><br>Would You Rather...<br><span>Elect the president of your dreams this November</span></h1></header>
+
+	<header><img src="./img/Movie-Presidents-Poll_Header.png" class="img-responsive" /></header>
 
 	<div class="container text-center">
 		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus et justo congue aliquet. In sit amet euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porta diam et orci luctus efficitur. Nunc laoreet pharetra orci, vel consectetur neque gravida sit amet. Vestibulum eget porttitor diam. Cras vitae elit vitae augue placerat molestie.</h4>
@@ -44,9 +47,14 @@
 		<div class="row">
 
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">Benjamin Asher<br /><span class="name">(Aaron Eckhart)</span><br /><span class="movie">Olympus Has Fallen</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight150">
+					<div class="president-name-box">
+						<h1 class="president-name">Benjamin Asher</h1>
+						<h3 class="real-name">(Aaron Eckhart)</h3>
+					</div>
+					<h2 class="president-movie">Olympus Has Fallen and London Has Fallen</h2>
+				</div>
+				<img class="width90" src="./img/eckhart.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -62,13 +70,18 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p1" type="submit" name="submit" value="p1" class="button">I Vote Asher for President</button>
+				    <button id="p1" type="submit" name="submit" value="p1" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">Tom Beck<br /><span class="name">(Morgan Freeman)</span><br /><span class="movie">Deep Impact</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight150">
+					<div class="president-name-box">
+						<h1 class="president-name">Tom Beck</h1>
+						<h3 class="real-name">(Morgan Freeman)</h3>
+					</div>
+					<h2 class="president-movie">Deep Impact</h2>
+				</div>
+				<img class="width90" src="./img/freeman.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -84,13 +97,18 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p2" type="submit" name="submit" value="p2" class="button">I Vote Beck for President</button>
+		    		<button id="p2" type="submit" name="submit" value="p2" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">Andrew Shepherd<br /><span class="name">(Michael Douglas)</span><br /><span class="movie">The American President</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight140">
+					<div class="president-name-box">
+						<h1 class="president-name">Andrew Shepherd</h1>
+						<h3 class="real-name">(Michael Douglas)</h3>
+					</div>
+					<h2 class="president-movie">The American President</h2>
+				</div>
+				<img class="width90" src="./img/douglas.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -106,7 +124,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p3" type="submit" name="submit" value="p3" class="button">I Vote Shepherd for President</button>
+		    		<button id="p3" type="submit" name="submit" value="p3" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 
@@ -116,9 +134,14 @@
 		<div class="row">
 
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">President Camacho<br /><span class="name">(Terry Crews)</span><br /><span class="movie">Idiocracy</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight140">
+					<div class="president-name-box">
+						<h1 class="president-name">President Camacho</h1>
+						<h3 class="real-name">(Terry Crews)</h3>
+					</div>
+					<h2 class="president-movie">Idiocracy</h2>
+				</div>
+				<img class="width90" src="./img/crews.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -134,13 +157,18 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p4" type="submit" name="submit" value="p4" class="button">I Vote Camacho for President</button>
+				    <button id="p4" type="submit" name="submit" value="p4" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">Thomas Whitmore<br /><span class="name">(Bill Pullman)</span><br /><span class="movie">Independence Day</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight164">
+					<div class="president-name-box">
+						<h1 class="president-name">Thomas Whitmore</h1>
+						<h3 class="real-name">(Bill Pullman)</h3>
+					</div>
+					<h2 class="president-movie">Independence Day</h2>
+				</div>
+				<img class="width90" src="./img/pullman.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -156,13 +184,18 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p5" type="submit" name="submit" value="p5" class="button">I Vote Whitmore for President</button>
+		    		<button id="p5" type="submit" name="submit" value="p5" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">Jay Bullworth<br /><span class="name">(Warren Beatty)</span><br /><span class="movie">Bullworth</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight164">
+					<div class="president-name-box">
+						<h1 class="president-name">Jay Bullworth</h1>
+						<h3 class="real-name">(Warren Beatty)</h3>
+					</div>
+					<h2 class="president-movie">Bullworth</h2>
+				</div>
+				<img class="width90" src="./img/beatty.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -178,7 +211,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p6" type="submit" name="submit" value="p6" class="button">I Vote Bullworth for President</button>
+		    		<button id="p6" type="submit" name="submit" value="p6" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 
@@ -187,9 +220,14 @@
 		<div class="row">
 
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">James Dale<br /><span class="name">(Jack Nicholson)</span><br /><span class="movie">Mars Attacks</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight140">
+					<div class="president-name-box">
+						<h1 class="president-name">James Dale</h1>
+						<h3 class="real-name">(Jack Nicholson)</h3>
+					</div>
+					<h2 class="president-movie">Mars Attacks</h2>
+				</div>
+				<img class="width90" src="./img/nicholson.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -205,13 +243,18 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p7" type="submit" name="submit" value="p7" class="button">I Vote Dale for President</button>
+				    <button id="p7" type="submit" name="submit" value="p7" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">President Lanford<br /><span class="name">(Sela Ward)</span><br /><span class="movie">Independence Day: Resurgence</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight147">
+					<div class="president-name-box">
+						<h1 class="president-name">President Lanford</h1>
+						<h3 class="real-name">(Sela Ward)</h3>
+					</div>
+					<h2 class="president-movie">Independence Day: Resurgence</h2>
+				</div>
+				<img class="width90" src="./img/ward.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -227,13 +270,18 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p8" type="submit" name="submit" value="p8" class="button">I Vote Lanford for President</button>
+		    		<button id="p8" type="submit" name="submit" value="p8" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
-				<h1 class="president-name minheight160">James Marshall<br /><span class="name">(Harrison Ford)</span><br /><span class="movie">Air Force One</span></h1>
-				<img class="width70" src="./img/male.svg" />
-				<img class="podium-top" src="./img/top-podium-s.png" />
+				<div class="minheight147">
+					<div class="president-name-box">
+						<h1 class="president-name">James Marshall</h1>
+						<h3 class="real-name">(Harrison Ford)</h3>
+					</div>
+					<h2 class="president-movie">Air Force One</h2>
+				</div>
+				<img class="width90" src="./img/ford.svg" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -249,7 +297,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p9" type="submit" name="submit" value="p9" class="button">I Vote Marshall for President</button>
+		    		<button id="p9" type="submit" name="submit" value="p9" class="button"><span class="vote-text">Vote</span></button>
 				</form>
 			</div>
 

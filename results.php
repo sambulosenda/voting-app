@@ -31,13 +31,15 @@
 	<link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Artifika" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
 
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" integrity="sha256-j+P6EZJVrbXgwSR5Mx+eCS6FvP9Wq27MBRC/ogVriY0=" crossorigin="anonymous" />
 	<link href="./styles/main.css" rel="stylesheet">
 </head>
 <body>
 
-<header><img src="https://placehold.it/1980x500" class="img-responsive" /><h1 class="page-title"><span>Election Results</h1></header>
+	<header><img src="./img/Movie-Presidents-Poll_Header.png" class="img-responsive" /></header>
 
 	<div class="container text-center">
 		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span> For President</h2>
@@ -50,7 +52,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="ashersm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/eckhart.svg" />
 				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Benjamin Asher</p>
@@ -63,7 +65,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="becksm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/freeman.svg" />
 				<p id="becksm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Tom Beck</p>
@@ -76,7 +78,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="shepherdsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/douglas.svg" />
 				<p id="shepherdsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Andrew Shepherd</p>
@@ -93,7 +95,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="camachosm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/crews.svg" />
 				<p id="camachosm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">President Camacho</p>
@@ -106,7 +108,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="whitmoresm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/pullman.svg" />
 				<p id="whitmoresm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Thomas Whitmore</p>
@@ -119,7 +121,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="bullworthsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/beatty.svg" />
 				<p id="bullworthsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Jay Bullworth</p>
@@ -136,7 +138,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="dalesm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/nicholson.svg" />
 				<p id="dalesm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">James Dale</p>
@@ -149,7 +151,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="lanfordsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/ward.svg" />
 				<p id="lanfordsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">President Lanford</p>
@@ -162,7 +164,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="marshallsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/male.svg" />
+				<img class="img-responsive" src="./img/ford.svg" />
 				<p id="marshallsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">James Marshall</p>
@@ -184,13 +186,13 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/eckhart.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="asher" class="banner">LEADER</p>
 					<p id="asher-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Benjamin Asher</p>
-					<p class="results-mov-name">Olympus Has Fallen</p>
+					<p class="results-mov-name">Olympus Has Fallen and London Has Fallen</p>
 					<h2 class="pull-left margin-top10"><span id="bav" class="counter"><?php echo $total1 ?></span>%</h2>
 				</div>
 			</div>
@@ -203,7 +205,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/freeman.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="beck" class="bannerl">LEADER</p>
@@ -215,7 +217,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/douglas.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="shepherd" class="banner">LEADER</p>
@@ -232,7 +234,7 @@
 		<div class="row margin-bot60">
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/crews.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="camacho" class="bannerl">LEADER</p>
@@ -284,7 +286,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/pullman.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="whitmore" class="banner">LEADER</p>
@@ -301,7 +303,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/beatty.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="bullworth" class="bannerl">LEADER</p>
@@ -315,7 +317,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/nicholson.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="dale" class="banner">LEADER</p>
@@ -332,7 +334,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/ward.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="lanford" class="bannerl">LEADER</p>
@@ -344,7 +346,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/male.svg" />
+					<img class="pres-results-img pull-right" src="./img/ford.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="marshall" class="banner">LEADER</p>

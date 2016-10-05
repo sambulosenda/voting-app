@@ -8,11 +8,11 @@ body {
 }
 
 h1 {
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Bevan', cursive;
 }
 
 h2, h4 {
-	font-family: 'Arvo', serif;
+	font-family: 'Droid Serif', serif;
 	line-height: 1.3em;
 }
 
@@ -75,35 +75,89 @@ h2, h4 {
 }
 
 .pres-results-img {
-	width: 150px;
+	width: 170px;
 }
 
 .president-name {
 	color: #254c85;
-	font-size: 3em;
+	font-size: 1.9em;
 	line-height: 0.9em;
+	text-transform: uppercase;
 }
 
-.president-name span.name{
-	font-family: 'Artifika', serif;
-	font-size: 0.5em;
+.real-name {
+	font-family: 'Droid Serif', serif;
+	font-size: 1.2em;
+	margin-top: 0;
+	text-transform: uppercase;
 }
 
-.president-name span.movie{
-	color: #b23636;
-	font-family: 'Artifika', serif;
-	font-size: 0.6em;
+.real-name:before {
+	background-image: url('../img/star.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 15px; 
+    height: 15px;
+    content:"";
+    margin-right: 10px;
+}
+
+.real-name:after {
+	background-image: url('../img/star.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 15px; 
+    height: 15px;
+    content:"";
+    margin-left: 10px;
+}
+
+.vote-text:after {
+	background-image: url('../img/check.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: inline-block;
+    width: 45px; 
+    height: 45px;
+    content:"";
+    margin-left: 30px;
+}
+
+.vote-box {
+	width: 40px; 
+	height: 40px; 
+	border: 4px solid #fff;
+	border-radius: 10px;
+}
+
+.president-name-box {
+	border-bottom: 2px solid #254c85;
+}
+
+.paddingleft0 {
+	padding-left: 0;
+}
+
+.paddingright0 {
+	padding-right: 0;
 }
 
 #votedfor {
 	color: #254c85;
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Bevan', cursive;
 	font-size: 2em;
 	line-height: 0.9em;
 }
 
 .president-movie{
 	color: #b23636;
+	font-size: 1.3em;
+	margin-top: 5px;
+	font-weight: 700;
+	text-transform: uppercase;
+	padding: 0 10px;
 }
 
 .president-light-blue {
@@ -120,16 +174,18 @@ h2, h4 {
 
 .results-pres-name {
 	color: #254c85;
-	font-size: 28px;
+	font-size: 16px;
 	margin-bottom: 0;
-	font-family: 'Great Vibes', cursive;
+	font-family: 'Bevan', cursive;
+	text-transform: uppercase;
 }
 
 .results-mov-name {
 	color: #b23636;
 	font-size: 18px;
 	margin-bottom: 0;
-	font-family: 'Artifika', serif;
+	font-family: 'Droid Serif', serif;
+	font-weight: 700;
 }
 
 .results-title {
@@ -160,12 +216,20 @@ h2, h4 {
 	color: #b23636;
 }
 
-.width70 {
-	width: 70%;
+.width20p {
+	width: 20px;
 }
 
 .width60 {
 	width: 60%;
+}
+
+.width70 {
+	width: 70%;
+}
+
+.width90 {
+	width: 90%;
 }
 
 .width100 {
@@ -690,6 +754,10 @@ h2, h4 {
 	    font-size: 1.8em;
 	}
 
+	.vote-text:after {
+    	margin-left: 0px;
+	}
+
 	.bannersm {
 		background-color: #b23636;
 		box-shadow: #999 10px 5px 12px;
@@ -743,6 +811,15 @@ h2, h4 {
 	}
 }
 
+
+@media only screen and (max-width : 768px) {
+
+	.vote-text:after {
+    	margin-left: 30px;
+	}
+
+}
+
 @media only screen and (max-width : 480px) {
 
 	.page-title {
@@ -750,10 +827,36 @@ h2, h4 {
 	    font-size: 1.1em;
 	}
 
+	.vote-text:after {
+    	margin-left: 30px;
+	}
+
 }
 
-.minheight160 {
-	min-height: 160px;
+@media only screen and (max-width : 320px) {
+
+	.vote-text:after {
+    	margin-left: 30px;
+	}
+    
+}
+
+
+
+.minheight140 {
+	min-height: 140px;
+}
+
+.minheight147 {
+	min-height: 147px;
+}
+
+.minheight150 {
+	min-height: 150px;
+}
+
+.minheight164 {
+	min-height: 164px;
 }
 
 @-webkit-keyframes sheen {
@@ -786,24 +889,24 @@ h2, h4 {
 }
 
 .button {
-  padding: 0.5em;
+  padding: 0.1em 0.5em;
   text-align: center;
   text-decoration: none;
-  color: #2194E0;
-  border: 2px solid #2194E0;
-  font-size: 24px;
+  border: 2px solid #054366;
+  font-size: 3em;
   display: inline-block;
   border-radius: 0.3em;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   position: relative;
   overflow: hidden;
-  // background: none;
   margin-top: 10px;
   width: 96%;
-  background-color: #2194E0;
+  background-color: #054366;
   color: #fff;
-  border-bottom: 4px solid #1977b5;
+  border-bottom: 8px solid #c0242d;
+  text-transform: uppercase;
+  font-family: 'Bevan', cursive;
 }
 .button:before {
   content: "";
@@ -820,9 +923,10 @@ h2, h4 {
   transition: none;
 }
 .button:hover {
-  background-color: #2194E0;
+  background-color: #337BAB;
+  border: 2px solid #337BAB;
   color: #fff;
-  border-bottom: 4px solid #1977b5;
+  border-bottom: 8px solid #c0242d;
 }
 .button:hover:before {
   -webkit-transform: skewX(-45deg) translateX(400em);

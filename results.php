@@ -362,11 +362,17 @@
 	</div>
 
 	<div class="container">
+		<h2 class="text-center">Share Your Vote!</h2>
 		<!-- facebook -->
-		<a href="http://www.facebook.com/sharer.php?u=file:///D:/fractl/voting-app/results.php" target="_blank">
+		<a href="http://www.facebook.com/sharer.php?u=/results.php" target="_blank">
 	        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
 	    </a>
+	    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+        	<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
+    	</a>
 	</div>
+
+
 
 <!-- jQuery 2.2.4 -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>

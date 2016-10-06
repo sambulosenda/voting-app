@@ -70,7 +70,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p1" type="submit" name="submit" value="p1" class="button margintopv1"><span class="vote-text">Vote</span></button>
+				    <button id="p1" type="submit" name="submit" value="p1" class="button margintopv1"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -97,7 +97,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p2" type="submit" name="submit" value="p2" class="button"><span class="vote-text">Vote</span></button>
+		    		<button id="p2" type="submit" name="submit" value="p2" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -124,7 +124,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p3" type="submit" name="submit" value="p3" class="button margintopv3"><span class="vote-text">Vote</span></button>
+		    		<button id="p3" type="submit" name="submit" value="p3" class="button margintopv3"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 
@@ -157,7 +157,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p4" type="submit" name="submit" value="p4" class="button margintopv4"><span class="vote-text">Vote</span></button>
+				    <button id="p4" type="submit" name="submit" value="p4" class="button margintopv4"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -184,7 +184,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p5" type="submit" name="submit" value="p5" class="button"><span class="vote-text">Vote</span></button>
+		    		<button id="p5" type="submit" name="submit" value="p5" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -211,7 +211,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p6" type="submit" name="submit" value="p6" class="button margintopv6"><span class="vote-text">Vote</span></button>
+		    		<button id="p6" type="submit" name="submit" value="p6" class="button margintopv6"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 
@@ -243,7 +243,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p7" type="submit" name="submit" value="p7" class="button"><span class="vote-text">Vote</span></button>
+				    <button id="p7" type="submit" name="submit" value="p7" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -270,7 +270,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p8" type="submit" name="submit" value="p8" class="button margintopv8"><span class="vote-text">Vote</span></button>
+		    		<button id="p8" type="submit" name="submit" value="p8" class="button margintopv8"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 			<div class="col-sm-4 text-center margin-bot60">
@@ -297,7 +297,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p9" type="submit" name="submit" value="p9" class="button margintopv9"><span class="vote-text">Vote</span></button>
+		    		<button id="p9" type="submit" name="submit" value="p9" class="button margintopv9"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 

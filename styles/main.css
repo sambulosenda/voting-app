@@ -86,6 +86,7 @@ h2, h4 {
 }
 
 .real-name {
+	color: #254c85;
 	font-family: 'Droid Serif', serif;
 	font-size: 1.2em;
 	margin-top: 0;
@@ -796,7 +797,7 @@ h2, h4 {
 }
 
 .button {
-  padding: 0.1em 0.5em;
+  // padding: 0.1em 0.5em;
   text-align: center;
   text-decoration: none;
   border: 2px solid #054366;
@@ -840,6 +841,13 @@ h2, h4 {
           transform: skewX(-45deg) translateX(40em);
   -webkit-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
+}
+
+.vote-b {
+	border-top: 2px solid white;
+	border-radius: 5px;
+	padding: 0.1em;
+	margin-top: 2px;
 }
 
 .margintopv1 {

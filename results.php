@@ -16,7 +16,7 @@
 <html lang="en">
 <head>
     <!-- Meta-Information -->
-    <title>Who's your presidential pick from the world of flicks? Vote here!</title>
+    <title>I Voted <?php echo $_COOKIE[$cookie_name] ?> for President! Who's your movie president pick?</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Elect the president of your dreams this November">
@@ -359,10 +359,14 @@
 			<div class="col-md-2">
 			</div>
 		</div>
-
 	</div>
 
-</div>
+	<div class="container">
+		<!-- facebook -->
+		<a href="http://www.facebook.com/sharer.php?u=file:///D:/fractl/voting-app/results.php" target="_blank">
+	        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
+	    </a>
+	</div>
 
 <!-- jQuery 2.2.4 -->
 <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>

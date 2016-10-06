@@ -361,16 +361,18 @@
 		</div>
 	</div>
 
-	<div class="container">
+	<div class="container text-center">
 		<h2 class="text-center">Share Your Vote!</h2>
+		<!-- Go to www.addthis.com/dashboard to customize your tools -->
+		<div class="addthis_inline_share_toolbox"></div>
 		<!-- facebook -->
-		<a href="http://www.facebook.com/sharer.php?u=https://protected-tor-77789.herokuapp.com/results.php" target="_blank">
+<!-- 		<a href="http://www.facebook.com/sharer.php?u=https://protected-tor-77789.herokuapp.com/results.php" target="_blank">
 	        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
-	    </a>
+	    </a> -->
 	    <!-- twitter -->
-	    <a href="https://twitter.com/share?url=https://protected-tor-77789.herokuapp.com/results.php" target="_blank">
+<!-- 	    <a href="https://twitter.com/share?url=https://protected-tor-77789.herokuapp.com/results.php" target="_blank">
         	<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
-    	</a>
+    	</a> -->
 	</div>
 
 
@@ -383,6 +385,9 @@
 
 <!-- Add This Social Sidebar -->
 <script type="text/javascript" src="https://s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57edc3cdf2bfbbf7"></script>
+
+<!-- Add this bottom bar-->
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=ra-57edc3cdf2bfbbf7"></script>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
 <script src="./js/jquery.counterup.min.js"></script>

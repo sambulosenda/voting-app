@@ -13,7 +13,7 @@
 <html lang="en">
 <head>
     <!-- Meta-Information -->
-    <title>Elect the president of your dreams this November</title>
+    <title>Who's your presidential pick from the world of flicks? Vote here!</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Elect the president of your dreams this November">
@@ -39,7 +39,7 @@
 	<header><img src="./img/Movie-Presidents-Poll_Header.png" class="img-responsive" /></header>
 
 	<div class="container text-center">
-		<h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt metus et justo congue aliquet. In sit amet euismod magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Vestibulum porta diam et orci luctus efficitur. Nunc laoreet pharetra orci, vel consectetur neque gravida sit amet. Vestibulum eget porttitor diam. Cras vitae elit vitae augue placerat molestie.</h4>
+		<h4>Choosing who you want to vote for in November can be difficult. Between debates, attack ads, and all of those uncomfortable political conversations when your family comes over for dinner, Presidential elections aren’t always as much fun as they could be. <b>We decided to put the fun back in voting</b> so we compiled 9 of the most prolific, fictional presidents to grace the Silver Screen. Read through their pros and cons and vote for which of these characters you think would do the best job at running our Great Nation.</h4>
 	</div>
 
 	<div class="container">

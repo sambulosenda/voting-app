@@ -16,7 +16,7 @@
 <html lang="en">
 <head>
     <!-- Meta-Information -->
-    <title>Dream Election Survey Results</title>
+    <title>Who's your presidential pick from the world of flicks? Vote here!</title>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <meta name="description" content="Elect the president of your dreams this November">

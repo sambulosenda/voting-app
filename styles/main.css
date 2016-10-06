@@ -249,6 +249,14 @@ h2, h4 {
 	border-left: 2px solid black;
 }
 
+.share-text {
+	font-family: 'Bevan', cursive;
+	text-transform: uppercase;
+	color: #254c85;
+	font-size: 3em;
+	text-shadow: 2px 2px 2px #7D7D7D;
+}
+
 .banner {
 	background-color: #b23636;
 	box-shadow: #999 10px 5px 12px;

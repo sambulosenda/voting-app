@@ -364,10 +364,11 @@
 	<div class="container">
 		<h2 class="text-center">Share Your Vote!</h2>
 		<!-- facebook -->
-		<a href="http://www.facebook.com/sharer.php?u=/results.php" target="_blank">
+		<a href="http://www.facebook.com/sharer.php?u=https://protected-tor-77789.herokuapp.com/results.php" target="_blank">
 	        <img src="https://simplesharebuttons.com/images/somacro/facebook.png" alt="Facebook" />
 	    </a>
-	    <a href="https://twitter.com/share?url=https://simplesharebuttons.com&amp;text=Simple%20Share%20Buttons&amp;hashtags=simplesharebuttons" target="_blank">
+	    <!-- twitter -->
+	    <a href="https://twitter.com/share?url=https://protected-tor-77789.herokuapp.com/results.php" target="_blank">
         	<img src="https://simplesharebuttons.com/images/somacro/twitter.png" alt="Twitter" />
     	</a>
 	</div>

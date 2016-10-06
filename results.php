@@ -22,6 +22,13 @@
     <meta name="description" content="Who's your presidential pick from the world of flicks? Vote here!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    <meta property="og:description" content="Who's your presidential pick from the world of flicks? Vote here!">
+    <meta property="og:image" content="img/Movie-Presidents-Poll_Header.png">
+    <meta property="og:url" content="https://protected-tor-77789.herokuapp.com">
+    <meta property="og:type" content="article">
+    <meta name="twitter:image" content="img/Movie-Presidents-Poll_Header.png">
+    <meta name="twitter:card" content="img/Movie-Presidents-Poll_Header.png">
+
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 

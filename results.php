@@ -54,6 +54,12 @@
 		<?php echo $info ?>
 		<?php echo $info[0]["name"] ?>
 		<?php echo $info[0]["votes"] ?>
+		<?php echo $info[1]["name"] ?>
+		<?php echo $info[1]["votes"] ?>
+		<?php echo $info[2]["name"] ?>
+		<?php echo $info[2]["votes"] ?>
+		<?php echo $info[3]["name"] ?>
+		<?php echo $info[3]["votes"] ?>
 	</div>
 
 	<div id="results-sml" class="container">

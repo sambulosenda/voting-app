@@ -51,46 +51,46 @@ function jsonData() {
 		tarray = [p1, p2, p3, p4, p5, p6, p7, p8, p9];
 		winner = indexOfMax(tarray);
 
-		switch (winner) {
-		    case 0:
-		        $( "#asher" ).show();
-		        $( "#ashersm" ).show();
-		        break;
-		    case 1:
-		        $( "#beck" ).show();
-		        $( "#becksm" ).show();
-		        break;
-		    case 2:
-		        $( "#shepherd" ).show();
-		        $( "#shepherdsm" ).show();
-		        break;
-		    case 3:
-		        $( "#camacho" ).show();
-		        $( "#camachosm" ).show();
-		        break;
-		    case 4:
-		        $( "#whitmore" ).show();
-		        $( "#whitmoresm" ).show();
-		        break;
-		    case 5:
-		        $( "#bullworth" ).show();
-		        $( "#bullworthsm" ).show();
-		        break;
-		    case 6:
-		        $( "#dale" ).show();
-		        $( "#dalesm" ).show();
-		        break;
-		    case 7:
-		        $( "#lanford" ).show();
-		        $( "#lanfordsm" ).show();
-		        break;
-		    case 8:
-		        $( "#marshall" ).show();
-		        $( "#marshallsm" ).show();
-		        break;
-    		default:
-      			text = "";
-		}
+		// switch (winner) {
+		//     case 0:
+		//         $( "#asher" ).show();
+		//         $( "#ashersm" ).show();
+		//         break;
+		//     case 1:
+		//         $( "#beck" ).show();
+		//         $( "#becksm" ).show();
+		//         break;
+		//     case 2:
+		//         $( "#shepherd" ).show();
+		//         $( "#shepherdsm" ).show();
+		//         break;
+		//     case 3:
+		//         $( "#camacho" ).show();
+		//         $( "#camachosm" ).show();
+		//         break;
+		//     case 4:
+		//         $( "#whitmore" ).show();
+		//         $( "#whitmoresm" ).show();
+		//         break;
+		//     case 5:
+		//         $( "#bullworth" ).show();
+		//         $( "#bullworthsm" ).show();
+		//         break;
+		//     case 6:
+		//         $( "#dale" ).show();
+		//         $( "#dalesm" ).show();
+		//         break;
+		//     case 7:
+		//         $( "#lanford" ).show();
+		//         $( "#lanfordsm" ).show();
+		//         break;
+		//     case 8:
+		//         $( "#marshall" ).show();
+		//         $( "#marshallsm" ).show();
+		//         break;
+  //   		default:
+  //     			text = "";
+		// }
 
 		switch (pick) {
 		    case "Benjamin Asher":

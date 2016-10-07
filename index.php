@@ -76,8 +76,8 @@
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Doesn't always host the best guests.</h4>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Can’t seem to avoid danger. </h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Doesn't always invite the best guests into the White House. </h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Can’t seem to avoid danger.</h4>
 						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Let the White House and Washington Monument be destroyed during his watch.</h4>
 					</div>
 				</div>
@@ -130,9 +130,9 @@
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Fraternizes with (political) enemies.</h4>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Draws unnecessary attention to himself.</h4>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Leaves big decisions to the last minute – personally and politically.</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Hangs out with lobbyists in his spare time.</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Draws too much attention to his personal life.</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Likes to leave big decisions to the last minute for dramatic effect.</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
@@ -218,8 +218,8 @@
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
 						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Doesn’t believe in political correctness.</h4>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Alienates the minority electorate.</h4>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Also alienates major campaign contributors, such as lobbyists (who later shoot him).</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Can’t hold a beat.</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Polarizing character – makes other politicians want to shoot him (literally).</h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">

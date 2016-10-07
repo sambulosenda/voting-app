@@ -885,19 +885,19 @@ h2, h4 {
 }
 
 .margintopv1 {
-	margin-top: 48px;	
-}
-
-.margintopv3 {
 	margin-top: 30px;	
 }
 
-.margintopv4 {
+.margintopv3 {
 	margin-top: 60px;	
 }
 
+.margintopv4 {
+	margin-top: 66px;	
+}
+
 .margintopv6 {
-	margin-top: 62px;	
+	margin-top: 82px;	
 }
 
 .margintopv8 {
@@ -911,11 +911,11 @@ h2, h4 {
 @media only screen and (max-width : 1200px) {
 
 	.margintopv1 {
-		margin-top: 66px;	
+		margin-top: 30px;	
 	}
 
 	.margintopv3 {
-	    margin-top: 104px;
+	    margin-top: 66px;
 	}
 
 	.margintopv4 {
@@ -923,7 +923,7 @@ h2, h4 {
 	}
 
 	.margintopv6 {
-    	margin-top: 26px;
+    	margin-top: 98px;
 	}
 
 	.margintopv8 {

@@ -120,7 +120,7 @@
 					</div>
 					<h2 class="president-movie">"The American President"</h2>
 				</div>
-				<img class="width90" src="./img/douglas.svg" />
+				<img class="width90" src="./img/shepherd.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>

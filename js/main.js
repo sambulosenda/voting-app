@@ -113,7 +113,7 @@ function jsonData() {
 		        $( "#whitmore-c" ).show();
 		        $( "#whitmoresm-c" ).show();
 		        break;
-		    case "Jay Bullworth":
+		    case "Jay Bulworth":
 		        $( "#bullworth-c" ).show();
 		        $( "#bullworthsm-c" ).show();
 		        break;

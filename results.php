@@ -51,17 +51,6 @@
 	<div class="container text-center">
 		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span> For President</h2>
 		<h2 class="margin-bot60">Here's How Your Vote Stacks Up:</h2>
-		<?php echo $info ?>
-		<?php echo $info[0]["name"] ?>
-		<?php echo $info[0]["votes"] ?>
-		<?php echo $info[1]["name"] ?>
-		<?php echo $info[1]["votes"] ?>
-		<?php echo $info[2]["name"] ?>
-		<?php echo $info[2]["votes"] ?>
-		<?php echo $info[3]["name"] ?>
-		<?php echo $info[3]["votes"] ?>
-		<?php echo $info[0]["img"] ?>
-		<?php echo "<img src='/img/" . $info[0]["img"] . "' class='pres-results-img'>"; ?>
 	</div>
 
 	<div id="results-sml" class="container">
@@ -69,12 +58,12 @@
 		<div class="row">
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="ashersm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/eckhart.svg" />
-				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<p id="ashersm" class="bannersm display-inline">LEADER</p>
+				<?php echo "<img src='/img/" . $info[0]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[0]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[0]["name"] ?></p>
-					<p class="results-mov-name">"Olympus Has Fallen" and "London Has Fallen"</p>
+					<p class="results-mov-name">"<?php echo $info[0]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
@@ -83,11 +72,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="becksm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/freeman.svg" />
-				<p id="becksm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[1]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[1]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[1]["name"] ?></p>
-					<p class="results-mov-name">"Deep Impact"</p>
+					<p class="results-mov-name">"<?php echo $info[1]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
@@ -96,11 +85,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="shepherdsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/douglas.svg" />
-				<p id="shepherdsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[2]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[2]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[2]["name"] ?></p>
-					<p class="results-mov-name">"The American President"</p>
+					<p class="results-mov-name">"<?php echo $info[2]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
@@ -113,11 +102,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="camachosm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/crews.svg" />
-				<p id="camachosm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[3]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[3]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[3]["name"] ?></p>
-					<p class="results-mov-name">"Idiocracy"</p>
+					<p class="results-mov-name">"<?php echo $info[3]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total4 ?></span>%</h2>
@@ -126,11 +115,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="whitmoresm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/pullman.svg" />
-				<p id="whitmoresm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[4]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[4]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[4]["name"] ?></p>
-					<p class="results-mov-name">"Independence Day"</p>
+					<p class="results-mov-name">"<?php echo $info[4]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total5 ?></span>%</h2>
@@ -139,11 +128,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="bullworthsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/beatty.svg" />
-				<p id="bullworthsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[5]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[5]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[5]["name"] ?></p>
-					<p class="results-mov-name">"Bulworth"</p>
+					<p class="results-mov-name">"<?php echo $info[5]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total6 ?></span>%</h2>
@@ -156,11 +145,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="dalesm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/nicholson.svg" />
-				<p id="dalesm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[6]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[6]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[6]["name"] ?></p>
-					<p class="results-mov-name">"Mars Attacks"</p>
+					<p class="results-mov-name">"<?php echo $info[6]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total7 ?></span>%</h2>
@@ -169,11 +158,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="lanfordsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/ward.svg" />
-				<p id="lanfordsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[7]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[7]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[7]["name"] ?></p>
-					<p class="results-mov-name">"Independence Day: Resurgence"</p>
+					<p class="results-mov-name">"<?php echo $info[7]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total8 ?></span>%</h2>
@@ -182,11 +171,11 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="marshallsm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/ford.svg" />
-				<p id="marshallsm-c" class="bannersm-c">YOUR CANDIDATE</p>
+				<?php echo "<img src='/img/" . $info[8]["img"] . "' class='img-responsive'>"; ?>
+				<?php echo "<p id='" . $info[8]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[8]["name"] ?></p>
-					<p class="results-mov-name">"Air Force One"</p>
+					<p class="results-mov-name">"<?php echo $info[8]["movie"] ?>"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
@@ -207,9 +196,8 @@
 					<?php echo "<img src='/img/" . $info[0]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
-					<p id="asher" class="banner" style="display: inline-block;">LEADER</p>
+					<p id="asher" class="banner display-inline">LEADER</p>
 					<?php echo "<p id='" . $info[0]["bid"] . "' class='banner-c'>YOUR CANDIDATE</p>"; ?>
-<!-- 					<p id="asher-c" class="banner-c">YOUR CANDIDATE</p> -->
 					<p class="results-pres-name"><?php echo $info[0]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[0]["movie"] ?>"</p>
 					<h2 class="pull-left margin-top10"><span id="bav" class="counter"><?php $total0 = round (($info[0]['votes']/$sum)*100); ?><?php echo $total0 ?></span>%</h2>

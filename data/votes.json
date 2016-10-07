@@ -7,6 +7,7 @@
 		"movie": "Olympus Has Fallen and London Has Fallen",
 		"img": "eckhart.svg",
 		"bid": "asher-c",
+		"bids": "ashersm-c",
 		"votes": 0
 	},
 	{
@@ -16,6 +17,7 @@
 		"movie": "Deep Impact",
 		"img": "freeman.svg",
 		"bid": "beck-c",
+		"bids": "becksm-c",
 		"votes": 0
 	},
 	{
@@ -25,6 +27,7 @@
 		"movie": "The American President",
 		"img": "douglas.svg",
 		"bid": "shepherd-c",
+		"bids": "shepherdsm-c",
 		"votes": 0
 	},
 	{
@@ -34,6 +37,7 @@
 		"movie": "Idiocracy",
 		"img": "crews.svg",
 		"bid": "camacho-c",
+		"bids": "camachosm-c",
 		"votes": 0
 	},
 	{
@@ -43,6 +47,7 @@
 		"movie": "Independence Day",
 		"img": "pullman.svg",
 		"bid": "whitmore-c",
+		"bids": "whitmoresm-c",
 		"votes": 0
 	},
 	{
@@ -52,6 +57,7 @@
 		"movie": "Bulworth",
 		"img": "beatty.svg",
 		"bid": "bullworth-c",
+		"bids": "bullworthsm-c",
 		"votes": 0
 	},
 	{
@@ -61,6 +67,7 @@
 		"movie": "Mars Attacks",
 		"img": "nicholson.svg",
 		"bid": "dale-c",
+		"bids": "dalesm-c",
 		"votes": 0
 	},
 	{
@@ -70,6 +77,7 @@
 		"movie": "Independence Day: Resurgence",
 		"img": "ward.svg",
 		"bid": "lanford-c",
+		"bids": "lanfordsm-c",
 		"votes": 0
 	},
 	{
@@ -79,6 +87,7 @@
 		"movie": "Air Force One",
 		"img": "ford.svg",
 		"bid": "marshall-c",
+		"bids": "marshallsm-c",
 		"votes": 0
 	}
   ]

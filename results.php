@@ -52,8 +52,8 @@
 		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span> For President</h2>
 		<h2 class="margin-bot60">Here's How Your Vote Stacks Up:</h2>
 		<?php echo $info ?>
-		<?php echo $info[0]["votes"] ?>
-		<?php echo $info[1]["name"] ?>
+		<?php echo $info[1]["votes"] ?>
+		<?php echo $info[0]["name"] ?>
 	</div>
 
 	<div id="results-sml" class="container">

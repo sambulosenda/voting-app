@@ -37,15 +37,15 @@
 		"lname": "Whitmore",
 		"realname": "Bill Pullman",
 		"movie": "Independence Day",
-		"img": "camacho.svg",
+		"img": "pullman.svg",
 		"votes": 0
 	},
 	{
-		"name": "Jay Bullworth",
-		"lname": "Bullworth",
+		"name": "Jay Bulworth",
+		"lname": "Bulworth",
 		"realname": "Warren Beatty",
-		"movie": "Bullworth",
-		"img": "camacho.svg",
+		"movie": "Bulworth",
+		"img": "beatty.svg",
 		"votes": 0
 	},
 	{
@@ -53,7 +53,7 @@
 		"lname": "Dale",
 		"realname": "Jack Nicholson",
 		"movie": "Mars Attacks",
-		"img": "camacho.svg",
+		"img": "nicholson.svg",
 		"votes": 0
 	},
 	{
@@ -61,7 +61,7 @@
 		"lname": "Lanford",
 		"realname": "Sela Ward",
 		"movie": "Independence Day: Resurgence",
-		"img": "camacho.svg",
+		"img": "ward.svg",
 		"votes": 0
 	},
 	{
@@ -69,7 +69,7 @@
 		"lname": "Marshall",
 		"realname": "Harrison Ford",
 		"movie": "Air Force One",
-		"img": "camacho.svg",
+		"img": "ford.svg",
 		"votes": 0
 	}
   ]

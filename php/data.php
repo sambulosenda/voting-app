@@ -3,6 +3,11 @@
 	$json = file_get_contents("./data/votes.json");
 	$data = json_decode($json, true);
 
+	$jsond = file_get_contents("./data/v.json");
+	$datad = json_decode($jsond, true);
+
+	$info = $datad['presidents'];
+
 	$sum = 0;
 
 	for ($i = 1; $i <= 9; $i++) {
@@ -21,7 +26,7 @@
 
 
 
-	usort($data, function($a, $b) { //Sort the array using a user defined function
+	usort($info, function($a, $b) { //Sort the array using a user defined function
     	return $a->votes > $b->votes ? -1 : 1; //Compare the scores
 	});
 

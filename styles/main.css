@@ -767,12 +767,20 @@ h2, h4 {
 	min-height: 140px;
 }
 
+.minheight144 {
+	min-height: 144px;
+}
+
 .minheight147 {
 	min-height: 147px;
 }
 
 .minheight150 {
 	min-height: 150px;
+}
+
+.minheight154 {
+	min-height: 154px;
 }
 
 .minheight164 {
@@ -908,6 +916,10 @@ h2, h4 {
 	margin-top: 60px;	
 }
 
+.display-inline {
+	display: inline-block;
+}
+
 @media only screen and (max-width : 1200px) {
 
 	.margintopv1 {
@@ -1031,10 +1043,30 @@ h2, h4 {
 		margin-top: 10px;	
 	}
 
-}
+		.minheight140 {
+	min-height: 0px;
+	}
 
-.display-inline {
-	display: inline-block;
+	.minheight144 {
+		min-height: 0px;
+	}
+
+	.minheight147 {
+		min-height: 0px;
+	}
+
+	.minheight150 {
+		min-height: 0px;
+	}
+
+	.minheight154 {
+		min-height: 0px;
+	}
+
+	.minheight164 {
+		min-height: 0px;
+	}
+
 }
 
 @media only screen and (max-width : 768px) {

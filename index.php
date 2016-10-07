@@ -66,7 +66,7 @@
 					</div>
 					<h2 class="president-movie">"Olympus Has Fallen" and "London Has Fallen"</h2>
 				</div>
-				<img class="width90" src="./img/eckhart.svg" />
+				<img class="width90" src="./img/asher_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -93,7 +93,7 @@
 					</div>
 					<h2 class="president-movie">"Deep Impact"</h2>
 				</div>
-				<img class="width90" src="./img/freeman.svg" />
+				<img class="width90" src="./img/beck_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -113,14 +113,14 @@
 				</form>
 			</div>
 			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight140">
+				<div class="minheight154">
 					<div class="president-name-box">
 						<h1 class="president-name">Andrew Shepherd</h1>
 						<h3 class="real-name">(Michael Douglas)</h3>
 					</div>
 					<h2 class="president-movie">"The American President"</h2>
 				</div>
-				<img class="width90" src="./img/shepherd.png" />
+				<img class="width90" src="./img/shepherd_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -153,7 +153,7 @@
 					</div>
 					<h2 class="president-movie">"Idiocracy"</h2>
 				</div>
-				<img class="width90" src="./img/crews.svg" />
+				<img class="width90" src="./img/camacho_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -173,14 +173,14 @@
 				</form>
 			</div>
 			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight164">
+				<div class="minheight144">
 					<div class="president-name-box">
 						<h1 class="president-name">Thomas Whitmore</h1>
 						<h3 class="real-name">(Bill Pullman)</h3>
 					</div>
 					<h2 class="president-movie">"Independence Day"</h2>
 				</div>
-				<img class="width90" src="./img/pullman.svg" />
+				<img class="width90" src="./img/whitmore_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>P ros</h3>
@@ -200,14 +200,14 @@
 				</form>
 			</div>
 			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight164">
+				<div class="minheight144">
 					<div class="president-name-box">
 						<h1 class="president-name">Jay Bulworth</h1>
 						<h3 class="real-name">(Warren Beatty)</h3>
 					</div>
 					<h2 class="president-movie">"Bulworth"</h2>
 				</div>
-				<img class="width90" src="./img/beatty.svg" />
+				<img class="width90" src="./img/bulworth_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -239,7 +239,7 @@
 					</div>
 					<h2 class="president-movie">"Mars Attacks!"</h2>
 				</div>
-				<img class="width90" src="./img/nicholson.svg" />
+				<img class="width90" src="./img/dale_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -266,7 +266,7 @@
 					</div>
 					<h2 class="president-movie">"Independence Day: Resurgence"</h2>
 				</div>
-				<img class="width90" src="./img/ward.svg" />
+				<img class="width90" src="./img/lanford_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>
@@ -276,9 +276,9 @@
 					</div>
 					<div class="col-xs-5 text-left pros-cons">
 						<h3>Cons</h3>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Plagued by a violent past that leads to irrational decision-making.</h4>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Prone to violent outbursts.</h4>
-						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Not very successful at negotiating with the enemy.</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Makes irrational decisions when managing foreign policy.</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Prone to violent outbursts under pressure.</h4>
+						<h4 class="pcfont"><i class="fa fa-minus fa-fw red" aria-hidden="true"></i>&nbsp; Bad negotiation skills. </h4>
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
@@ -293,7 +293,7 @@
 					</div>
 					<h2 class="president-movie">"Air Force One"</h2>
 				</div>
-				<img class="width90" src="./img/ford.svg" />
+				<img class="width90" src="./img/marshall_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
 						<h3>Pros</h3>

@@ -4,7 +4,7 @@
 		"lname": "Asher",
 		"realname": "Aaron Eckhart",
 		"movie": "Olympus Has Fallen and London Has Fallen",
-		"img": "./img/eckhart.svg",
+		"img": "eckhart.svg",
 		"votes": 1
 	}, {
 		"name": "Tom Beck",

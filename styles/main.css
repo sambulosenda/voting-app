@@ -16,6 +16,10 @@ h2, h4 {
 	line-height: 1.3em;
 }
 
+.pcfont {
+	font-size: 1em;
+}
+
 #results {
 	display: none;
    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -859,41 +863,53 @@ h2, h4 {
 }
 
 .margintopv1 {
-	margin-top: 34px;	
+	margin-top: 48px;	
 }
 
 .margintopv3 {
-	margin-top: 105px;	
+	margin-top: 30px;	
 }
 
 .margintopv4 {
-	margin-top: 80px;	
+	margin-top: 60px;	
 }
 
 .margintopv6 {
-	margin-top: 55px;	
+	margin-top: 62px;	
 }
 
 .margintopv8 {
-	margin-top: 55px;	
+	margin-top: 62px;	
 }
 
 .margintopv9 {
-	margin-top: 120px;	
+	margin-top: 60px;	
 }
 
 @media only screen and (max-width : 1200px) {
 
+	.margintopv1 {
+		margin-top: 66px;	
+	}
+
 	.margintopv3 {
-	    margin-top: 175px;
+	    margin-top: 104px;
 	}
 
 	.margintopv4 {
-   		margin-top: 60px;
+   		margin-top: 52px;
 	}
 
 	.margintopv6 {
-    	margin-top: 80px;
+    	margin-top: 26px;
+	}
+
+	.margintopv8 {
+    	margin-top: 44px;
+	}
+
+	.margintopv9 {
+    	margin-top: 98px;
 	}
 
 }
@@ -970,19 +986,27 @@ h2, h4 {
 	}
 
 	.margintopv1 {
-    	margin-top: 10px;
+		margin-top: 10px;	
+	}
+
+	.margintopv3 {
+		margin-top: 10px;	
 	}
 
 	.margintopv4 {
-    	margin-top: 115px;
+		margin-top: 10px;	
 	}
 
 	.margintopv6 {
-    	margin-top: 150px;
+		margin-top: 10px;	
 	}
 
 	.margintopv8 {
-    	margin-top: 75px;
+		margin-top: 10px;	
+	}
+
+	.margintopv9 {
+		margin-top: 10px;	
 	}
 
 }

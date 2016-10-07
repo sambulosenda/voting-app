@@ -204,7 +204,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/eckhart.svg" />
+					<?php echo "<img src='/img/" . $info[0]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="asher" class="banner">LEADER</p>
@@ -223,7 +223,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/freeman.svg" />
+					<?php echo "<img src='/img/" . $info[1]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="beck" class="bannerl">LEADER</p>
@@ -235,7 +235,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/douglas.svg" />
+					<?php echo "<img src='/img/" . $info[2]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="shepherd" class="banner">LEADER</p>
@@ -252,7 +252,7 @@
 		<div class="row margin-bot60">
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/crews.svg" />
+					<?php echo "<img src='/img/" . $info[3]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="camacho" class="bannerl">LEADER</p>
@@ -304,7 +304,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/pullman.svg" />
+					<?php echo "<img src='/img/" . $info[4]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="whitmore" class="banner">LEADER</p>
@@ -321,7 +321,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/beatty.svg" />
+					<?php echo "<img src='/img/" . $info[5]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="bullworth" class="bannerl">LEADER</p>
@@ -335,7 +335,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/nicholson.svg" />
+					<?php echo "<img src='/img/" . $info[6]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="dale" class="banner">LEADER</p>
@@ -352,7 +352,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/ward.svg" />
+					<?php echo "<img src='/img/" . $info[7]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="lanford" class="bannerl">LEADER</p>
@@ -364,7 +364,7 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img" src="./img/ford.svg" />
+					<?php echo "<img src='/img/" . $info[8]["img"] . "' class='pres-results-img'>"; ?>
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="marshall" class="banner">LEADER</p>

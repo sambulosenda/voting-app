@@ -60,7 +60,8 @@
 		<?php echo $info[2]["votes"] ?>
 		<?php echo $info[3]["name"] ?>
 		<?php echo $info[3]["votes"] ?>
-		<img class="img-responsive" src="<?php echo htmlspecialchars($info[0]["img"]); ?>" />
+		<img class="img-responsive" src="<?php echo $info[0]["img"] ?>" />
+		<img class="img-responsive" src="<?php echo $info[1]["img"] ?>" />
 	</div>
 
 	<div id="results-sml" class="container">

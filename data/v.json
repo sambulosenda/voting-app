@@ -11,6 +11,7 @@
 		"lname": "Beck",
 		"realname": "Morgan Freeman",
 		"movie": "Deep Impact",
+		"img": "./img/freeman.svg",
 		"votes": 50
 	}, {
 		"name": "Andrew Shepherd",

@@ -73,7 +73,7 @@
 				<img class="img-responsive" src="./img/eckhart.svg" />
 				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">Benjamin Asher</p>
+					<p class="results-pres-name"><?php echo $info[0]["name"] ?></p>
 					<p class="results-mov-name">"Olympus Has Fallen" and "London Has Fallen"</p>
 				</div>
 				<div class="pull-right">
@@ -86,7 +86,7 @@
 				<img class="img-responsive" src="./img/freeman.svg" />
 				<p id="becksm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">Tom Beck</p>
+					<p class="results-pres-name"><?php echo $info[1]["name"] ?></p>
 					<p class="results-mov-name">"Deep Impact"</p>
 				</div>
 				<div class="pull-right">
@@ -99,7 +99,7 @@
 				<img class="img-responsive" src="./img/douglas.svg" />
 				<p id="shepherdsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">Andrew Shepherd</p>
+					<p class="results-pres-name"><?php echo $info[2]["name"] ?></p>
 					<p class="results-mov-name">"The American President"</p>
 				</div>
 				<div class="pull-right">
@@ -116,7 +116,7 @@
 				<img class="img-responsive" src="./img/crews.svg" />
 				<p id="camachosm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">President Camacho</p>
+					<p class="results-pres-name"><?php echo $info[3]["name"] ?></p>
 					<p class="results-mov-name">"Idiocracy"</p>
 				</div>
 				<div class="pull-right">
@@ -129,7 +129,7 @@
 				<img class="img-responsive" src="./img/pullman.svg" />
 				<p id="whitmoresm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">Thomas Whitmore</p>
+					<p class="results-pres-name"><?php echo $info[4]["name"] ?></p>
 					<p class="results-mov-name">"Independence Day"</p>
 				</div>
 				<div class="pull-right">
@@ -142,7 +142,7 @@
 				<img class="img-responsive" src="./img/beatty.svg" />
 				<p id="bullworthsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">Jay Bulworth</p>
+					<p class="results-pres-name"><?php echo $info[5]["name"] ?></p>
 					<p class="results-mov-name">"Bulworth"</p>
 				</div>
 				<div class="pull-right">
@@ -159,7 +159,7 @@
 				<img class="img-responsive" src="./img/nicholson.svg" />
 				<p id="dalesm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">James Dale</p>
+					<p class="results-pres-name"><?php echo $info[6]["name"] ?></p>
 					<p class="results-mov-name">"Mars Attacks"</p>
 				</div>
 				<div class="pull-right">
@@ -172,7 +172,7 @@
 				<img class="img-responsive" src="./img/ward.svg" />
 				<p id="lanfordsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">President Lanford</p>
+					<p class="results-pres-name"><?php echo $info[7]["name"] ?></p>
 					<p class="results-mov-name">"Independence Day: Resurgence"</p>
 				</div>
 				<div class="pull-right">
@@ -185,7 +185,7 @@
 				<img class="img-responsive" src="./img/ford.svg" />
 				<p id="marshallsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">James Marshall</p>
+					<p class="results-pres-name"><?php echo $info[8]["name"] ?></p>
 					<p class="results-mov-name">"Air Force One"</p>
 				</div>
 				<div class="pull-right">
@@ -209,9 +209,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="asher" class="banner">LEADER</p>
 					<p id="asher-c" class="banner-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">Benjamin Asher</p>
-					<p class="results-mov-name">"Olympus Has Fallen" and "London Has Fallen"</p>
-					<h2 class="pull-left margin-top10"><span id="bav" class="counter"><?php echo $total1 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[0]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[0]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="bav" class="counter"><?php $total0 = round (($info[0]['votes']/$sum)*100); ?><?php echo $total0 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -228,9 +228,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="beck" class="bannerl">LEADER</p>
 					<p id="beck-c" class="bannerl-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">Tom Beck</p>
-					<p class="results-mov-name">"Deep Impact"</p>
-					<h2 class="pull-left margin-top10"><span id="tbv" class="counter"><?php echo $total2 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[1]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[1]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="tbv" class="counter"><?php $total1 = round (($info[1]['votes']/$sum)*100); ?><?php echo $total1 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -240,9 +240,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="shepherd" class="banner">LEADER</p>
 					<p id="shepherd-c" class="banner-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">Andrew Shepherd</p>
-					<p class="results-mov-name">"The American President"</p>
-					<h2 class="pull-left margin-top10"><span id="asv" class="counter"><?php echo $total3 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[2]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[2]["name"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="asv" class="counter"><?php $total2 = round (($info[2]['votes']/$sum)*100); ?><?php echo $total2 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-2">
@@ -257,9 +257,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="camacho" class="bannerl">LEADER</p>
 					<p id="camacho-c" class="bannerl-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">President Camacho</p>
-					<p class="results-mov-name">"Idiocracy"</p>
-					<h2 class="pull-left margin-top10"><span id="pcv" class="counter"><?php echo $total4 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[3]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[3]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="pcv" class="counter"><?php $total3 = round (($info[3]['votes']/$sum)*100); ?><?php echo $total3 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -309,9 +309,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="whitmore" class="banner">LEADER</p>
 					<p id="whitmore-c" class="banner-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">Thomas Whitmore</p>
-					<p class="results-mov-name">"Independence Day"</p>
-					<h2 class="pull-left margin-top10"><span id="twv" class="counter"><?php echo $total5 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[4]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[4]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="twv" class="counter"><?php $total4 = round (($info[4]['votes']/$sum)*100); ?><?php echo $total4 ?></span>%</h2>
 				</div>
 			</div>
 		</div>
@@ -326,9 +326,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="bullworth" class="bannerl">LEADER</p>
 					<p id="bullworth-c" class="bannerl-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">Jay Bulworth</p>
-					<p class="results-mov-name">"Bulworth"</p>
-					<h2 class="pull-left margin-top10"><span id="jbv" class="counter"><?php echo $total6 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[5]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[5]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="jbv" class="counter"><?php $total5 = round (($info[5]['votes']/$sum)*100); ?><?php echo $total5 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-2">
@@ -340,9 +340,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="dale" class="banner">LEADER</p>
 					<p id="dale-c" class="banner-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">James Dale</p>
-					<p class="results-mov-name">"Mars Attacks"</p>
-					<h2 class="pull-left margin-top10"><span id="jdv" class="counter"><?php echo $total7 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[6]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[6]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="jdv" class="counter"><?php $total6 = round (($info[6]['votes']/$sum)*100); ?><?php echo $total6 ?></span>%</h2>
 				</div>
 			</div>
 		</div>
@@ -357,9 +357,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="lanford" class="bannerl">LEADER</p>
 					<p id="lanford-c" class="bannerl-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">President Lanford</p>
-					<p class="results-mov-name">"Independence Day: Resurgence"</p>
-					<h2 class="pull-left margin-top10"><span id="plv" class="counter"><?php echo $total8 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[7]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[7]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="plv" class="counter"><?php $total7 = round (($info[7]['votes']/$sum)*100); ?><?php echo $total7 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
@@ -369,9 +369,9 @@
 				<div class="results-box-txt pull-left text-left">
 					<p id="marshall" class="banner">LEADER</p>
 					<p id="marshall-c" class="banner-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">James Marshall</p>
-					<p class="results-mov-name">"Air Force One"</p>
-					<h2 class="pull-left margin-top10"><span id="jmv" class="counter"><?php echo $total9 ?></span>%</h2>
+					<p class="results-pres-name"><?php echo $info[8]["name"] ?></p>
+					<p class="results-mov-name">"<?php echo $info[8]["movie"] ?>"</p>
+					<h2 class="pull-left margin-top10"><span id="jmv" class="counter"><?php $total8 = round (($info[8]['votes']/$sum)*100); ?><?php echo $total8 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-2">

@@ -61,6 +61,7 @@
 		<?php echo $info[3]["name"] ?>
 		<?php echo $info[3]["votes"] ?>
 		<?php echo $info[0]["img"] ?>
+		<?php echo '<img src="' . $info[0]["img"] . '" alt="error">'; ?>
 	</div>
 
 	<div id="results-sml" class="container">

@@ -37,16 +37,16 @@ function indexOfMax(arr) {
 }
 
 function jsonData() {
-	$.getJSON( "./data/votes.json" ).done( function(presidents) {
-		p1 = presidents[0].votes;
-		p2 = presidents[1].votes;
-		p3 = presidents[2].votes;
-		p4 = presidents[3].votes;
-		p5 = presidents[4].votes;
-		p6 = presidents[5].votes;
-		p7 = presidents[6].votes;
-		p8 = presidents[7].votes;
-		p9 = presidents[8].votes;
+	$.getJSON( "./data/votes.json" ).done( function(data) {
+		p1 = data.presidents[0].votes;
+		p2 = data.presidents[1].votes;
+		p3 = data.presidents[2].votes;
+		p4 = data.presidents[3].votes;
+		p5 = data.presidents[4].votes;
+		p6 = data.presidents[5].votes;
+		p7 = data.presidents[6].votes;
+		p8 = data.presidents[7].votes;
+		p9 = data.presidents[8].votes;
 
 		tarray = [p1, p2, p3, p4, p5, p6, p7, p8, p9];
 		winner = indexOfMax(tarray);

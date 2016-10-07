@@ -183,7 +183,7 @@
 				<img class="width90" src="./img/whitmore_podium.png" />
 				<div class="row">
 					<div class="col-xs-offset-1 col-xs-5 text-left">
-						<h3>P ros</h3>
+						<h3>Pros</h3>
 						<h4 class="pcfont"><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; His speechmaking “will not go quietly into the night.”</h4>
 						<h4 class="pcfont"><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Served as a pilot in the Gulf War - Experience that comes in handy.</h4>
 						<h4 class="pcfont"><i class="fa fa-plus fa-fw blue" aria-hidden="true"></i>&nbsp; Sees the full potential in every American. Even alcoholic crop dusters.</h4>

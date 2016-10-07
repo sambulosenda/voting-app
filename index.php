@@ -64,7 +64,7 @@
 						<h1 class="president-name">Benjamin Asher</h1>
 						<h3 class="real-name">(Aaron Eckhart)</h3>
 					</div>
-					<h2 class="president-movie">Olympus Has Fallen and London Has Fallen</h2>
+					<h2 class="president-movie">"Olympus Has Fallen" and "London Has Fallen"</h2>
 				</div>
 				<img class="width90" src="./img/eckhart.svg" />
 				<div class="row">
@@ -91,7 +91,7 @@
 						<h1 class="president-name">Tom Beck</h1>
 						<h3 class="real-name">(Morgan Freeman)</h3>
 					</div>
-					<h2 class="president-movie">Deep Impact</h2>
+					<h2 class="president-movie">"Deep Impact"</h2>
 				</div>
 				<img class="width90" src="./img/freeman.svg" />
 				<div class="row">
@@ -118,7 +118,7 @@
 						<h1 class="president-name">Andrew Shepherd</h1>
 						<h3 class="real-name">(Michael Douglas)</h3>
 					</div>
-					<h2 class="president-movie">The American President</h2>
+					<h2 class="president-movie">"The American President"</h2>
 				</div>
 				<img class="width90" src="./img/douglas.svg" />
 				<div class="row">
@@ -151,7 +151,7 @@
 						<h1 class="president-name">President Camacho</h1>
 						<h3 class="real-name">(Terry Crews)</h3>
 					</div>
-					<h2 class="president-movie">Idiocracy</h2>
+					<h2 class="president-movie">"Idiocracy"</h2>
 				</div>
 				<img class="width90" src="./img/crews.svg" />
 				<div class="row">
@@ -178,7 +178,7 @@
 						<h1 class="president-name">Thomas Whitmore</h1>
 						<h3 class="real-name">(Bill Pullman)</h3>
 					</div>
-					<h2 class="president-movie">Independence Day</h2>
+					<h2 class="president-movie">"Independence Day"</h2>
 				</div>
 				<img class="width90" src="./img/pullman.svg" />
 				<div class="row">
@@ -205,7 +205,7 @@
 						<h1 class="president-name">Jay Bullworth</h1>
 						<h3 class="real-name">(Warren Beatty)</h3>
 					</div>
-					<h2 class="president-movie">Bullworth</h2>
+					<h2 class="president-movie">"Bullworth"</h2>
 				</div>
 				<img class="width90" src="./img/beatty.svg" />
 				<div class="row">
@@ -237,7 +237,7 @@
 						<h1 class="president-name">James Dale</h1>
 						<h3 class="real-name">(Jack Nicholson)</h3>
 					</div>
-					<h2 class="president-movie">Mars Attacks</h2>
+					<h2 class="president-movie">"Mars Attacks"</h2>
 				</div>
 				<img class="width90" src="./img/nicholson.svg" />
 				<div class="row">
@@ -264,7 +264,7 @@
 						<h1 class="president-name">President Lanford</h1>
 						<h3 class="real-name">(Sela Ward)</h3>
 					</div>
-					<h2 class="president-movie">Independence Day: Resurgence</h2>
+					<h2 class="president-movie">"Independence Day: Resurgence"</h2>
 				</div>
 				<img class="width90" src="./img/ward.svg" />
 				<div class="row">
@@ -291,7 +291,7 @@
 						<h1 class="president-name">James Marshall</h1>
 						<h3 class="real-name">(Harrison Ford)</h3>
 					</div>
-					<h2 class="president-movie">Air Force One</h2>
+					<h2 class="president-movie">"Air Force One"</h2>
 				</div>
 				<img class="width90" src="./img/ford.svg" />
 				<div class="row">

@@ -50,7 +50,8 @@
 
 	<div class="container text-center">
 		<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span> For President</h2>
-		<h2 class="margin-bot60">Here's How Your Vote Stacks Up</h2>
+		<h2 class="margin-bot60">Here's How Your Vote Stacks Up:</h2>
+		<?php echo $data ?>
 	</div>
 
 	<div id="results-sml" class="container">
@@ -63,7 +64,7 @@
 				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Benjamin Asher</p>
-					<p class="results-mov-name">Olympus Has Fallen and London Has Fallen</p>
+					<p class="results-mov-name">"Olympus Has Fallen" and "London Has Fallen"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total1 ?></span>%</h2>
@@ -76,7 +77,7 @@
 				<p id="becksm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Tom Beck</p>
-					<p class="results-mov-name">Deep Impact</p>
+					<p class="results-mov-name">"Deep Impact"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total2 ?></span>%</h2>
@@ -89,7 +90,7 @@
 				<p id="shepherdsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Andrew Shepherd</p>
-					<p class="results-mov-name">The American President</p>
+					<p class="results-mov-name">"The American President"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total3 ?></span>%</h2>
@@ -106,7 +107,7 @@
 				<p id="camachosm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">President Camacho</p>
-					<p class="results-mov-name">Idiocracy</p>
+					<p class="results-mov-name">"Idiocracy"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total4 ?></span>%</h2>
@@ -119,7 +120,7 @@
 				<p id="whitmoresm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Thomas Whitmore</p>
-					<p class="results-mov-name">Independence Day</p>
+					<p class="results-mov-name">"Independence Day"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total5 ?></span>%</h2>
@@ -131,8 +132,8 @@
 				<img class="img-responsive" src="./img/beatty.svg" />
 				<p id="bullworthsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
-					<p class="results-pres-name">Jay Bullworth</p>
-					<p class="results-mov-name">Bullworth</p>
+					<p class="results-pres-name">Jay Bulworth</p>
+					<p class="results-mov-name">"Bulworth"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total6 ?></span>%</h2>
@@ -149,7 +150,7 @@
 				<p id="dalesm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">James Dale</p>
-					<p class="results-mov-name">Mars Attacks</p>
+					<p class="results-mov-name">"Mars Attacks"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total7 ?></span>%</h2>
@@ -162,7 +163,7 @@
 				<p id="lanfordsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">President Lanford</p>
-					<p class="results-mov-name">Independence Day: Resurgence</p>
+					<p class="results-mov-name">"Independence Day: Resurgence"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total8 ?></span>%</h2>
@@ -175,7 +176,7 @@
 				<p id="marshallsm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">James Marshall</p>
-					<p class="results-mov-name">Air Force One</p>
+					<p class="results-mov-name">"Air Force One"</p>
 				</div>
 				<div class="pull-right">
 					<h2 class="pull-left margin-top10"><span class="counter"><?php echo $total9 ?></span>%</h2>
@@ -193,13 +194,13 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/eckhart.svg" />
+					<img class="pres-results-img" src="./img/eckhart.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="asher" class="banner">LEADER</p>
 					<p id="asher-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Benjamin Asher</p>
-					<p class="results-mov-name">Olympus Has Fallen and London Has Fallen</p>
+					<p class="results-mov-name">"Olympus Has Fallen" and "London Has Fallen"</p>
 					<h2 class="pull-left margin-top10"><span id="bav" class="counter"><?php echo $total1 ?></span>%</h2>
 				</div>
 			</div>
@@ -212,25 +213,25 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/freeman.svg" />
+					<img class="pres-results-img" src="./img/freeman.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="beck" class="bannerl">LEADER</p>
 					<p id="beck-c" class="bannerl-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Tom Beck</p>
-					<p class="results-mov-name">Deep Impact</p>
+					<p class="results-mov-name">"Deep Impact"</p>
 					<h2 class="pull-left margin-top10"><span id="tbv" class="counter"><?php echo $total2 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/douglas.svg" />
+					<img class="pres-results-img" src="./img/douglas.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="shepherd" class="banner">LEADER</p>
 					<p id="shepherd-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Andrew Shepherd</p>
-					<p class="results-mov-name">The American President</p>
+					<p class="results-mov-name">"The American President"</p>
 					<h2 class="pull-left margin-top10"><span id="asv" class="counter"><?php echo $total3 ?></span>%</h2>
 				</div>
 			</div>
@@ -241,13 +242,13 @@
 		<div class="row margin-bot60">
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/crews.svg" />
+					<img class="pres-results-img" src="./img/crews.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="camacho" class="bannerl">LEADER</p>
 					<p id="camacho-c" class="bannerl-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">President Camacho</p>
-					<p class="results-mov-name">Idiocracy</p>
+					<p class="results-mov-name">"Idiocracy"</p>
 					<h2 class="pull-left margin-top10"><span id="pcv" class="counter"><?php echo $total4 ?></span>%</h2>
 				</div>
 			</div>
@@ -293,13 +294,13 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/pullman.svg" />
+					<img class="pres-results-img" src="./img/pullman.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="whitmore" class="banner">LEADER</p>
 					<p id="whitmore-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">Thomas Whitmore</p>
-					<p class="results-mov-name">Independence Day</p>
+					<p class="results-mov-name">"Independence Day"</p>
 					<h2 class="pull-left margin-top10"><span id="twv" class="counter"><?php echo $total5 ?></span>%</h2>
 				</div>
 			</div>
@@ -310,13 +311,13 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/beatty.svg" />
+					<img class="pres-results-img" src="./img/beatty.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="bullworth" class="bannerl">LEADER</p>
 					<p id="bullworth-c" class="bannerl-c">YOUR CANDIDATE</p>
-					<p class="results-pres-name">Jay Bullworth</p>
-					<p class="results-mov-name">Bullworth</p>
+					<p class="results-pres-name">Jay Bulworth</p>
+					<p class="results-mov-name">"Bulworth"</p>
 					<h2 class="pull-left margin-top10"><span id="jbv" class="counter"><?php echo $total6 ?></span>%</h2>
 				</div>
 			</div>
@@ -324,13 +325,13 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/nicholson.svg" />
+					<img class="pres-results-img" src="./img/nicholson.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="dale" class="banner">LEADER</p>
 					<p id="dale-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">James Dale</p>
-					<p class="results-mov-name">Mars Attacks</p>
+					<p class="results-mov-name">"Mars Attacks"</p>
 					<h2 class="pull-left margin-top10"><span id="jdv" class="counter"><?php echo $total7 ?></span>%</h2>
 				</div>
 			</div>
@@ -341,25 +342,25 @@
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/ward.svg" />
+					<img class="pres-results-img" src="./img/ward.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="lanford" class="bannerl">LEADER</p>
 					<p id="lanford-c" class="bannerl-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">President Lanford</p>
-					<p class="results-mov-name">Independence Day: Resurgence</p>
+					<p class="results-mov-name">"Independence Day: Resurgence"</p>
 					<h2 class="pull-left margin-top10"><span id="plv" class="counter"><?php echo $total8 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
 				<div class="results-box-img pull-left">
-					<img class="pres-results-img pull-right" src="./img/ford.svg" />
+					<img class="pres-results-img" src="./img/ford.svg" />
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="marshall" class="banner">LEADER</p>
 					<p id="marshall-c" class="banner-c">YOUR CANDIDATE</p>
 					<p class="results-pres-name">James Marshall</p>
-					<p class="results-mov-name">Air Force One</p>
+					<p class="results-mov-name">"Air Force One"</p>
 					<h2 class="pull-left margin-top10"><span id="jmv" class="counter"><?php echo $total9 ?></span>%</h2>
 				</div>
 			</div>

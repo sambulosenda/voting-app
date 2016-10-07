@@ -19,4 +19,10 @@
 	$total8 = round (($data['p8']['votes']/$sum)*100);
 	$total9 = round (($data['p9']['votes']/$sum)*100);
 
+
+
+	usort($data, function($a, $b) { //Sort the array using a user defined function
+    	return $a->votes > $b->votes ? -1 : 1; //Compare the scores
+	});
+
 ?>

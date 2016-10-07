@@ -63,8 +63,6 @@
 		<img class="img-responsive" src="<?php echo $info[0]["img"] ?>" />
 		<img class="img-responsive" src="<?php echo $info[1]["img"] ?>" />
 		<?php echo "<img class='img-responsive' src='" . $info[0]["img"] . "' />" ?>
-<!-- 		<?php echo "<img src='/php_test/image_archive/" . $last_file[0] . "' alt='error'>"; ?>
- -->
 	</div>
 
 	<div id="results-sml" class="container">

@@ -1,61 +1,66 @@
 {
-	"p1": {
+	"presidents": [
+	{
 		"name": "Benjamin Asher",
 		"lname": "Asher",
 		"realname": "Aaron Eckhart",
-		"movie": "Olympus Has Fallen",
+		"movie": "Olympus Has Fallen and London Has Fallen",
+		"img": "eckhart.svg",
 		"votes": 0
 	},
-	"p2": {
+	{
 		"name": "Tom Beck",
 		"lname": "Beck",
 		"realname": "Morgan Freeman",
 		"movie": "Deep Impact",
+		"img": "freeman.svg",
 		"votes": 0
 	},
-	"p3": {
+	{
 		"name": "Andrew Shepherd",
 		"lname": "Shepherd",
 		"realname": "Michael Douglas",
 		"movie": "The American President",
+		"img": "douglas.svg",
 		"votes": 0
 	},
-	"p4": {
+	{
 		"name": "President Camacho",
 		"lname": "Camacho",
 		"realname": "Terry Crews",
 		"movie": "Idiocracy",
+		"img": "camacho.svg",
 		"votes": 0
 	},
-	"p5": {
+	{
 		"name": "Thomas Whitmore",
 		"lname": "Whitmore",
 		"realname": "Bill Pullman",
 		"movie": "Independence Day",
 		"votes": 0
 	},
-	"p6": {
+	{
 		"name": "Jay Bullworth",
 		"lname": "Bullworth",
 		"realname": "Warren Beatty",
 		"movie": "Bullworth",
 		"votes": 0
 	},
-	"p7": {
+	{
 		"name": "James Dale",
 		"lname": "Dale",
 		"realname": "Jack Nicholson",
 		"movie": "Mars Attacks",
 		"votes": 0
 	},
-	"p8": {
+	{
 		"name": "President Lanford",
 		"lname": "Lanford",
 		"realname": "Sela Ward",
 		"movie": "Independence Day: Resurgence",
 		"votes": 0
 	},
-	"p9": {
+	{
 		"name": "James Marshall",
 		"lname": "Marshall",
 		"realname": "Harrison Ford",

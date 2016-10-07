@@ -27,7 +27,7 @@
 
 
 	usort($info, function($a, $b) { //Sort the array using a user defined function
-    	return $a->votes > $b->votes ? -1 : 1; //Compare the scores
+    	return $a["votes"] > $b["votes"] ? -1 : 1; //Compare the scores
 	});
 
 ?>

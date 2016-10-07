@@ -60,6 +60,7 @@
 		<?php echo $info[2]["votes"] ?>
 		<?php echo $info[3]["name"] ?>
 		<?php echo $info[3]["votes"] ?>
+		<img class="img-responsive" src="<?php echo htmlspecialchars($info[0]["img"]); ?>" />
 	</div>
 
 	<div id="results-sml" class="container">
@@ -68,7 +69,7 @@
 
 			<div class="col-md-4 padding50 margin-bot60">
 				<p id="ashersm" class="bannersm">LEADER</p>
-				<img class="img-responsive" src="./img/eckhart.svg" />
+				<img class="img-responsive" src="<?php echo $info[0]["img"] ?>" />
 				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<div class="pull-left width60">
 					<p class="results-pres-name">Benjamin Asher</p>

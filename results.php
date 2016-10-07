@@ -228,7 +228,7 @@
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="beck" class="bannerl">LEADER</p>
-					<?php echo "<p id='" . $info[1]["bid"] . "' class='banner-c'>YOUR CANDIDATE</p>"; ?>
+					<?php echo "<p id='" . $info[1]["bid"] . "' class='bannerl-c'>YOUR CANDIDATE</p>"; ?>
 					<p class="results-pres-name"><?php echo $info[1]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[1]["movie"] ?>"</p>
 					<h2 class="pull-left margin-top10"><span id="tbv" class="counter"><?php $total1 = round (($info[1]['votes']/$sum)*100); ?><?php echo $total1 ?></span>%</h2>
@@ -257,14 +257,14 @@
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="camacho" class="bannerl">LEADER</p>
-					<?php echo "<p id='" . $info[3]["bid"] . "' class='banner-c'>YOUR CANDIDATE</p>"; ?>
+					<?php echo "<p id='" . $info[3]["bid"] . "' class='bannerl-c'>YOUR CANDIDATE</p>"; ?>
 					<p class="results-pres-name"><?php echo $info[3]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[3]["movie"] ?>"</p>
 					<h2 class="pull-left margin-top10"><span id="pcv" class="counter"><?php $total3 = round (($info[3]['votes']/$sum)*100); ?><?php echo $total3 ?></span>%</h2>
 				</div>
 			</div>
 			<div class="col-md-4">
-				<div class="arrow1-div">
+<!-- 				<div class="arrow1-div">
 					<div class="arrow-red"></div>
 					<div class="arrow1-stem"></div>
 				</div>
@@ -299,7 +299,7 @@
 				<div class="arrow9-div">
 					<div class="arrow-red"></div>
 					<div class="arrow9-stem"></div>
-				</div>
+				</div> -->
 				<h1 class="results-title">Election<br />Results</h1>
 				<img class="width70" src="./img/circle.svg" />
 			</div>
@@ -326,7 +326,7 @@
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="bullworth" class="bannerl">LEADER</p>
-					<?php echo "<p id='" . $info[5]["bid"] . "' class='banner-c'>YOUR CANDIDATE</p>"; ?>
+					<?php echo "<p id='" . $info[5]["bid"] . "' class='bannerl-c'>YOUR CANDIDATE</p>"; ?>
 					<p class="results-pres-name"><?php echo $info[5]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[5]["movie"] ?>"</p>
 					<h2 class="pull-left margin-top10"><span id="jbv" class="counter"><?php $total5 = round (($info[5]['votes']/$sum)*100); ?><?php echo $total5 ?></span>%</h2>
@@ -357,7 +357,7 @@
 				</div>
 				<div class="results-box-txt pull-left text-left">
 					<p id="lanford" class="bannerl">LEADER</p>
-					<?php echo "<p id='" . $info[7]["bid"] . "' class='banner-c'>YOUR CANDIDATE</p>"; ?>
+					<?php echo "<p id='" . $info[7]["bid"] . "' class='bannerl-c'>YOUR CANDIDATE</p>"; ?>
 					<p class="results-pres-name"><?php echo $info[7]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[7]["movie"] ?>"</p>
 					<h2 class="pull-left margin-top10"><span id="plv" class="counter"><?php $total7 = round (($info[7]['votes']/$sum)*100); ?><?php echo $total7 ?></span>%</h2>

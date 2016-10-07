@@ -22,13 +22,13 @@
 		"lname": "Camacho",
 		"realname": "Terry Crews",
 		"movie": "Idiocracy",
-		"votes": 0
+		"votes": 700
 	}, {
 		"name": "Thomas Whitmore",
 		"lname": "Whitmore",
 		"realname": "Bill Pullman",
 		"movie": "Independence Day",
-		"votes": 0
+		"votes": 1
 	}, {
 		"name": "Jay Bullworth",
 		"lname": "Bullworth",
@@ -46,12 +46,12 @@
 		"lname": "Lanford",
 		"realname": "Sela Ward",
 		"movie": "Independence Day: Resurgence",
-		"votes": 0
+		"votes": 1
 	}, {
 		"name": "James Marshall",
 		"lname": "Marshall",
 		"realname": "Harrison Ford",
 		"movie": "Air Force One",
-		"votes": 0
+		"votes": 1
 	}]
 }

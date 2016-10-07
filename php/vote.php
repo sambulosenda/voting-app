@@ -6,6 +6,8 @@
 
 	$value = $_POST['submit'];
 
-	$main->vote($value);
+	$index = (int)$value;
+
+	$main->vote($index);
 
 ?>

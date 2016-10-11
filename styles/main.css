@@ -534,8 +534,8 @@ h2, h4 {
     font-size: 16px;
     font-family: 'Arvo', serif;
     position: absolute;
-    margin-left: -90px;
-    margin-top: 50px;
+    margin-left: 0px;
+    margin-top: 250px;
     width: 190px;
     font-weight: 700;
 }
@@ -1115,6 +1115,10 @@ h2, h4 {
     .president-name-mobile {
     	display: none;
     }
+
+   .bannersm-c {
+    	margin-top: 150px;
+	}
 }
 
 

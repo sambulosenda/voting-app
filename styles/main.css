@@ -434,7 +434,7 @@ h2, h4 {
 	text-transform: uppercase;
 	-webkit-transition: all 0.2s ease-in;
 	transition: all 0.2s ease-in;
-	font-size: 22px;
+	font-size: 16px;
 	font-family: 'Arvo', serif;
 	position: absolute;
 	margin-left: 0px;
@@ -450,7 +450,7 @@ h2, h4 {
   border-bottom: 2em solid transparent;
   height: 0px;
   position: absolute;
-  right: 130px;
+  right: 96px;
   top: 0;
   width: 0px;
 }
@@ -464,7 +464,7 @@ h2, h4 {
   border-bottom: 0px solid #b23636;
   height: 0px;
   position: absolute;
-  right: 130px;
+  right: 96px;
   width: 0px;
 }
 
@@ -520,52 +520,50 @@ h2, h4 {
 }
 
 .bannersm-c {
-	background-color: #254c85;
-	box-shadow: #999 10px 5px 12px;
-	border-radius: 2px;
-	display: block;
-	color: #fff;
-	float: left;
-	padding: 0.5em 1em;
-	position: relative;
-	text-transform: uppercase;
-	-webkit-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-	font-size: 16px;
-	font-family: 'Arvo', serif;
-	position: absolute;
-	margin-left: 0px;
-	margin-top: 70px;
-	width: 60%;
-	font-weight: 700;
+    background-color: #254c85;
+    box-shadow: #999 10px 5px 12px;
+    border-radius: 2px;
+    display: block;
+    color: #fff;
+    float: left;
+    padding: 0.5em 1em;
+    position: relative;
+    text-transform: uppercase;
+    -webkit-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+    font-size: 16px;
+    font-family: 'Arvo', serif;
+    position: absolute;
+    margin-left: -90px;
+    margin-top: 50px;
+    width: 190px;
+    font-weight: 700;
 }
 
 .bannersm-c:after {
-  /*background-color: #FF1919;*/
-  content: '';
-  border-left: 2.5em solid #254c85;
-  border-right: 0px solid transparent;
-  border-top: 0px solid #254c85;
-  border-bottom: 2em solid transparent;
-  height: 0px;
-  position: absolute;
-  right: -35px;
-  top: 0;
-  width: 0px;
+    content: '';
+    border-right: 2.5em solid #254c85;
+    border-left: 0px solid transparent;
+    border-top: 0px solid #254c85;
+    border-bottom: 2em solid transparent;
+    height: 0px;
+    position: absolute;
+    right: 185px;
+    top: 0;
+    width: 0px;
 }
 
 .bannersm-c:before {
-  /*background-color: #FF1919;*/
-  content: '';
-  bottom: 0px;
-  border-left: 2.5em solid #254c85;
-  border-right: 0px solid transparent;
-  border-top: 2em solid transparent;
-  border-bottom: 0px solid #254c85;
-  height: 0px;
-  position: absolute;
-  right: -35px;
-  width: 0px;
+    content: '';
+    bottom: 0px;
+    border-right: 2.5em solid #254c85;
+    border-left: 0px solid transparent;
+    border-top: 2em solid transparent;
+    border-bottom: 0px solid #254c85;
+    height: 0px;
+    position: absolute;
+    right: 185px;
+    width: 0px;
 }
 
 .bannersm-c {

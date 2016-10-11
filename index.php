@@ -86,7 +86,7 @@
 				</form>
 			</div>
 			<div class="col-sm-6 text-center margin-bot60">
-				<div class="minheight130">
+				<div class="minheight120">
 					<div class="president-name-box">
 						<h1 class="president-name">Tom Beck</h1>
 						<h3 class="real-name">(Morgan Freeman)</h3>
@@ -240,7 +240,7 @@
 		<div class="row">
 
 			<div class="col-sm-6 text-center margin-bot60">
-				<div class="minheight184">
+				<div class="minheight174">
 					<div class="president-name-box">
 						<h1 class="president-name-desktop president-name">James<br />Dale</h1>
 						<h1 class="president-name-mobile">James Dale</h1>

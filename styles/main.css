@@ -798,6 +798,9 @@ h2, h4 {
 // 	min-height: 154px;
 // }
 
+.minheight120 {
+	min-height: 0px
+}
 
 .minheight130 {
 	min-height: 0px;
@@ -824,6 +827,10 @@ h2, h4 {
 }
 
 .minheight164 {
+	min-height: 0px;
+}
+
+.minheight174 {
 	min-height: 0px;
 }
 
@@ -989,7 +996,7 @@ h2, h4 {
 	}
 
 	.margintopv3 {
-		margin-top: 50px;;	
+		margin-top: 28px;	
 	}
 
 	.margintopv4 {
@@ -1008,8 +1015,12 @@ h2, h4 {
 		margin-top: 60px;	
 	}
 
+	.minheight120 {
+		min-height: 120px
+	}
+
 	.minheight130 {
-	min-height: 130px;
+		min-height: 130px;
 	}
 
 	.minheight140 {
@@ -1034,6 +1045,10 @@ h2, h4 {
 
 	.minheight164 {
 		min-height: 164px;
+	}
+
+	.minheight174 {
+		min-height: 174px;
 	}
 
 	.minheight184 {

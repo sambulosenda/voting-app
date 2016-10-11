@@ -59,7 +59,6 @@
 
 			<div class="col-sm-6 padding50 margin-bot60">
 				<p id="ashersm" class="bannersm display-inline">LEADER</p>
-				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<?php echo "<p id='" . $info[0]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<?php echo "<img src='/img/" . $info[0]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
@@ -72,8 +71,8 @@
 			</div>
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[1]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[1]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[1]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[1]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[1]["movie"] ?>"</p>
@@ -88,8 +87,8 @@
 		<div class="row">
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[2]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[2]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[2]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[2]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[2]["movie"] ?>"</p>
@@ -100,8 +99,8 @@
 			</div>
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[3]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[3]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[3]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[3]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[3]["movie"] ?>"</p>
@@ -116,8 +115,8 @@
 		<div class="row">
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[4]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[4]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[4]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[4]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[4]["movie"] ?>"</p>
@@ -128,8 +127,8 @@
 			</div>
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[5]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[5]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[5]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[5]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[5]["movie"] ?>"</p>
@@ -144,8 +143,8 @@
 		<div class="row">
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[6]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[6]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[6]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[6]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[6]["movie"] ?>"</p>
@@ -156,8 +155,8 @@
 			</div>
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[7]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[7]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[7]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[7]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[7]["movie"] ?>"</p>
@@ -172,8 +171,8 @@
 		<div class="row">
 
 			<div class="col-sm-6 padding50 margin-bot60">
-				<?php echo "<img src='/img/" . $info[8]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[8]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[8]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[8]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[8]["movie"] ?>"</p>

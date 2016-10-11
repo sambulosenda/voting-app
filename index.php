@@ -50,16 +50,16 @@
 
 	<header><img src="./img/Movie-Presidents-Poll_Header.png" class="img-responsive" /></header>
 
-	<div class="container text-center">
-		<h4>Choosing who you want to vote for in November can be difficult. Between dull debates, attack ads, and all of those awkward family dinner disputes, presidential elections aren’t always as much fun as they could be. To increase the enjoyment, we compiled nine of the most prolific fictional film presidents. Check out their pros and cons below, and drop a ballot for the most constitutional character.</h4>
-	</div>
+	<div class="container content-width">
 
-	<div class="container">
+		<div class="text-center">
+			<h4>Choosing who you want to vote for in November can be difficult. Between dull debates, attack ads, and all of those awkward family dinner disputes, presidential elections aren’t always as much fun as they could be. To increase the enjoyment, we compiled nine of the most prolific fictional film presidents. Check out their pros and cons below, and drop a ballot for the most constitutional character.</h4>
+		</div>
 
 		<div class="row">
 
-			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight150">
+			<div class="col-sm-6 text-center margin-bot60">
+				<div>
 					<div class="president-name-box">
 						<h1 class="president-name">Benjamin Asher</h1>
 						<h3 class="real-name">(Aaron Eckhart)</h3>
@@ -82,11 +82,11 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p1" type="submit" name="submit" value="0" class="button margintopv1"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
+				    <button id="p1" type="submit" name="submit" value="0" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight150">
+			<div class="col-sm-6 text-center margin-bot60">
+				<div class="minheight130">
 					<div class="president-name-box">
 						<h1 class="president-name">Tom Beck</h1>
 						<h3 class="real-name">(Morgan Freeman)</h3>
@@ -112,10 +112,16 @@
 		    		<button id="p2" type="submit" name="submit" value="1" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight154">
+
+		</div>
+
+		<div class="row">
+
+			<div class="col-sm-6 text-center margin-bot60">
+				<div>
 					<div class="president-name-box">
-						<h1 class="president-name">Andrew Shepherd</h1>
+						<h1 class="president-name-desktop president-name">Andrew<br />Shepherd</h1>
+						<h1 class="president-name-mobile">Andrew Shepherd</h1>
 						<h3 class="real-name">(Michael Douglas)</h3>
 					</div>
 					<h2 class="president-movie">"The American President"</h2>
@@ -140,12 +146,7 @@
 				</form>
 			</div>
 
-		</div>
-
-
-		<div class="row">
-
-			<div class="col-md-4 text-center margin-bot60">
+			<div class="col-sm-6 text-center margin-bot60">
 				<div class="minheight140">
 					<div class="president-name-box">
 						<h1 class="president-name">President Camacho</h1>
@@ -169,11 +170,17 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-				    <button id="p4" type="submit" name="submit" value="3" class="button margintopv4"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
+				    <button id="p4" type="submit" name="submit" value="3" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight144">
+
+		</div>
+
+
+		<div class="row">
+
+			<div class="col-sm-6 text-center margin-bot60">
+				<div>
 					<div class="president-name-box">
 						<h1 class="president-name">Thomas Whitmore</h1>
 						<h3 class="real-name">(Bill Pullman)</h3>
@@ -199,10 +206,11 @@
 		    		<button id="p5" type="submit" name="submit" value="4" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight144">
+			<div class="col-sm-6 text-center margin-bot60">
+				<div>
 					<div class="president-name-box">
-						<h1 class="president-name">Jay Bulworth</h1>
+						<h1 class="president-name-desktop president-name">Jay<br />Bulworth</h1>
+						<h1 class="president-name-mobile">Jay Bulworth</h1>
 						<h3 class="real-name">(Warren Beatty)</h3>
 					</div>
 					<h2 class="president-movie">"Bulworth"</h2>
@@ -231,10 +239,11 @@
 
 		<div class="row">
 
-			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight140">
+			<div class="col-sm-6 text-center margin-bot60">
+				<div class="minheight184">
 					<div class="president-name-box">
-						<h1 class="president-name">James Dale</h1>
+						<h1 class="president-name-desktop president-name">James<br />Dale</h1>
+						<h1 class="president-name-mobile">James Dale</h1>
 						<h3 class="real-name">(Jack Nicholson)</h3>
 					</div>
 					<h2 class="president-movie">"Mars Attacks!"</h2>
@@ -258,7 +267,7 @@
 				    <button id="p7" type="submit" name="submit" value="6" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center margin-bot60">
+			<div class="col-sm-6 text-center margin-bot60">
 				<div class="minheight147">
 					<div class="president-name-box">
 						<h1 class="president-name">President Lanford</h1>
@@ -285,8 +294,12 @@
 		    		<button id="p8" type="submit" name="submit" value="7" class="button margintopv8"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
-			<div class="col-md-4 text-center margin-bot60">
-				<div class="minheight147">
+		</div>
+
+		<div class="row">
+
+			<div class="col-sm-offset-3 col-sm-6 text-center margin-bot60">
+				<div>
 					<div class="president-name-box">
 						<h1 class="president-name">James Marshall</h1>
 						<h3 class="real-name">(Harrison Ford)</h3>
@@ -309,7 +322,7 @@
 					</div>
 				</div>
 				<form action="./php/vote.php" method="POST">
-		    		<button id="p9" type="submit" name="submit" value="8" class="button margintopv9"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
+		    		<button id="p9" type="submit" name="submit" value="8" class="button"><div class="vote-b"><span class="vote-text">Vote</span></div></button>
 				</form>
 			</div>
 

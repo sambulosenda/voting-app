@@ -85,7 +85,18 @@ h2, h4 {
 .president-name {
 	color: #254c85;
 	font-size: 1.9em;
-	line-height: 0.9em;
+	line-height: 1.1em;
+	text-transform: uppercase;
+}
+
+.president-name-desktop {
+	display: none;
+}
+
+.president-name-mobile {
+	color: #254c85;
+	font-size: 1.9em;
+	line-height: 1.1em;
 	text-transform: uppercase;
 }
 
@@ -763,28 +774,61 @@ h2, h4 {
 	font-weight: 700;
 }
 
+// .minheight130 {
+// 	min-height: 130px;
+// }
+
+// .minheight140 {
+// 	min-height: 140px;
+// }
+
+// .minheight144 {
+// 	min-height: 144px;
+// }
+
+// .minheight147 {
+// 	min-height: 147px;
+// }
+
+// .minheight150 {
+// 	min-height: 150px;
+// }
+
+// .minheight154 {
+// 	min-height: 154px;
+// }
+
+
+.minheight130 {
+	min-height: 0px;
+}
+
 .minheight140 {
-	min-height: 140px;
+	min-height: 0px;
 }
 
 .minheight144 {
-	min-height: 144px;
+	min-height: 0px;
 }
 
 .minheight147 {
-	min-height: 147px;
+	min-height: 0px;
 }
 
 .minheight150 {
-	min-height: 150px;
+	min-height: 0px;
 }
 
 .minheight154 {
-	min-height: 154px;
+	min-height: 0px;
 }
 
 .minheight164 {
-	min-height: 164px;
+	min-height: 0px;
+}
+
+.minheight184 {
+	min-height: 0px;
 }
 
 @-webkit-keyframes sheen {
@@ -817,7 +861,6 @@ h2, h4 {
 }
 
 .button {
-  // padding: 0.1em 0.5em;
   text-align: center;
   text-decoration: none;
   border: 2px solid #054366;
@@ -863,17 +906,6 @@ h2, h4 {
   transition: all 0.5s ease-in-out;
 }
 
-// .button:hover .vote-text:after{
-// 	background-image: url('../img/check.svg');
-//     background-repeat: no-repeat;
-//     background-size: cover;
-//     display: inline-block;
-// 	width: 44px;
-// 	height: 44px;
-//     content:"";
-//     margin-left: 30px;
-// }
-
 .button:hover .vote-text:after {
 	background-image: url('../img/check.png');
     background-repeat: no-repeat;
@@ -892,60 +924,138 @@ h2, h4 {
 	margin-top: 2px;
 }
 
+// .margintopv1 {
+// 	margin-top: 30px;	
+// }
+
+// .margintopv3 {
+// 	margin-top: 50px;;	
+// }
+
+// .margintopv4 {
+// 	margin-top: 66px;	
+// }
+
+// .margintopv6 {
+// 	margin-top: 100px;
+// }
+
+// .margintopv8 {
+// 	margin-top: 66px;	
+// }
+
+// .margintopv9 {
+// 	margin-top: 60px;	
+// }
+
+
 .margintopv1 {
-	margin-top: 30px;	
+	margin-top: 10px;	
 }
 
 .margintopv3 {
-	margin-top: 60px;	
+	margin-top: 10px;	
 }
 
 .margintopv4 {
-	margin-top: 66px;	
+	margin-top: 10px;	
 }
 
 .margintopv6 {
-	margin-top: 82px;	
+	margin-top: 10px;	
 }
 
 .margintopv8 {
-	margin-top: 76px;	
+	margin-top: 10px;	
 }
 
 .margintopv9 {
-	margin-top: 60px;	
+	margin-top: 10px;	
 }
+
 
 .display-inline {
 	display: inline-block;
 }
 
-@media only screen and (max-width : 1200px) {
+@media only screen and (min-width : 658px) {
+ 
+	.content-width {
+		width: 658px;
+	}
 
 	.margintopv1 {
-		margin-top: 30px;	
+	margin-top: 30px;	
 	}
 
 	.margintopv3 {
-	    margin-top: 66px;
+		margin-top: 50px;;	
 	}
 
 	.margintopv4 {
-   		margin-top: 52px;
+		margin-top: 66px;	
 	}
 
 	.margintopv6 {
-    	margin-top: 98px;
+		margin-top: 100px;
 	}
 
 	.margintopv8 {
-    	margin-top: 44px;
+		margin-top: 66px;	
 	}
 
 	.margintopv9 {
-    	margin-top: 98px;
+		margin-top: 60px;	
 	}
 
+	.minheight130 {
+	min-height: 130px;
+	}
+
+	.minheight140 {
+		min-height: 140px;
+	}
+
+	.minheight144 {
+		min-height: 144px;
+	}
+
+	.minheight147 {
+		min-height: 147px;
+	}
+
+	.minheight150 {
+		min-height: 150px;
+	}
+
+	.minheight154 {
+		min-height: 154px;
+	}
+
+	.minheight164 {
+		min-height: 164px;
+	}
+
+	.minheight184 {
+		min-height: 184px;
+	}
+
+    .col-sm-6{
+    	float:left;
+        width: 50%;
+    }
+
+    .col-sm-offset-3 {
+       margin-left: 25%;
+    }
+
+    .president-name-desktop {
+    	display: inline-block;
+    }
+
+    .president-name-mobile {
+    	display: none;
+    }
 }
 
 
@@ -954,10 +1064,6 @@ h2, h4 {
 	    margin-top: -150px;
 	    font-size: 1.8em;
 	}
-
-	// .vote-text:after {
- //    	margin-left: 0px;
-	// }
 
 	.bannersm {
 		background-color: #b23636;
@@ -980,7 +1086,6 @@ h2, h4 {
 	}
 
 	.bannersm:after {
-	  /*background-color: #FF1919;*/
 	  content: '';
 	  border-right: 2.5em solid #b23636;
 	  border-left: 0px solid transparent;
@@ -994,7 +1099,6 @@ h2, h4 {
 	}
 
 	.bannersm:before {
-	  /*background-color: #FF1919;*/
 	  content: '';
 	  bottom: 0px;
 	  border-right: 2.5em solid #b23636;
@@ -1019,84 +1123,12 @@ h2, h4 {
 		font-size: 22px;
 	}
 
-	.margintopv1 {
-		margin-top: 10px;	
-	}
-
-	.margintopv3 {
-		margin-top: 10px;	
-	}
-
-	.margintopv4 {
-		margin-top: 10px;	
-	}
-
-	.margintopv6 {
-		margin-top: 10px;	
-	}
-
-	.margintopv8 {
-		margin-top: 10px;	
-	}
-
-	.margintopv9 {
-		margin-top: 10px;	
-	}
-
-		.minheight140 {
-	min-height: 0px;
-	}
-
-	.minheight144 {
-		min-height: 0px;
-	}
-
-	.minheight147 {
-		min-height: 0px;
-	}
-
-	.minheight150 {
-		min-height: 0px;
-	}
-
-	.minheight154 {
-		min-height: 0px;
-	}
-
-	.minheight164 {
-		min-height: 0px;
-	}
-
 }
 
 @media only screen and (max-width : 768px) {
 
 	.vote-text:after {
     	margin-left: 30px;
-	}
-
-	.margintopv1 {
-		margin-top: 10px;	
-	}
-
-	.margintopv3 {
-		margin-top: 10px;	
-	}
-
-	.margintopv4 {
-		margin-top: 10px;	
-	}
-
-	.margintopv6 {
-		margin-top: 10px;	
-	}
-
-	.margintopv8 {
-		margin-top: 10px;	
-	}
-
-	.margintopv9 {
-		margin-top: 10px;	
 	}
 
 }

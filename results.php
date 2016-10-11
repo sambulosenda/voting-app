@@ -71,7 +71,6 @@
 			</div>
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="becksm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[1]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[1]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -84,7 +83,6 @@
 			</div>
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="shepherdsm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[2]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[2]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -101,7 +99,6 @@
 		<div class="row">
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="camachosm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[3]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[3]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -114,7 +111,6 @@
 			</div>
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="whitmoresm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[4]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[4]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -127,7 +123,6 @@
 			</div>
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="bullworthsm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[5]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[5]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -144,7 +139,6 @@
 		<div class="row">
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="dalesm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[6]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[6]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -157,7 +151,6 @@
 			</div>
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="lanfordsm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[7]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[7]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -170,7 +163,6 @@
 			</div>
 
 			<div class="col-md-4 padding50 margin-bot60">
-				<p id="marshallsm" class="bannersm">LEADER</p>
 				<?php echo "<img src='/img/" . $info[8]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[8]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">
@@ -361,7 +353,5 @@ $('.counter').counterUp({
     time: 1000
 });
 </script>
-
-<!-- <script type="text/javascript" src="./js/main.js"></script> -->
 </body>
 </html>

@@ -397,7 +397,6 @@ h2, h4 {
 }
 
 .bannersm:after {
-  /*background-color: #FF1919;*/
   content: '';
   border-left: 2.5em solid #b23636;
   border-right: 0px solid transparent;
@@ -411,7 +410,6 @@ h2, h4 {
 }
 
 .bannersm:before {
-  /*background-color: #FF1919;*/
   content: '';
   bottom: 0px;
   border-left: 2.5em solid #b23636;
@@ -422,10 +420,6 @@ h2, h4 {
   position: absolute;
   right: -35px;
   width: 0px;
-}
-
-.bannersm {
-	display: none;
 }
 
 .banner-c {
@@ -450,7 +444,6 @@ h2, h4 {
 }
 
 .banner-c:after {
-  /*background-color: #FF1919;*/
   content: '';
   border-left: 2.5em solid #254c85;
   border-right: 0px solid transparent;
@@ -464,7 +457,6 @@ h2, h4 {
 }
 
 .banner-c:before {
-  /*background-color: #FF1919;*/
   content: '';
   bottom: 0px;
   border-left: 2.5em solid #254c85;
@@ -1132,10 +1124,6 @@ h2, h4 {
 	  position: absolute;
 	  right: 130px;
 	  width: 0px;
-	}
-
-	.bannersm {
-		display: none;
 	}
 
 	.results-pres-name {

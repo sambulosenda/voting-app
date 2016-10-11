@@ -118,7 +118,7 @@
 		<div class="row">
 
 			<div class="col-sm-6 text-center margin-bot60">
-				<div>
+				<div class="minheight160">
 					<div class="president-name-box">
 						<h1 class="president-name-desktop president-name">Andrew<br />Shepherd</h1>
 						<h1 class="president-name-mobile">Andrew Shepherd</h1>

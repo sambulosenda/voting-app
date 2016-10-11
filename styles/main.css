@@ -826,6 +826,10 @@ h2, h4 {
 	min-height: 0px;
 }
 
+.minheight160 {
+	min-height: 0px;
+}
+
 .minheight164 {
 	min-height: 0px;
 }
@@ -1041,6 +1045,10 @@ h2, h4 {
 
 	.minheight154 {
 		min-height: 154px;
+	}
+
+	.minheight160 {
+		min-height: 160px;
 	}
 
 	.minheight164 {

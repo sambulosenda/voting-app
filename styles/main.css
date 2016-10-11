@@ -376,6 +376,52 @@ h2, h4 {
 	display: none;
 }
 
+// .bannersm {
+// 	background-color: #b23636;
+// 	box-shadow: #999 10px 5px 12px;
+// 	border-radius: 2px;
+// 	display: block;
+// 	color: #fff;
+// 	float: left;
+// 	padding: 0.5em 1em;
+// 	position: relative;
+// 	text-transform: uppercase;
+// 	-webkit-transition: all 0.2s ease-in;
+// 	transition: all 0.2s ease-in;
+// 	font-size: 22px;
+// 	font-family: 'Arvo', serif;
+// 	position: absolute;
+// 	margin-left: 220px;
+// 	margin-top: 0px;
+// 	font-weight: 700;
+// }
+
+// .bannersm:after {
+//   content: '';
+//   border-left: 2.5em solid #b23636;
+//   border-right: 0px solid transparent;
+//   border-top: 0px solid #b23636;
+//   border-bottom: 2em solid transparent;
+//   height: 0px;
+//   position: absolute;
+//   right: -35px;
+//   top: 0;
+//   width: 0px;
+// }
+
+// .bannersm:before {
+//   content: '';
+//   bottom: 0px;
+//   border-left: 2.5em solid #b23636;
+//   border-right: 0px solid transparent;
+//   border-top: 2em solid transparent;
+//   border-bottom: 0px solid #b23636;
+//   height: 0px;
+//   position: absolute;
+//   right: -35px;
+//   width: 0px;
+// }
+
 .bannersm {
 	background-color: #b23636;
 	box-shadow: #999 10px 5px 12px;
@@ -391,20 +437,20 @@ h2, h4 {
 	font-size: 22px;
 	font-family: 'Arvo', serif;
 	position: absolute;
-	margin-left: 220px;
+	margin-left: 0px;
 	margin-top: 0px;
 	font-weight: 700;
 }
 
 .bannersm:after {
   content: '';
-  border-left: 2.5em solid #b23636;
-  border-right: 0px solid transparent;
+  border-right: 2.5em solid #b23636;
+  border-left: 0px solid transparent;
   border-top: 0px solid #b23636;
   border-bottom: 2em solid transparent;
   height: 0px;
   position: absolute;
-  right: -35px;
+  right: 130px;
   top: 0;
   width: 0px;
 }
@@ -412,13 +458,13 @@ h2, h4 {
 .bannersm:before {
   content: '';
   bottom: 0px;
-  border-left: 2.5em solid #b23636;
-  border-right: 0px solid transparent;
+  border-right: 2.5em solid #b23636;
+  border-left: 0px solid transparent;
   border-top: 2em solid transparent;
   border-bottom: 0px solid #b23636;
   height: 0px;
   position: absolute;
-  right: -35px;
+  right: 130px;
   width: 0px;
 }
 
@@ -1078,52 +1124,6 @@ h2, h4 {
 	.page-title {
 	    margin-top: -150px;
 	    font-size: 1.8em;
-	}
-
-	.bannersm {
-		background-color: #b23636;
-		box-shadow: #999 10px 5px 12px;
-		border-radius: 2px;
-		display: block;
-		color: #fff;
-		float: left;
-		padding: 0.5em 1em;
-		position: relative;
-		text-transform: uppercase;
-		-webkit-transition: all 0.2s ease-in;
-		transition: all 0.2s ease-in;
-		font-size: 22px;
-		font-family: 'Arvo', serif;
-		position: absolute;
-		margin-left: 0px;
-		margin-top: 0px;
-		font-weight: 700;
-	}
-
-	.bannersm:after {
-	  content: '';
-	  border-right: 2.5em solid #b23636;
-	  border-left: 0px solid transparent;
-	  border-top: 0px solid #b23636;
-	  border-bottom: 2em solid transparent;
-	  height: 0px;
-	  position: absolute;
-	  right: 130px;
-	  top: 0;
-	  width: 0px;
-	}
-
-	.bannersm:before {
-	  content: '';
-	  bottom: 0px;
-	  border-right: 2.5em solid #b23636;
-	  border-left: 0px solid transparent;
-	  border-top: 2em solid transparent;
-	  border-bottom: 0px solid #b23636;
-	  height: 0px;
-	  position: absolute;
-	  right: 130px;
-	  width: 0px;
 	}
 
 	.results-pres-name {

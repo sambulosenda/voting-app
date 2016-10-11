@@ -49,7 +49,7 @@
 	<header><img src="./img/Movie-Presidents-Poll_Header.png" class="img-responsive" /></header>
 
 	<div class="container content-width">
-	
+
 		<div class="text-center">
 			<h2>You Picked <span id="votedfor"><?php echo $_COOKIE[$cookie_name] ?></span> For President</h2>
 			<h2 class="margin-bot60">Here's How Your Vote Stacks Up:</h2>
@@ -59,8 +59,9 @@
 
 			<div class="col-sm-6 padding50 margin-bot60">
 				<p id="ashersm" class="bannersm display-inline">LEADER</p>
-				<?php echo "<img src='/img/" . $info[0]["img"] . "' class='img-responsive'>"; ?>
+				<p id="ashersm-c" class="bannersm-c">YOUR CANDIDATE</p>
 				<?php echo "<p id='" . $info[0]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
+				<?php echo "<img src='/img/" . $info[0]["img"] . "' class='img-responsive'>"; ?>
 				<div class="pull-left width60">
 					<p class="results-pres-name"><?php echo $info[0]["name"] ?></p>
 					<p class="results-mov-name">"<?php echo $info[0]["movie"] ?>"</p>
@@ -170,7 +171,7 @@
 
 		<div class="row">
 
-			<div class="col-md-4 padding50 margin-bot60">
+			<div class="col-sm-6 padding50 margin-bot60">
 				<?php echo "<img src='/img/" . $info[8]["img"] . "' class='img-responsive'>"; ?>
 				<?php echo "<p id='" . $info[8]["bids"] . "' class='bannersm-c'>YOUR CANDIDATE</p>"; ?>
 				<div class="pull-left width60">

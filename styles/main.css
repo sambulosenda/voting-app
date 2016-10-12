@@ -231,6 +231,10 @@ h2, h4 {
 	margin-bottom: 60px;
 }
 
+.margin-bot60-r {
+	margin-bottom: 60px;
+}
+
 .blue {
 	color: #254c85;
 }
@@ -1177,7 +1181,7 @@ h2, h4 {
 		font-size: 18px;
 	}
 
-	.margin-bot60 {
+	.margin-bot60-r {
 		margin-bottom: 0px;
 	}
 }

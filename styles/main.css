@@ -1176,6 +1176,10 @@ h2, h4 {
 	.results-mov-name {
 		font-size: 18px;
 	}
+
+	.margin-bot60 {
+		margin-bottom: 0px;
+	}
 }
 
 

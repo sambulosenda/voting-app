@@ -46,7 +46,7 @@
 </head>
 <body>
 
-	<header><img src="./img/Movie-Presidents-Poll_Header.png" class="img-responsive" /></header>
+	<!-- <header><img src="./img/Movie-Presidents-Poll_Header.png" class="img-responsive" /></header> -->
 
 	<div class="container content-width">
 

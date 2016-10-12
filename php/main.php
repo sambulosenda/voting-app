@@ -13,9 +13,11 @@
 			
 			$cookie_name = "election";
 			$cookie_value = $data['presidents'][$p]['name'];
-			setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
 
 			header('Location: ../results.php');
+			
+			setcookie($cookie_name, $cookie_value, time() + (86400 * 30), "/"); // 86400 = 1 day
+
 	    	exit;
 
 		}

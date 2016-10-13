@@ -212,6 +212,7 @@
 
 <script>
 document.getElementById("wrapper").scrollIntoView();
+window.parent.document.getElementById('friframe').height = '2500px';
 
 $('.counter').counterUp({
     time: 1000

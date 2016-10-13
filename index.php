@@ -340,6 +340,10 @@
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.18.0/TweenMax.min.js"></script>
 	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.2/underscore-min.js"></script>
 
+	<script>
+	window.parent.document.getElementById('friframe').height = '4600px';
+	</script>
+
 </body>
 
 </html>
